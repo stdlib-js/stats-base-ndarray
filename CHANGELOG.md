@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-18)
+## Unreleased (2025-04-19)
 
 <section class="packages">
 
@@ -120,6 +120,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`d4d57c3`](https://github.com/stdlib-js/stdlib/commit/d4d57c376c6abdcaf1993d7893129b75af4f2056) - **docs:** update namespace table of contents [(#6719)](https://github.com/stdlib-js/stdlib/pull/6719) _(by stdlib-bot)_
 -   [`582c0b6`](https://github.com/stdlib-js/stdlib/commit/582c0b69b125ec70de48eb1c7c2a815d332f6842) - **feat:** add `stats/base/ndarray` namespace _(by Athan Reines)_
 -   [`2879dfe`](https://github.com/stdlib-js/stdlib/commit/2879dfef1732d49e9c4f42bd332c04b11368d662) - **feat:** add `stats/base/ndarray/max` _(by Athan Reines)_
 -   [`876adb0`](https://github.com/stdlib-js/stdlib/commit/876adb06cf3397bc3da540cbbcc794f51bca5fef) - **feat:** add `stats/base/ndarray/smax` _(by Athan Reines)_

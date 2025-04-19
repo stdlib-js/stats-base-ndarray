@@ -76,6 +76,14 @@ The namespace exposes the following APIs:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`dmax( arrays )`][@stdlib/stats/base/ndarray/dmax]</span><span class="delimiter">: </span><span class="description">compute the maximum value of a one-dimensional double-precision floating-point ndarray.</span>
+-   <span class="signature">[`max( arrays )`][@stdlib/stats/base/ndarray/max]</span><span class="delimiter">: </span><span class="description">compute the maximum value of a one-dimensional ndarray.</span>
+-   <span class="signature">[`smax( arrays )`][@stdlib/stats/base/ndarray/smax]</span><span class="delimiter">: </span><span class="description">compute the maximum value of a one-dimensional single-precision floating-point ndarray.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -180,6 +188,16 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/stats-base-ndarray/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-ndarray/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/stats/base/ndarray/dmax]: https://github.com/stdlib-js/stats-base-ndarray-dmax
+
+[@stdlib/stats/base/ndarray/max]: https://github.com/stdlib-js/stats-base-ndarray-max
+
+[@stdlib/stats/base/ndarray/smax]: https://github.com/stdlib-js/stats-base-ndarray-smax
+
+<!-- </toc-links> -->
 
 </section>
 
