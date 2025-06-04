@@ -4,184 +4,28 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-24)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-ndarray-unreleased">
-
-#### [@stdlib/stats/base/ndarray](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray)
-
-<details>
+## Unreleased (2025-06-04)
 
 <section class="features">
 
-##### Features
+### Features
 
+-   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - add `maxBy` to namespace
+-   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194)
 -   [`dc856e3`](https://github.com/stdlib-js/stdlib/commit/dc856e3f710fa36019b00ab56d81bdca73209f8a) - add `cumax` to namespace
--   [`b582752`](https://github.com/stdlib-js/stdlib/commit/b58275298e72aeb7e681b3c4c4ec9196a3692a97) - add `scumax` to namespace
--   [`04e92c3`](https://github.com/stdlib-js/stdlib/commit/04e92c36eabfd9e2a03f58664485a1ec70ac0f69) - add `dcumax` to namespace
--   [`582c0b6`](https://github.com/stdlib-js/stdlib/commit/582c0b69b125ec70de48eb1c7c2a815d332f6842) - add `stats/base/ndarray` namespace
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-ndarray-cumax-unreleased">
-
-#### [@stdlib/stats/base/ndarray/cumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/cumax)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`d76b344`](https://github.com/stdlib-js/stdlib/commit/d76b344f9b4d052157299659dd262a5b61f443f7) - add `stats/base/ndarray/cumax`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-ndarray-dcumax-unreleased">
-
-#### [@stdlib/stats/base/ndarray/dcumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/dcumax)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`b582752`](https://github.com/stdlib-js/stdlib/commit/b58275298e72aeb7e681b3c4c4ec9196a3692a97) - add `scumax` to namespace
+-   [`300f6b2`](https://github.com/stdlib-js/stdlib/commit/300f6b27b2a03c256c038cecdc42332062292802) - add `stats/base/ndarray/scumax`
+-   [`04e92c3`](https://github.com/stdlib-js/stdlib/commit/04e92c36eabfd9e2a03f58664485a1ec70ac0f69) - add `dcumax` to namespace
 -   [`06a5afb`](https://github.com/stdlib-js/stdlib/commit/06a5afb144a1a368b8deb2281eefd9e9d92fcdcb) - add `stats/base/ndarray/dcumax`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-ndarray-dmax-unreleased">
-
-#### [@stdlib/stats/base/ndarray/dmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/dmax)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`582c0b6`](https://github.com/stdlib-js/stdlib/commit/582c0b69b125ec70de48eb1c7c2a815d332f6842) - add `stats/base/ndarray` namespace
+-   [`2879dfe`](https://github.com/stdlib-js/stdlib/commit/2879dfef1732d49e9c4f42bd332c04b11368d662) - add `stats/base/ndarray/max`
+-   [`876adb0`](https://github.com/stdlib-js/stdlib/commit/876adb06cf3397bc3da540cbbcc794f51bca5fef) - add `stats/base/ndarray/smax`
 -   [`cccbea9`](https://github.com/stdlib-js/stdlib/commit/cccbea9ab78ee8990c7545e7aa9cd7036822a1a2) - add `stats/base/ndarray/dmax`
 
 </section>
 
 <!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-ndarray-max-unreleased">
-
-#### [@stdlib/stats/base/ndarray/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/max)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`2879dfe`](https://github.com/stdlib-js/stdlib/commit/2879dfef1732d49e9c4f42bd332c04b11368d662) - add `stats/base/ndarray/max`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-ndarray-scumax-unreleased">
-
-#### [@stdlib/stats/base/ndarray/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/scumax)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`300f6b2`](https://github.com/stdlib-js/stdlib/commit/300f6b27b2a03c256c038cecdc42332062292802) - add `stats/base/ndarray/scumax`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-ndarray-smax-unreleased">
-
-#### [@stdlib/stats/base/ndarray/smax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/smax)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`876adb0`](https://github.com/stdlib-js/stdlib/commit/876adb06cf3397bc3da540cbbcc794f51bca5fef) - add `stats/base/ndarray/smax`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -189,6 +33,10 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - **feat:** add `maxBy` to namespace _(by Athan Reines)_
+-   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - **feat:** add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194) _(by Muhammad Haris, Athan Reines)_
+-   [`8e82f4c`](https://github.com/stdlib-js/stdlib/commit/8e82f4c6e47278d7d5dd0d69342a626ac7e3beb8) - **bench:** use single-precision assertion utility _(by Athan Reines)_
+-   [`b455b55`](https://github.com/stdlib-js/stdlib/commit/b455b550546bb22da11b94d0213bc54a74a08bed) - **bench:** use single-precision assertion utility _(by Athan Reines)_
 -   [`a7eb96f`](https://github.com/stdlib-js/stdlib/commit/a7eb96ff3260ae692875271ebf92116b25b9c99b) - **docs:** update namespace table of contents [(#6803)](https://github.com/stdlib-js/stdlib/pull/6803) _(by stdlib-bot)_
 -   [`dc856e3`](https://github.com/stdlib-js/stdlib/commit/dc856e3f710fa36019b00ab56d81bdca73209f8a) - **feat:** add `cumax` to namespace _(by Athan Reines)_
 -   [`d76b344`](https://github.com/stdlib-js/stdlib/commit/d76b344f9b4d052157299659dd262a5b61f443f7) - **feat:** add `stats/base/ndarray/cumax` _(by Athan Reines)_
@@ -210,6 +58,19 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Muhammad Haris
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
