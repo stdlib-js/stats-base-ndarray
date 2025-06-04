@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`631ef8c`](https://github.com/stdlib-js/stdlib/commit/631ef8c4795b1241acfb7380bd77253663ce04b9) - **docs:** update namespace table of contents [(#7202)](https://github.com/stdlib-js/stdlib/pull/7202) _(by stdlib-bot)_
 -   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - **feat:** add `maxBy` to namespace _(by Athan Reines)_
 -   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - **feat:** add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194) _(by Muhammad Haris, Athan Reines)_
 -   [`8e82f4c`](https://github.com/stdlib-js/stdlib/commit/8e82f4c6e47278d7d5dd0d69342a626ac7e3beb8) - **bench:** use single-precision assertion utility _(by Athan Reines)_
