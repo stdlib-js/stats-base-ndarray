@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`8e22ba9`](https://github.com/stdlib-js/stdlib/commit/8e22ba9e7b19a969ccea393f5da9b9fe6daa5945) - add `sztest` to namespace
+-   [`9e93136`](https://github.com/stdlib-js/stdlib/commit/9e93136c1006acbc7ab36daf496202e5ab059dd9) - add `stats/base/ndarray/sztest`
 -   [`770023d`](https://github.com/stdlib-js/stdlib/commit/770023dfd4da2004a00227efa104bacdb7da8b20) - add `dztest` to namespace
 -   [`17431a1`](https://github.com/stdlib-js/stdlib/commit/17431a19572114e45d2a5bc74db73d3c08af5cb1) - add `stats/base/ndarray/dztest`
 -   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - add `maxBy` to namespace
@@ -35,6 +37,9 @@
 
 <details>
 
+-   [`8e22ba9`](https://github.com/stdlib-js/stdlib/commit/8e22ba9e7b19a969ccea393f5da9b9fe6daa5945) - **feat:** add `sztest` to namespace _(by Athan Reines)_
+-   [`9e93136`](https://github.com/stdlib-js/stdlib/commit/9e93136c1006acbc7ab36daf496202e5ab059dd9) - **feat:** add `stats/base/ndarray/sztest` _(by Athan Reines)_
+-   [`a056348`](https://github.com/stdlib-js/stdlib/commit/a056348a4ea81fc8660231876daac4e57d58a9a9) - **docs:** fix example _(by Athan Reines)_
 -   [`770023d`](https://github.com/stdlib-js/stdlib/commit/770023dfd4da2004a00227efa104bacdb7da8b20) - **feat:** add `dztest` to namespace _(by Athan Reines)_
 -   [`17431a1`](https://github.com/stdlib-js/stdlib/commit/17431a19572114e45d2a5bc74db73d3c08af5cb1) - **feat:** add `stats/base/ndarray/dztest` _(by Athan Reines)_
 -   [`3f2c722`](https://github.com/stdlib-js/stdlib/commit/3f2c722c9a531d61c7159072c35c3b59b744fa32) - **docs:** fix description _(by Athan Reines)_

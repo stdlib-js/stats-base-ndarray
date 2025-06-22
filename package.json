@@ -44,6 +44,7 @@
     "@stdlib/stats-base-ndarray-max-by": "github:stdlib-js/stats-base-ndarray-max-by#main",
     "@stdlib/stats-base-ndarray-scumax": "github:stdlib-js/stats-base-ndarray-scumax#main",
     "@stdlib/stats-base-ndarray-smax": "github:stdlib-js/stats-base-ndarray-smax#main",
+    "@stdlib/stats-base-ndarray-sztest": "github:stdlib-js/stats-base-ndarray-sztest#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
@@ -76,6 +77,7 @@
     "@stdlib/random-strided-normal": "^0.2.1",
     "@stdlib/stats-base-cumax": "^0.2.2",
     "@stdlib/stats-base-ztest-alternative-resolve-enum": "github:stdlib-js/stats-base-ztest-alternative-resolve-enum#main",
+    "@stdlib/stats-base-ztest-one-sample-results-float32": "github:stdlib-js/stats-base-ztest-one-sample-results-float32#main",
     "@stdlib/stats-base-ztest-one-sample-results-float64": "github:stdlib-js/stats-base-ztest-one-sample-results-float64#main",
     "@stdlib/stats-strided-dcumax": "github:stdlib-js/stats-strided-dcumax#main",
     "@stdlib/stats-strided-dmax": "github:stdlib-js/stats-strided-dmax#main",
@@ -84,6 +86,7 @@
     "@stdlib/stats-strided-max-by": "github:stdlib-js/stats-strided-max-by#main",
     "@stdlib/stats-strided-scumax": "github:stdlib-js/stats-strided-scumax#main",
     "@stdlib/stats-strided-smax": "github:stdlib-js/stats-strided-smax#main",
+    "@stdlib/stats-strided-sztest": "github:stdlib-js/stats-strided-sztest#main",
     "@stdlib/utils-keys": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
