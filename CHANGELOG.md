@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-04)
+## Unreleased (2025-06-22)
 
 <section class="features">
 
 ### Features
 
+-   [`770023d`](https://github.com/stdlib-js/stdlib/commit/770023dfd4da2004a00227efa104bacdb7da8b20) - add `dztest` to namespace
+-   [`17431a1`](https://github.com/stdlib-js/stdlib/commit/17431a19572114e45d2a5bc74db73d3c08af5cb1) - add `stats/base/ndarray/dztest`
 -   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - add `maxBy` to namespace
 -   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194)
 -   [`dc856e3`](https://github.com/stdlib-js/stdlib/commit/dc856e3f710fa36019b00ab56d81bdca73209f8a) - add `cumax` to namespace
@@ -33,6 +35,13 @@
 
 <details>
 
+-   [`770023d`](https://github.com/stdlib-js/stdlib/commit/770023dfd4da2004a00227efa104bacdb7da8b20) - **feat:** add `dztest` to namespace _(by Athan Reines)_
+-   [`17431a1`](https://github.com/stdlib-js/stdlib/commit/17431a19572114e45d2a5bc74db73d3c08af5cb1) - **feat:** add `stats/base/ndarray/dztest` _(by Athan Reines)_
+-   [`3f2c722`](https://github.com/stdlib-js/stdlib/commit/3f2c722c9a531d61c7159072c35c3b59b744fa32) - **docs:** fix description _(by Athan Reines)_
+-   [`c7eca07`](https://github.com/stdlib-js/stdlib/commit/c7eca079c2085708dc55f897b88ccfebdd2ce347) - **docs:** fix description _(by Athan Reines)_
+-   [`9ecb0d0`](https://github.com/stdlib-js/stdlib/commit/9ecb0d0b3d7a17b2733959114fc573986273a5c0) - **docs:** fix description _(by Athan Reines)_
+-   [`8853274`](https://github.com/stdlib-js/stdlib/commit/885327441daddf70c02a0ca51925c960993fc4ce) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`1782090`](https://github.com/stdlib-js/stdlib/commit/17820909290d01df1ee44cc370d18e74d76291d9) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`631ef8c`](https://github.com/stdlib-js/stdlib/commit/631ef8c4795b1241acfb7380bd77253663ce04b9) - **docs:** update namespace table of contents [(#7202)](https://github.com/stdlib-js/stdlib/pull/7202) _(by stdlib-bot)_
 -   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - **feat:** add `maxBy` to namespace _(by Athan Reines)_
 -   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - **feat:** add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194) _(by Muhammad Haris, Athan Reines)_
@@ -64,9 +73,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gururaj Gurram
 -   Muhammad Haris
 
 </section>
