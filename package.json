@@ -87,6 +87,7 @@
     "@stdlib/stats-strided-scumax": "github:stdlib-js/stats-strided-scumax#main",
     "@stdlib/stats-strided-smax": "github:stdlib-js/stats-strided-smax#main",
     "@stdlib/stats-strided-sztest": "github:stdlib-js/stats-strided-sztest#main",
+    "@stdlib/stats-strided-ztest": "github:stdlib-js/stats-strided-ztest#main",
     "@stdlib/utils-keys": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",

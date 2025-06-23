@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-22)
+## Unreleased (2025-06-23)
 
 <section class="features">
 
 ### Features
 
+-   [`c81a64c`](https://github.com/stdlib-js/stdlib/commit/c81a64c31b410883da7a3029c80376ff1bd2ac65) - add `stats/base/ndarray/ztest`
 -   [`8e22ba9`](https://github.com/stdlib-js/stdlib/commit/8e22ba9e7b19a969ccea393f5da9b9fe6daa5945) - add `sztest` to namespace
 -   [`9e93136`](https://github.com/stdlib-js/stdlib/commit/9e93136c1006acbc7ab36daf496202e5ab059dd9) - add `stats/base/ndarray/sztest`
 -   [`770023d`](https://github.com/stdlib-js/stdlib/commit/770023dfd4da2004a00227efa104bacdb7da8b20) - add `dztest` to namespace
@@ -37,6 +38,16 @@
 
 <details>
 
+-   [`32af820`](https://github.com/stdlib-js/stdlib/commit/32af8206457723cf95b4b18d676e054090a85a67) - **docs:** update namespace table of contents [(#7458)](https://github.com/stdlib-js/stdlib/pull/7458) _(by stdlib-bot)_
+-   [`c81a64c`](https://github.com/stdlib-js/stdlib/commit/c81a64c31b410883da7a3029c80376ff1bd2ac65) - **feat:** add `stats/base/ndarray/ztest` _(by Athan Reines)_
+-   [`a965f03`](https://github.com/stdlib-js/stdlib/commit/a965f0341c1f83ce76767e90f68ef89b3b6e3ee6) - **docs:** provide missing options _(by Athan Reines)_
+-   [`2c9a894`](https://github.com/stdlib-js/stdlib/commit/2c9a894c76a441b6343e0aad7984cb5d27152a48) - **docs:** provide missing options _(by Athan Reines)_
+-   [`a2339e3`](https://github.com/stdlib-js/stdlib/commit/a2339e35ddceee09c92e9f016b75079d378176dc) - **chore:** remove console log statements _(by Athan Reines)_
+-   [`dbbc745`](https://github.com/stdlib-js/stdlib/commit/dbbc745758e55bb844d108f00ec32e6a8d00fe6f) - **temp:** add console statement for debugging on CI _(by Athan Reines)_
+-   [`b7857ad`](https://github.com/stdlib-js/stdlib/commit/b7857adc0242d92363c7b9ded91267a1d9588b78) - **docs:** fix comment _(by Athan Reines)_
+-   [`ebadfbe`](https://github.com/stdlib-js/stdlib/commit/ebadfbe7f687e77451d86a59dc04ed4548c58f3b) - **docs:** fix comment _(by Athan Reines)_
+-   [`9d20bab`](https://github.com/stdlib-js/stdlib/commit/9d20bab16570b7a6716b393308d267c550dbf090) - **test:** ensure simulated stdev matches \"known\" stdev _(by Athan Reines)_
+-   [`667c659`](https://github.com/stdlib-js/stdlib/commit/667c65918c2e46151a36f995f223d9017e58f7e0) - **test:** ensure simulated stdev matches \"known\" stdev _(by Athan Reines)_
 -   [`8e22ba9`](https://github.com/stdlib-js/stdlib/commit/8e22ba9e7b19a969ccea393f5da9b9fe6daa5945) - **feat:** add `sztest` to namespace _(by Athan Reines)_
 -   [`9e93136`](https://github.com/stdlib-js/stdlib/commit/9e93136c1006acbc7ab36daf496202e5ab059dd9) - **feat:** add `stats/base/ndarray/sztest` _(by Athan Reines)_
 -   [`a056348`](https://github.com/stdlib-js/stdlib/commit/a056348a4ea81fc8660231876daac4e57d58a9a9) - **docs:** fix example _(by Athan Reines)_
