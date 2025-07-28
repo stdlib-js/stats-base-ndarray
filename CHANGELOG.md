@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2025-07-28)
 
 <section class="features">
 
 ### Features
 
+-   [`6b61a7a`](https://github.com/stdlib-js/stdlib/commit/6b61a7a150d1087c3a6194c6386316c375bc7bd2) - add `stats/base/ndarray/covarmtk` [(#7712)](https://github.com/stdlib-js/stdlib/pull/7712)
+-   [`cefac8d`](https://github.com/stdlib-js/stdlib/commit/cefac8d407d907adb4f825197bc9a3d921f1f875) - add `stats/base/ndarray/scovarmtk` [(#7693)](https://github.com/stdlib-js/stdlib/pull/7693)
+-   [`b6e1e36`](https://github.com/stdlib-js/stdlib/commit/b6e1e361ee0e0771c29f78cd9a576c84614e5f50) - add `stats/base/ndarray/dcovarmtk` [(#7692)](https://github.com/stdlib-js/stdlib/pull/7692)
 -   [`87d47a6`](https://github.com/stdlib-js/stdlib/commit/87d47a6f57e7f8fe55280a08ccd5e1abefaa30a1) - add `min`, `minBy`, `scumin`, and `smin` to namespace
 -   [`a249d09`](https://github.com/stdlib-js/stdlib/commit/a249d09157e6991f0f191bb6ba4bd69efbb4456f) - add `drange`, `range`, and `srange` to namespace
 -   [`f0e0eca`](https://github.com/stdlib-js/stdlib/commit/f0e0ecac9f6874592b02c9ab9f99b86d1fa583c8) - add `cumin`, `dcumin`, and `dmin` to namespace
@@ -70,6 +73,11 @@
 
 <details>
 
+-   [`6b61a7a`](https://github.com/stdlib-js/stdlib/commit/6b61a7a150d1087c3a6194c6386316c375bc7bd2) - **feat:** add `stats/base/ndarray/covarmtk` [(#7712)](https://github.com/stdlib-js/stdlib/pull/7712) _(by Gururaj Gurram, Athan Reines)_
+-   [`cefac8d`](https://github.com/stdlib-js/stdlib/commit/cefac8d407d907adb4f825197bc9a3d921f1f875) - **feat:** add `stats/base/ndarray/scovarmtk` [(#7693)](https://github.com/stdlib-js/stdlib/pull/7693) _(by Gururaj Gurram, Athan Reines)_
+-   [`fcafc72`](https://github.com/stdlib-js/stdlib/commit/fcafc72d6526a4d3346531c85cebe28c0211393a) - **docs:** update description _(by Athan Reines)_
+-   [`7664323`](https://github.com/stdlib-js/stdlib/commit/7664323090022ab8df2134939207585fe2c356af) - **docs:** fix orphan section _(by Athan Reines)_
+-   [`b6e1e36`](https://github.com/stdlib-js/stdlib/commit/b6e1e361ee0e0771c29f78cd9a576c84614e5f50) - **feat:** add `stats/base/ndarray/dcovarmtk` [(#7692)](https://github.com/stdlib-js/stdlib/pull/7692) _(by Gururaj Gurram)_
 -   [`87d47a6`](https://github.com/stdlib-js/stdlib/commit/87d47a6f57e7f8fe55280a08ccd5e1abefaa30a1) - **feat:** add `min`, `minBy`, `scumin`, and `smin` to namespace _(by Athan Reines)_
 -   [`a249d09`](https://github.com/stdlib-js/stdlib/commit/a249d09157e6991f0f191bb6ba4bd69efbb4456f) - **feat:** add `drange`, `range`, and `srange` to namespace _(by Athan Reines)_
 -   [`f0e0eca`](https://github.com/stdlib-js/stdlib/commit/f0e0ecac9f6874592b02c9ab9f99b86d1fa583c8) - **feat:** add `cumin`, `dcumin`, and `dmin` to namespace _(by Athan Reines)_
