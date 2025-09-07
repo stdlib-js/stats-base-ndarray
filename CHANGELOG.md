@@ -4,12 +4,35 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-28)
+## Unreleased (2025-09-07)
 
 <section class="features">
 
 ### Features
 
+-   [`b146b54`](https://github.com/stdlib-js/stdlib/commit/b146b54af84f9455952f82f7928f8f7bad6df121) - add exports to `stats/base/ndarray` namespace
+-   [`4323f9b`](https://github.com/stdlib-js/stdlib/commit/4323f9baeab70fd73e4a48328d2b493775f91fc5) - add `stats/base/ndarray/smaxsorted` [(#8036)](https://github.com/stdlib-js/stdlib/pull/8036)
+-   [`c9bc2a7`](https://github.com/stdlib-js/stdlib/commit/c9bc2a7e497e170d04a11db899b9e54279a85187) - add `stats/base/ndarray/dmaxsorted` [(#8035)](https://github.com/stdlib-js/stdlib/pull/8035)
+-   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034)
+-   [`2ca02fb`](https://github.com/stdlib-js/stdlib/commit/2ca02fb23c28dd7d5d9d6853a0329ca044b68102) - add `stats/base/ndarray/snanmean` [(#7966)](https://github.com/stdlib-js/stdlib/pull/7966)
+-   [`ceaf138`](https://github.com/stdlib-js/stdlib/commit/ceaf138672e744c0d9af8373085c7eec0da521ee) - add `stats/base/ndarray/dnanmean` [(#7965)](https://github.com/stdlib-js/stdlib/pull/7965)
+-   [`6d4efd4`](https://github.com/stdlib-js/stdlib/commit/6d4efd4724f41ce832be624f9e2d23b6142fb046) - add `stats/base/ndarray/nanmean` [(#7967)](https://github.com/stdlib-js/stdlib/pull/7967)
+-   [`aab41ab`](https://github.com/stdlib-js/stdlib/commit/aab41abe42b3180f15b27efbfcb4b72f67709654) - add `stats/base/ndarray/snanmin` [(#7929)](https://github.com/stdlib-js/stdlib/pull/7929)
+-   [`d71aa90`](https://github.com/stdlib-js/stdlib/commit/d71aa90555968756dccfdc526690c8a486ae8c06) - add `stats/base/ndarray/dnanmin` [(#7928)](https://github.com/stdlib-js/stdlib/pull/7928)
+-   [`36e2e16`](https://github.com/stdlib-js/stdlib/commit/36e2e163e14336ff8e7d11b80f9c7a6528014f39) - add `stats/base/ndarray/nanmin` [(#7927)](https://github.com/stdlib-js/stdlib/pull/7927)
+-   [`79336d0`](https://github.com/stdlib-js/stdlib/commit/79336d0e6c7958fbfca296e3def3c777e263c59c) - add missing `stats/base/ndarray` exports to namespace
+-   [`9a6ebbf`](https://github.com/stdlib-js/stdlib/commit/9a6ebbf9243a38173a927cef6a5cc71684bc154a) - add `stats/base/ndarray/nanmax` [(#7886)](https://github.com/stdlib-js/stdlib/pull/7886)
+-   [`9b376e9`](https://github.com/stdlib-js/stdlib/commit/9b376e9f5770676b863131d0fb287fb20397e651) - add `stats/base/ndarray/snanmax` [(#7885)](https://github.com/stdlib-js/stdlib/pull/7885)
+-   [`d9a224c`](https://github.com/stdlib-js/stdlib/commit/d9a224cad0bd2e22084920b487f6fdf72a1065bd) - add `stats/base/ndarray/dnanmax` [(#7884)](https://github.com/stdlib-js/stdlib/pull/7884)
+-   [`3f6ab18`](https://github.com/stdlib-js/stdlib/commit/3f6ab1825eab2f3ef53d570d8e0de24b2474a9bf) - add `stats/base/ndarray/sminabs` [(#7881)](https://github.com/stdlib-js/stdlib/pull/7881)
+-   [`b58d123`](https://github.com/stdlib-js/stdlib/commit/b58d1233b4a139b3f70ba604541ff1ab5bae1dfd) - add `stats/base/ndarray/dminabs` [(#7880)](https://github.com/stdlib-js/stdlib/pull/7880)
+-   [`ca1908c`](https://github.com/stdlib-js/stdlib/commit/ca1908c96b83777579315cba10c11484a0d25466) - add `stats/base/ndarray/minabs` [(#7882)](https://github.com/stdlib-js/stdlib/pull/7882)
+-   [`8e09d4f`](https://github.com/stdlib-js/stdlib/commit/8e09d4fddbf753f1ef37c499ce7e85e5956e71ed) - add `stats/base/ndarray/mean` [(#7820)](https://github.com/stdlib-js/stdlib/pull/7820)
+-   [`b5233a9`](https://github.com/stdlib-js/stdlib/commit/b5233a9f880be00b3bec6a655e922e6e8677d8b0) - add `stats/base/ndarray/dmean` [(#7822)](https://github.com/stdlib-js/stdlib/pull/7822)
+-   [`2533a1b`](https://github.com/stdlib-js/stdlib/commit/2533a1bcd188c2d5f5d6c2bf085a960021b4e99a) - add `stats/base/ndarray/smean` [(#7823)](https://github.com/stdlib-js/stdlib/pull/7823)
+-   [`a34b28a`](https://github.com/stdlib-js/stdlib/commit/a34b28a5f13e77e662c4a6f2180fb19e50dc378d) - add `stats/base/ndarray/smaxabs` [(#7834)](https://github.com/stdlib-js/stdlib/pull/7834)
+-   [`4d492dd`](https://github.com/stdlib-js/stdlib/commit/4d492dd05272453887a4e00cb83fa3c17cb193db) - add `stats/base/ndarray/maxabs` [(#7835)](https://github.com/stdlib-js/stdlib/pull/7835)
+-   [`615ca97`](https://github.com/stdlib-js/stdlib/commit/615ca97ab62902c268fe9e0ac1a3f628630280cb) - add `stats/base/ndarray/dmaxabs` [(#7836)](https://github.com/stdlib-js/stdlib/pull/7836)
 -   [`6b61a7a`](https://github.com/stdlib-js/stdlib/commit/6b61a7a150d1087c3a6194c6386316c375bc7bd2) - add `stats/base/ndarray/covarmtk` [(#7712)](https://github.com/stdlib-js/stdlib/pull/7712)
 -   [`cefac8d`](https://github.com/stdlib-js/stdlib/commit/cefac8d407d907adb4f825197bc9a3d921f1f875) - add `stats/base/ndarray/scovarmtk` [(#7693)](https://github.com/stdlib-js/stdlib/pull/7693)
 -   [`b6e1e36`](https://github.com/stdlib-js/stdlib/commit/b6e1e361ee0e0771c29f78cd9a576c84614e5f50) - add `stats/base/ndarray/dcovarmtk` [(#7692)](https://github.com/stdlib-js/stdlib/pull/7692)
@@ -67,12 +90,55 @@
 
 <!-- /.bug-fixes -->
 
+<section class="reverts">
+
+### Reverts
+
+-   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - docs: fix example code
+
+</section>
+
+<!-- /.reverts -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`b146b54`](https://github.com/stdlib-js/stdlib/commit/b146b54af84f9455952f82f7928f8f7bad6df121) - **feat:** add exports to `stats/base/ndarray` namespace _(by Philipp Burckhardt)_
+-   [`4ec3a47`](https://github.com/stdlib-js/stdlib/commit/4ec3a471ad594bf710eb4e78a6650136389cb0a7) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`4323f9b`](https://github.com/stdlib-js/stdlib/commit/4323f9baeab70fd73e4a48328d2b493775f91fc5) - **feat:** add `stats/base/ndarray/smaxsorted` [(#8036)](https://github.com/stdlib-js/stdlib/pull/8036) _(by Gururaj Gurram, Athan Reines)_
+-   [`c9bc2a7`](https://github.com/stdlib-js/stdlib/commit/c9bc2a7e497e170d04a11db899b9e54279a85187) - **feat:** add `stats/base/ndarray/dmaxsorted` [(#8035)](https://github.com/stdlib-js/stdlib/pull/8035) _(by Gururaj Gurram, Athan Reines)_
+-   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - **feat:** add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034) _(by Gururaj Gurram, Athan Reines)_
+-   [`167bba8`](https://github.com/stdlib-js/stdlib/commit/167bba841858a37cf5ca350365cf6a00980f17fb) - **chore:** fix keywords _(by Athan Reines)_
+-   [`2ca02fb`](https://github.com/stdlib-js/stdlib/commit/2ca02fb23c28dd7d5d9d6853a0329ca044b68102) - **feat:** add `stats/base/ndarray/snanmean` [(#7966)](https://github.com/stdlib-js/stdlib/pull/7966) _(by Gururaj Gurram, Athan Reines)_
+-   [`b33ec59`](https://github.com/stdlib-js/stdlib/commit/b33ec59f183293ed7a357db25b00e9fae40337ae) - **docs:** fix hyphenation _(by Athan Reines)_
+-   [`ceaf138`](https://github.com/stdlib-js/stdlib/commit/ceaf138672e744c0d9af8373085c7eec0da521ee) - **feat:** add `stats/base/ndarray/dnanmean` [(#7965)](https://github.com/stdlib-js/stdlib/pull/7965) _(by Gururaj Gurram)_
+-   [`6d4efd4`](https://github.com/stdlib-js/stdlib/commit/6d4efd4724f41ce832be624f9e2d23b6142fb046) - **feat:** add `stats/base/ndarray/nanmean` [(#7967)](https://github.com/stdlib-js/stdlib/pull/7967) _(by Gururaj Gurram)_
+-   [`5c1bb3c`](https://github.com/stdlib-js/stdlib/commit/5c1bb3c262b799be2c9b8ff6a6d6ec678cd51e24) - **docs:** be consistent with backticks around NaN _(by Philipp Burckhardt)_
+-   [`aab41ab`](https://github.com/stdlib-js/stdlib/commit/aab41abe42b3180f15b27efbfcb4b72f67709654) - **feat:** add `stats/base/ndarray/snanmin` [(#7929)](https://github.com/stdlib-js/stdlib/pull/7929) _(by Gururaj Gurram)_
+-   [`d71aa90`](https://github.com/stdlib-js/stdlib/commit/d71aa90555968756dccfdc526690c8a486ae8c06) - **feat:** add `stats/base/ndarray/dnanmin` [(#7928)](https://github.com/stdlib-js/stdlib/pull/7928) _(by Gururaj Gurram)_
+-   [`36e2e16`](https://github.com/stdlib-js/stdlib/commit/36e2e163e14336ff8e7d11b80f9c7a6528014f39) - **feat:** add `stats/base/ndarray/nanmin` [(#7927)](https://github.com/stdlib-js/stdlib/pull/7927) _(by Gururaj Gurram)_
+-   [`1f159ee`](https://github.com/stdlib-js/stdlib/commit/1f159ee7f00e50c35c89ac61558fde3e64367d58) - **test:** fix test cases for `stats/base/ndarray/*nanmin` [(#7926)](https://github.com/stdlib-js/stdlib/pull/7926) _(by Gururaj Gurram)_
+-   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - **revert:** docs: fix example code _(by Philipp Burckhardt)_
+-   [`79336d0`](https://github.com/stdlib-js/stdlib/commit/79336d0e6c7958fbfca296e3def3c777e263c59c) - **feat:** add missing `stats/base/ndarray` exports to namespace _(by Philipp Burckhardt)_
+-   [`e4701e8`](https://github.com/stdlib-js/stdlib/commit/e4701e814ce9db206690ad9f2ce8b84e5a4f4e52) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`afca27e`](https://github.com/stdlib-js/stdlib/commit/afca27e5a12962febf70b6de36e2cea94295b16b) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`9a6ebbf`](https://github.com/stdlib-js/stdlib/commit/9a6ebbf9243a38173a927cef6a5cc71684bc154a) - **feat:** add `stats/base/ndarray/nanmax` [(#7886)](https://github.com/stdlib-js/stdlib/pull/7886) _(by Gururaj Gurram)_
+-   [`9b376e9`](https://github.com/stdlib-js/stdlib/commit/9b376e9f5770676b863131d0fb287fb20397e651) - **feat:** add `stats/base/ndarray/snanmax` [(#7885)](https://github.com/stdlib-js/stdlib/pull/7885) _(by Gururaj Gurram, Athan Reines)_
+-   [`d9a224c`](https://github.com/stdlib-js/stdlib/commit/d9a224cad0bd2e22084920b487f6fdf72a1065bd) - **feat:** add `stats/base/ndarray/dnanmax` [(#7884)](https://github.com/stdlib-js/stdlib/pull/7884) _(by Gururaj Gurram)_
+-   [`3f6ab18`](https://github.com/stdlib-js/stdlib/commit/3f6ab1825eab2f3ef53d570d8e0de24b2474a9bf) - **feat:** add `stats/base/ndarray/sminabs` [(#7881)](https://github.com/stdlib-js/stdlib/pull/7881) _(by Gururaj Gurram, Athan Reines)_
+-   [`b58d123`](https://github.com/stdlib-js/stdlib/commit/b58d1233b4a139b3f70ba604541ff1ab5bae1dfd) - **feat:** add `stats/base/ndarray/dminabs` [(#7880)](https://github.com/stdlib-js/stdlib/pull/7880) _(by Gururaj Gurram)_
+-   [`ca1908c`](https://github.com/stdlib-js/stdlib/commit/ca1908c96b83777579315cba10c11484a0d25466) - **feat:** add `stats/base/ndarray/minabs` [(#7882)](https://github.com/stdlib-js/stdlib/pull/7882) _(by Gururaj Gurram)_
+-   [`842892d`](https://github.com/stdlib-js/stdlib/commit/842892db70da69098d8fb271ea19ae45c09a8a0e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`6fc31e1`](https://github.com/stdlib-js/stdlib/commit/6fc31e1057e63858264b0738dc235ca05ca9448b) - **docs:** update return value descriptions _(by Philipp Burckhardt)_
+-   [`8e09d4f`](https://github.com/stdlib-js/stdlib/commit/8e09d4fddbf753f1ef37c499ce7e85e5956e71ed) - **feat:** add `stats/base/ndarray/mean` [(#7820)](https://github.com/stdlib-js/stdlib/pull/7820) _(by Gururaj Gurram)_
+-   [`b5233a9`](https://github.com/stdlib-js/stdlib/commit/b5233a9f880be00b3bec6a655e922e6e8677d8b0) - **feat:** add `stats/base/ndarray/dmean` [(#7822)](https://github.com/stdlib-js/stdlib/pull/7822) _(by Gururaj Gurram, Athan Reines)_
+-   [`2533a1b`](https://github.com/stdlib-js/stdlib/commit/2533a1bcd188c2d5f5d6c2bf085a960021b4e99a) - **feat:** add `stats/base/ndarray/smean` [(#7823)](https://github.com/stdlib-js/stdlib/pull/7823) _(by Gururaj Gurram)_
+-   [`a34b28a`](https://github.com/stdlib-js/stdlib/commit/a34b28a5f13e77e662c4a6f2180fb19e50dc378d) - **feat:** add `stats/base/ndarray/smaxabs` [(#7834)](https://github.com/stdlib-js/stdlib/pull/7834) _(by Gururaj Gurram)_
+-   [`4d492dd`](https://github.com/stdlib-js/stdlib/commit/4d492dd05272453887a4e00cb83fa3c17cb193db) - **feat:** add `stats/base/ndarray/maxabs` [(#7835)](https://github.com/stdlib-js/stdlib/pull/7835) _(by Gururaj Gurram)_
+-   [`615ca97`](https://github.com/stdlib-js/stdlib/commit/615ca97ab62902c268fe9e0ac1a3f628630280cb) - **feat:** add `stats/base/ndarray/dmaxabs` [(#7836)](https://github.com/stdlib-js/stdlib/pull/7836) _(by Gururaj Gurram)_
 -   [`6b61a7a`](https://github.com/stdlib-js/stdlib/commit/6b61a7a150d1087c3a6194c6386316c375bc7bd2) - **feat:** add `stats/base/ndarray/covarmtk` [(#7712)](https://github.com/stdlib-js/stdlib/pull/7712) _(by Gururaj Gurram, Athan Reines)_
 -   [`cefac8d`](https://github.com/stdlib-js/stdlib/commit/cefac8d407d907adb4f825197bc9a3d921f1f875) - **feat:** add `stats/base/ndarray/scovarmtk` [(#7693)](https://github.com/stdlib-js/stdlib/pull/7693) _(by Gururaj Gurram, Athan Reines)_
 -   [`fcafc72`](https://github.com/stdlib-js/stdlib/commit/fcafc72d6526a4d3346531c85cebe28c0211393a) - **docs:** update description _(by Athan Reines)_
@@ -156,11 +222,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gururaj Gurram
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
