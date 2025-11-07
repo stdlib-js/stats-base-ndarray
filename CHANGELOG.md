@@ -4,12 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-07)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
 ### Features
 
+-   [`ccaf3a2`](https://github.com/stdlib-js/stdlib/commit/ccaf3a2f23735bcb37f00ec28aea187662b174b6) - add `stats/base/ndarray/meanwd` [(#8422)](https://github.com/stdlib-js/stdlib/pull/8422)
+-   [`5ac2a43`](https://github.com/stdlib-js/stdlib/commit/5ac2a43dbf6d761ad2eb83c55f21bf5bf5caa753) - add `stats/base/ndarray/meanpn` [(#8410)](https://github.com/stdlib-js/stdlib/pull/8410)
+-   [`1cfff5d`](https://github.com/stdlib-js/stdlib/commit/1cfff5db1ecd2beea87c0a530d00291f9e8601ce) - add `stats/base/ndarray/meanors`  [(#8407)](https://github.com/stdlib-js/stdlib/pull/8407)
+-   [`589bf2a`](https://github.com/stdlib-js/stdlib/commit/589bf2ac18b4b6ff5dda610872ef1968cf83e304) - add `stats/base/ndarray/meanpw` [(#8396)](https://github.com/stdlib-js/stdlib/pull/8396)
+-   [`7fd6312`](https://github.com/stdlib-js/stdlib/commit/7fd63128c54f64f4e7dc14e6d9007e482a905ecf) - add `stats/base/ndarray/meankbn2` [(#8307)](https://github.com/stdlib-js/stdlib/pull/8307)
+-   [`be6826b`](https://github.com/stdlib-js/stdlib/commit/be6826bdaf42d89210be88782eb49ce5a38a6251) - add `stats/base/ndarray/meankbn` [(#8116)](https://github.com/stdlib-js/stdlib/pull/8116)
+-   [`8b7cf43`](https://github.com/stdlib-js/stdlib/commit/8b7cf43ab1b21980cdd6937f0b87bc03c847b816) - update `stats/base/ndarray` TypeScript declarations
 -   [`b146b54`](https://github.com/stdlib-js/stdlib/commit/b146b54af84f9455952f82f7928f8f7bad6df121) - add exports to `stats/base/ndarray` namespace
 -   [`4323f9b`](https://github.com/stdlib-js/stdlib/commit/4323f9baeab70fd73e4a48328d2b493775f91fc5) - add `stats/base/ndarray/smaxsorted` [(#8036)](https://github.com/stdlib-js/stdlib/pull/8036)
 -   [`c9bc2a7`](https://github.com/stdlib-js/stdlib/commit/c9bc2a7e497e170d04a11db899b9e54279a85187) - add `stats/base/ndarray/dmaxsorted` [(#8035)](https://github.com/stdlib-js/stdlib/pull/8035)
@@ -100,12 +107,32 @@
 
 <!-- /.reverts -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#8095](https://github.com/stdlib-js/stdlib/issues/8095)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`ccaf3a2`](https://github.com/stdlib-js/stdlib/commit/ccaf3a2f23735bcb37f00ec28aea187662b174b6) - **feat:** add `stats/base/ndarray/meanwd` [(#8422)](https://github.com/stdlib-js/stdlib/pull/8422) _(by Sachin Pangal, Athan Reines)_
+-   [`5ac2a43`](https://github.com/stdlib-js/stdlib/commit/5ac2a43dbf6d761ad2eb83c55f21bf5bf5caa753) - **feat:** add `stats/base/ndarray/meanpn` [(#8410)](https://github.com/stdlib-js/stdlib/pull/8410) _(by Sachin Pangal, Athan Reines)_
+-   [`1cfff5d`](https://github.com/stdlib-js/stdlib/commit/1cfff5db1ecd2beea87c0a530d00291f9e8601ce) - **feat:** add `stats/base/ndarray/meanors`  [(#8407)](https://github.com/stdlib-js/stdlib/pull/8407) _(by Sachin Pangal)_
+-   [`589bf2a`](https://github.com/stdlib-js/stdlib/commit/589bf2ac18b4b6ff5dda610872ef1968cf83e304) - **feat:** add `stats/base/ndarray/meanpw` [(#8396)](https://github.com/stdlib-js/stdlib/pull/8396) _(by Sachin Pangal)_
+-   [`7fd6312`](https://github.com/stdlib-js/stdlib/commit/7fd63128c54f64f4e7dc14e6d9007e482a905ecf) - **feat:** add `stats/base/ndarray/meankbn2` [(#8307)](https://github.com/stdlib-js/stdlib/pull/8307) _(by Bureir AL, Athan Reines)_
+-   [`be6826b`](https://github.com/stdlib-js/stdlib/commit/be6826bdaf42d89210be88782eb49ce5a38a6251) - **feat:** add `stats/base/ndarray/meankbn` [(#8116)](https://github.com/stdlib-js/stdlib/pull/8116) _(by Bureir AL, Athan Reines, Muhammad Haris)_
+-   [`8b7cf43`](https://github.com/stdlib-js/stdlib/commit/8b7cf43ab1b21980cdd6937f0b87bc03c847b816) - **feat:** update `stats/base/ndarray` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`b146b54`](https://github.com/stdlib-js/stdlib/commit/b146b54af84f9455952f82f7928f8f7bad6df121) - **feat:** add exports to `stats/base/ndarray` namespace _(by Philipp Burckhardt)_
 -   [`4ec3a47`](https://github.com/stdlib-js/stdlib/commit/4ec3a471ad594bf710eb4e78a6650136389cb0a7) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`4323f9b`](https://github.com/stdlib-js/stdlib/commit/4323f9baeab70fd73e4a48328d2b493775f91fc5) - **feat:** add `stats/base/ndarray/smaxsorted` [(#8036)](https://github.com/stdlib-js/stdlib/pull/8036) _(by Gururaj Gurram, Athan Reines)_
@@ -222,12 +249,14 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Bureir AL
 -   Gururaj Gurram
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   Sachin Pangal
 
 </section>
 
