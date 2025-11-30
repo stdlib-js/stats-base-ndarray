@@ -4,12 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-29)
+## Unreleased (2025-11-30)
 
 <section class="features">
 
 ### Features
 
+-   [`c0b3cef`](https://github.com/stdlib-js/stdlib/commit/c0b3cef48f22a420738a91fae2be1e327409ff8e) - add `stats/base/ndarray/smediansorted` [(#8635)](https://github.com/stdlib-js/stdlib/pull/8635)
+-   [`59bea21`](https://github.com/stdlib-js/stdlib/commit/59bea210b0588dcd33452b65d93f9acf58bd4725) - add `stats/base/ndarray/dmediansorted` [(#8637)](https://github.com/stdlib-js/stdlib/pull/8637)
+-   [`c0a0085`](https://github.com/stdlib-js/stdlib/commit/c0a00852f2e240715917b79ed0b9443f908ac653) - add `stats/base/ndarray/sdsmean` [(#8636)](https://github.com/stdlib-js/stdlib/pull/8636)
+-   [`9fac978`](https://github.com/stdlib-js/stdlib/commit/9fac9780267610cfe2e7f462cb8808539c36c811) - add `stats/base/ndarray/dmeanwd` [(#8628)](https://github.com/stdlib-js/stdlib/pull/8628)
+-   [`5c67e6d`](https://github.com/stdlib-js/stdlib/commit/5c67e6d69d9b7ef4cc4a4d1ae64da2c93205e401) - add `stats/base/ndarray/dmeanors` [(#8631)](https://github.com/stdlib-js/stdlib/pull/8631)
+-   [`4fcb8ea`](https://github.com/stdlib-js/stdlib/commit/4fcb8eac686415fdd15e3d277ae91ec69434d100) - add `stats/base/ndarray/nanmeanors` [(#8632)](https://github.com/stdlib-js/stdlib/pull/8632)
+-   [`4337bf2`](https://github.com/stdlib-js/stdlib/commit/4337bf2a4e5781e2305da08b93ed5fba821a696a) - add `stats/base/ndarray/smeanors` [(#8633)](https://github.com/stdlib-js/stdlib/pull/8633)
 -   [`2dd2d7e`](https://github.com/stdlib-js/stdlib/commit/2dd2d7ec8378f425d10122608707ca7591250641) - add `mskrange` to namespace
 -   [`4e1eaac`](https://github.com/stdlib-js/stdlib/commit/4e1eaac6e4faf9b1b299ea6ebe6585ad136674e8) - add `stats/base/ndarray/mskrange` [(#8634)](https://github.com/stdlib-js/stdlib/pull/8634)
 -   [`84b30fb`](https://github.com/stdlib-js/stdlib/commit/84b30fb2c4455b9cdc27d8010487631a4568c0cf) - add `snanmeanors`, `snanmeanpn`, `snanmeanwd` to namespace
@@ -184,6 +191,14 @@ This release closes the following issue:
 
 <details>
 
+-   [`e63bbbd`](https://github.com/stdlib-js/stdlib/commit/e63bbbd535150fb694d287d97adbb5d606bd42fe) - **docs:** update namespace table of contents [(#8639)](https://github.com/stdlib-js/stdlib/pull/8639) _(by stdlib-bot)_
+-   [`c0b3cef`](https://github.com/stdlib-js/stdlib/commit/c0b3cef48f22a420738a91fae2be1e327409ff8e) - **feat:** add `stats/base/ndarray/smediansorted` [(#8635)](https://github.com/stdlib-js/stdlib/pull/8635) _(by Divyanshu, Athan Reines)_
+-   [`59bea21`](https://github.com/stdlib-js/stdlib/commit/59bea210b0588dcd33452b65d93f9acf58bd4725) - **feat:** add `stats/base/ndarray/dmediansorted` [(#8637)](https://github.com/stdlib-js/stdlib/pull/8637) _(by Divyanshu, Athan Reines)_
+-   [`c0a0085`](https://github.com/stdlib-js/stdlib/commit/c0a00852f2e240715917b79ed0b9443f908ac653) - **feat:** add `stats/base/ndarray/sdsmean` [(#8636)](https://github.com/stdlib-js/stdlib/pull/8636) _(by Kaustubh Patange)_
+-   [`9fac978`](https://github.com/stdlib-js/stdlib/commit/9fac9780267610cfe2e7f462cb8808539c36c811) - **feat:** add `stats/base/ndarray/dmeanwd` [(#8628)](https://github.com/stdlib-js/stdlib/pull/8628) _(by Pratik)_
+-   [`5c67e6d`](https://github.com/stdlib-js/stdlib/commit/5c67e6d69d9b7ef4cc4a4d1ae64da2c93205e401) - **feat:** add `stats/base/ndarray/dmeanors` [(#8631)](https://github.com/stdlib-js/stdlib/pull/8631) _(by Pratik)_
+-   [`4fcb8ea`](https://github.com/stdlib-js/stdlib/commit/4fcb8eac686415fdd15e3d277ae91ec69434d100) - **feat:** add `stats/base/ndarray/nanmeanors` [(#8632)](https://github.com/stdlib-js/stdlib/pull/8632) _(by Pratik)_
+-   [`4337bf2`](https://github.com/stdlib-js/stdlib/commit/4337bf2a4e5781e2305da08b93ed5fba821a696a) - **feat:** add `stats/base/ndarray/smeanors` [(#8633)](https://github.com/stdlib-js/stdlib/pull/8633) _(by Pratik)_
 -   [`2dd2d7e`](https://github.com/stdlib-js/stdlib/commit/2dd2d7ec8378f425d10122608707ca7591250641) - **feat:** add `mskrange` to namespace _(by Athan Reines)_
 -   [`738dcba`](https://github.com/stdlib-js/stdlib/commit/738dcba7e5a28c232cb587b584c300597f9fd0eb) - **docs:** fix dtypes in examples _(by Athan Reines)_
 -   [`4e1eaac`](https://github.com/stdlib-js/stdlib/commit/4e1eaac6e4faf9b1b299ea6ebe6585ad136674e8) - **feat:** add `stats/base/ndarray/mskrange` [(#8634)](https://github.com/stdlib-js/stdlib/pull/8634) _(by Pratik, Athan Reines)_
@@ -373,10 +388,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bureir AL
+-   Divyanshu
 -   Gururaj Gurram
 -   Kaustubh Patange
 -   Muhammad Haris
