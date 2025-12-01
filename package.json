@@ -240,6 +240,7 @@
     "@stdlib/stats-strided-nanmeanwd": "github:stdlib-js/stats-strided-nanmeanwd#main",
     "@stdlib/stats-strided-nanmin": "github:stdlib-js/stats-strided-nanmin#main",
     "@stdlib/stats-strided-nanminabs": "github:stdlib-js/stats-strided-nanminabs#main",
+    "@stdlib/stats-strided-nanrange": "github:stdlib-js/stats-strided-nanrange#main",
     "@stdlib/stats-strided-range": "github:stdlib-js/stats-strided-range#main",
     "@stdlib/stats-strided-range-by": "github:stdlib-js/stats-strided-range-by#main",
     "@stdlib/stats-strided-scovarmtk": "github:stdlib-js/stats-strided-scovarmtk#main",
