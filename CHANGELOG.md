@@ -4,12 +4,21 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-01)
+## Unreleased (2025-12-02)
 
 <section class="features">
 
 ### Features
 
+-   [`5d41e02`](https://github.com/stdlib-js/stdlib/commit/5d41e023e8d77303cc9af4502db85e03672a0091) - update `stats/base/ndarray` TypeScript declarations
+-   [`6881387`](https://github.com/stdlib-js/stdlib/commit/6881387c6df3a209630a64c069849ee4a59ff777) - add `stats/base/ndarray/sdsmeanors` [(#8667)](https://github.com/stdlib-js/stdlib/pull/8667)
+-   [`40d11d8`](https://github.com/stdlib-js/stdlib/commit/40d11d898cc5861fb1c08111a406c4fe600cd789) - add `stats/base/ndarray/sdsnanmeanors` [(#8685)](https://github.com/stdlib-js/stdlib/pull/8685)
+-   [`08d4eb9`](https://github.com/stdlib-js/stdlib/commit/08d4eb92863f937d1a0383b8b548cd556c2eed40) - add `stats/base/ndarray/smidrange` [(#8708)](https://github.com/stdlib-js/stdlib/pull/8708)
+-   [`bb2cff0`](https://github.com/stdlib-js/stdlib/commit/bb2cff0c09017473cf7e9d890880a1b8ae719f34) - add `stats/base/ndarray/smskmin` [(#8707)](https://github.com/stdlib-js/stdlib/pull/8707)
+-   [`68037ff`](https://github.com/stdlib-js/stdlib/commit/68037ff81a55246ec097a7e0b4541d93c6209e7a) - add `stats/base/ndarray/nanmax-by` [(#8640)](https://github.com/stdlib-js/stdlib/pull/8640)
+-   [`5c941d3`](https://github.com/stdlib-js/stdlib/commit/5c941d3997c9f960d1f1d52bd76a9d3871c5b507) - add `stats/base/ndarray/nanmin-by` [(#8681)](https://github.com/stdlib-js/stdlib/pull/8681)
+-   [`bb916a2`](https://github.com/stdlib-js/stdlib/commit/bb916a2c4ba4a698be842b72de0c3ed4eb9135ab) - add `stats/base/ndarray/smskmax` [(#8698)](https://github.com/stdlib-js/stdlib/pull/8698)
+-   [`49f4894`](https://github.com/stdlib-js/stdlib/commit/49f4894a7b05e173efc2c5f69ed56bbc98e52711) - add `stats/base/ndarray/dmidrange` [(#8626)](https://github.com/stdlib-js/stdlib/pull/8626)
 -   [`10ab0d9`](https://github.com/stdlib-js/stdlib/commit/10ab0d97e9b0ac1fe4a27bdc64fa8646df4dff88) - add `stats/base/ndarray/nanrange` [(#8642)](https://github.com/stdlib-js/stdlib/pull/8642)
 -   [`c0b3cef`](https://github.com/stdlib-js/stdlib/commit/c0b3cef48f22a420738a91fae2be1e327409ff8e) - add `stats/base/ndarray/smediansorted` [(#8635)](https://github.com/stdlib-js/stdlib/pull/8635)
 -   [`59bea21`](https://github.com/stdlib-js/stdlib/commit/59bea210b0588dcd33452b65d93f9acf58bd4725) - add `stats/base/ndarray/dmediansorted` [(#8637)](https://github.com/stdlib-js/stdlib/pull/8637)
@@ -192,6 +201,17 @@ This release closes the following issue:
 
 <details>
 
+-   [`5d41e02`](https://github.com/stdlib-js/stdlib/commit/5d41e023e8d77303cc9af4502db85e03672a0091) - **feat:** update `stats/base/ndarray` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`6881387`](https://github.com/stdlib-js/stdlib/commit/6881387c6df3a209630a64c069849ee4a59ff777) - **feat:** add `stats/base/ndarray/sdsmeanors` [(#8667)](https://github.com/stdlib-js/stdlib/pull/8667) _(by Kaustubh Patange, Athan Reines)_
+-   [`40d11d8`](https://github.com/stdlib-js/stdlib/commit/40d11d898cc5861fb1c08111a406c4fe600cd789) - **feat:** add `stats/base/ndarray/sdsnanmeanors` [(#8685)](https://github.com/stdlib-js/stdlib/pull/8685) _(by Sachin Pangal, Athan Reines)_
+-   [`08d4eb9`](https://github.com/stdlib-js/stdlib/commit/08d4eb92863f937d1a0383b8b548cd556c2eed40) - **feat:** add `stats/base/ndarray/smidrange` [(#8708)](https://github.com/stdlib-js/stdlib/pull/8708) _(by Divyanshu, Athan Reines)_
+-   [`bb2cff0`](https://github.com/stdlib-js/stdlib/commit/bb2cff0c09017473cf7e9d890880a1b8ae719f34) - **feat:** add `stats/base/ndarray/smskmin` [(#8707)](https://github.com/stdlib-js/stdlib/pull/8707) _(by Kaustubh Patange, Athan Reines)_
+-   [`68037ff`](https://github.com/stdlib-js/stdlib/commit/68037ff81a55246ec097a7e0b4541d93c6209e7a) - **feat:** add `stats/base/ndarray/nanmax-by` [(#8640)](https://github.com/stdlib-js/stdlib/pull/8640) _(by Divyanshu, Athan Reines)_
+-   [`5c941d3`](https://github.com/stdlib-js/stdlib/commit/5c941d3997c9f960d1f1d52bd76a9d3871c5b507) - **feat:** add `stats/base/ndarray/nanmin-by` [(#8681)](https://github.com/stdlib-js/stdlib/pull/8681) _(by Sachin Pangal, Athan Reines)_
+-   [`e311dfa`](https://github.com/stdlib-js/stdlib/commit/e311dfa54b983e913453dc5c141115ef58e0c9dc) - **style:** remove extra empty line _(by Philipp Burckhardt)_
+-   [`bb916a2`](https://github.com/stdlib-js/stdlib/commit/bb916a2c4ba4a698be842b72de0c3ed4eb9135ab) - **feat:** add `stats/base/ndarray/smskmax` [(#8698)](https://github.com/stdlib-js/stdlib/pull/8698) _(by Kaustubh Patange, Athan Reines)_
+-   [`49f4894`](https://github.com/stdlib-js/stdlib/commit/49f4894a7b05e173efc2c5f69ed56bbc98e52711) - **feat:** add `stats/base/ndarray/dmidrange` [(#8626)](https://github.com/stdlib-js/stdlib/pull/8626) _(by Divyanshu, Athan Reines)_
+-   [`d745259`](https://github.com/stdlib-js/stdlib/commit/d745259e39acdcc3f80b3b569185491daef92145) - **docs:** add missing spaces and update parameter type _(by Philipp Burckhardt)_
 -   [`b55b024`](https://github.com/stdlib-js/stdlib/commit/b55b0244c489e33a24298fe28fbb8ae7be0846ad) - **docs:** update namespace table of contents [(#8672)](https://github.com/stdlib-js/stdlib/pull/8672) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`10ab0d9`](https://github.com/stdlib-js/stdlib/commit/10ab0d97e9b0ac1fe4a27bdc64fa8646df4dff88) - **feat:** add `stats/base/ndarray/nanrange` [(#8642)](https://github.com/stdlib-js/stdlib/pull/8642) _(by Pratik)_
 -   [`be4ce52`](https://github.com/stdlib-js/stdlib/commit/be4ce524621e636ab04b9940df550dff7dc93aa5) - **docs:** update examples to use explicit dtype _(by Athan Reines)_
