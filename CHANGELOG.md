@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-26)
+## Unreleased (2026-01-27)
 
 <section class="features">
 
@@ -269,6 +269,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`196734e`](https://github.com/stdlib-js/stdlib/commit/196734eccb0d43439332b2a275fb3a50cb73df67) - **docs:** update namespace table of contents [(#9915)](https://github.com/stdlib-js/stdlib/pull/9915) _(by stdlib-bot)_
 -   [`fabac99`](https://github.com/stdlib-js/stdlib/commit/fabac994a5faee54c764fc1744f9a3427a6cf7b3) - **feat:** add `variance`, `variancech`, `variancewd` to namespace _(by Athan Reines)_
 -   [`b165d09`](https://github.com/stdlib-js/stdlib/commit/b165d09ba924d67d5ee7ed2f307a2a394708c830) - **feat:** add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, `stdevyc` to namespace _(by Athan Reines)_
 -   [`f68ce9c`](https://github.com/stdlib-js/stdlib/commit/f68ce9c54ec885f22090a8397346c865242aed80) - **feat:** add `sstdev`, `sstdevch`, `sstdevpn`, `sstdevwd` to namespace _(by Athan Reines)_
