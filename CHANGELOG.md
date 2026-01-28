@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-27)
+## Unreleased (2026-01-28)
 
 <section class="features">
 
 ### Features
 
+-   [`2b5c80e`](https://github.com/stdlib-js/stdlib/commit/2b5c80e62c9d6d2583a009fdf496a4a5e1827d64) - add `srangeabs` to namespace
+-   [`c66543d`](https://github.com/stdlib-js/stdlib/commit/c66543d7be8062e7a3efcc3e332e5e270986d59c) - add `stats/base/ndarray/srangeabs` [(#9920)](https://github.com/stdlib-js/stdlib/pull/9920)
+-   [`07e112a`](https://github.com/stdlib-js/stdlib/commit/07e112a03fc1c0308bdc38bcb0425dc2fe6faec5) - add C API
 -   [`e3e238d`](https://github.com/stdlib-js/stdlib/commit/e3e238dd684b98b67ad10ae4da51f33f1cf5413d) - update `stats/base/ndarray` TypeScript declarations [(#9914)](https://github.com/stdlib-js/stdlib/pull/9914)
 -   [`fabac99`](https://github.com/stdlib-js/stdlib/commit/fabac994a5faee54c764fc1744f9a3427a6cf7b3) - add `variance`, `variancech`, `variancewd` to namespace
 -   [`b165d09`](https://github.com/stdlib-js/stdlib/commit/b165d09ba924d67d5ee7ed2f307a2a394708c830) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, `stdevyc` to namespace
@@ -270,6 +273,11 @@ This release closes the following issue:
 
 <details>
 
+-   [`2b5c80e`](https://github.com/stdlib-js/stdlib/commit/2b5c80e62c9d6d2583a009fdf496a4a5e1827d64) - **feat:** add `srangeabs` to namespace _(by Athan Reines)_
+-   [`c66543d`](https://github.com/stdlib-js/stdlib/commit/c66543d7be8062e7a3efcc3e332e5e270986d59c) - **feat:** add `stats/base/ndarray/srangeabs` [(#9920)](https://github.com/stdlib-js/stdlib/pull/9920) _(by Sachin Pangal)_
+-   [`886ac7f`](https://github.com/stdlib-js/stdlib/commit/886ac7f190023a49a18e580f5345e9fdf71155bf) - **chore:** fix copyright year _(by Philipp Burckhardt)_
+-   [`e970275`](https://github.com/stdlib-js/stdlib/commit/e970275b9a144b5c27a875d315b6f6a6ab3ad063) - **docs:** update example _(by Athan Reines)_
+-   [`07e112a`](https://github.com/stdlib-js/stdlib/commit/07e112a03fc1c0308bdc38bcb0425dc2fe6faec5) - **feat:** add C API _(by Athan Reines)_
 -   [`e3e238d`](https://github.com/stdlib-js/stdlib/commit/e3e238dd684b98b67ad10ae4da51f33f1cf5413d) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#9914)](https://github.com/stdlib-js/stdlib/pull/9914) _(by stdlib-bot, Athan Reines)_
 -   [`ce2a3e1`](https://github.com/stdlib-js/stdlib/commit/ce2a3e195b5cfda0de0e06da8c7c82da70ff1339) - **docs:** fix example _(by Athan Reines)_
 -   [`196734e`](https://github.com/stdlib-js/stdlib/commit/196734eccb0d43439332b2a275fb3a50cb73df67) - **docs:** update namespace table of contents [(#9915)](https://github.com/stdlib-js/stdlib/pull/9915) _(by stdlib-bot)_
