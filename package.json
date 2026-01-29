@@ -401,7 +401,7 @@
     "@stdlib/stats-strided-variancewd": "github:stdlib-js/stats-strided-variancewd#main",
     "@stdlib/stats-strided-ztest": "github:stdlib-js/stats-strided-ztest#main",
     "@stdlib/stats-strided-ztest2": "github:stdlib-js/stats-strided-ztest2#main",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
