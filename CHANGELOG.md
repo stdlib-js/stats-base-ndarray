@@ -278,6 +278,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`3c0d17b`](https://github.com/stdlib-js/stdlib/commit/3c0d17b0ea89b722f56db662f6d5496713e16d3f) - **docs:** update namespace table of contents [(#9967)](https://github.com/stdlib-js/stdlib/pull/9967) _(by stdlib-bot)_
 -   [`a65d18d`](https://github.com/stdlib-js/stdlib/commit/a65d18d175d72246b54daca7ff8b59ccf7956f64) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#9966)](https://github.com/stdlib-js/stdlib/pull/9966) _(by stdlib-bot)_
 -   [`6a6d716`](https://github.com/stdlib-js/stdlib/commit/6a6d7163446fadaa9ffa3ca5ec01a44c77fe3c0c) - **feat:** add `drangeabs` to namespace _(by Athan Reines)_
 -   [`88808cc`](https://github.com/stdlib-js/stdlib/commit/88808ccb3992c3565daed22fc1d1cd6321f33802) - **feat:** add `stats/base/ndarray/drangeabs` [(#9919)](https://github.com/stdlib-js/stdlib/pull/9919) _(by Sachin Pangal)_
