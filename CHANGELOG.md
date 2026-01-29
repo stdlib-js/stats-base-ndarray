@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - add `smskmaxabs` to namespace
+-   [`00e8094`](https://github.com/stdlib-js/stdlib/commit/00e80949192deafa3d801d12df8933c613fcb52c) - add `mskmaxabs` to namespace
+-   [`ac01c27`](https://github.com/stdlib-js/stdlib/commit/ac01c274acc740fbf7ebad5b404d7ff2449b1b1d) - add `stats/base/ndarray/mskmaxabs` [(#9957)](https://github.com/stdlib-js/stdlib/pull/9957)
+-   [`b1c1ac0`](https://github.com/stdlib-js/stdlib/commit/b1c1ac0ca0ae8488c5cec52a8f109d29cddecff6) - add `stats/base/ndarray/smskmaxabs` [(#9961)](https://github.com/stdlib-js/stdlib/pull/9961)
 -   [`a65d18d`](https://github.com/stdlib-js/stdlib/commit/a65d18d175d72246b54daca7ff8b59ccf7956f64) - update `stats/base/ndarray` TypeScript declarations [(#9966)](https://github.com/stdlib-js/stdlib/pull/9966)
 -   [`6a6d716`](https://github.com/stdlib-js/stdlib/commit/6a6d7163446fadaa9ffa3ca5ec01a44c77fe3c0c) - add `drangeabs` to namespace
 -   [`88808cc`](https://github.com/stdlib-js/stdlib/commit/88808ccb3992c3565daed22fc1d1cd6321f33802) - add `stats/base/ndarray/drangeabs` [(#9919)](https://github.com/stdlib-js/stdlib/pull/9919)
@@ -237,6 +241,7 @@
 
 ### Bug Fixes
 
+-   [`17da583`](https://github.com/stdlib-js/stdlib/commit/17da583dbeb78fa8b171d68af7011cba7b4f6be6) - improve type specificity
 -   [`bda1a5c`](https://github.com/stdlib-js/stdlib/commit/bda1a5c6cfa6777839ab5f941296b2008880b75a) - use correct types
 -   [`20d29ed`](https://github.com/stdlib-js/stdlib/commit/20d29ed3410f2ff8ff6bfadbfb0a1f5a4b7e5fde) - use `int8ndarray` type for alternative hypothesis param in `ndarray/sztest` and `ndarray/dztest`
 -   [`00add1e`](https://github.com/stdlib-js/stdlib/commit/00add1eb9ad8dd682b8759a7401a4e900509931d) - use correct return value
@@ -278,6 +283,12 @@ This release closes the following issue:
 
 <details>
 
+-   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - **feat:** add `smskmaxabs` to namespace _(by Athan Reines)_
+-   [`00e8094`](https://github.com/stdlib-js/stdlib/commit/00e80949192deafa3d801d12df8933c613fcb52c) - **feat:** add `mskmaxabs` to namespace _(by Athan Reines)_
+-   [`498e8b2`](https://github.com/stdlib-js/stdlib/commit/498e8b2882c1737a5bf5757704a97c0c63d90711) - **docs:** move content to notes _(by Athan Reines)_
+-   [`ac01c27`](https://github.com/stdlib-js/stdlib/commit/ac01c274acc740fbf7ebad5b404d7ff2449b1b1d) - **feat:** add `stats/base/ndarray/mskmaxabs` [(#9957)](https://github.com/stdlib-js/stdlib/pull/9957) _(by Sachin Pangal, Athan Reines)_
+-   [`b1c1ac0`](https://github.com/stdlib-js/stdlib/commit/b1c1ac0ca0ae8488c5cec52a8f109d29cddecff6) - **feat:** add `stats/base/ndarray/smskmaxabs` [(#9961)](https://github.com/stdlib-js/stdlib/pull/9961) _(by Sachin Pangal, Athan Reines)_
+-   [`17da583`](https://github.com/stdlib-js/stdlib/commit/17da583dbeb78fa8b171d68af7011cba7b4f6be6) - **fix:** improve type specificity _(by Athan Reines)_
 -   [`3c0d17b`](https://github.com/stdlib-js/stdlib/commit/3c0d17b0ea89b722f56db662f6d5496713e16d3f) - **docs:** update namespace table of contents [(#9967)](https://github.com/stdlib-js/stdlib/pull/9967) _(by stdlib-bot)_
 -   [`a65d18d`](https://github.com/stdlib-js/stdlib/commit/a65d18d175d72246b54daca7ff8b59ccf7956f64) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#9966)](https://github.com/stdlib-js/stdlib/pull/9966) _(by stdlib-bot)_
 -   [`6a6d716`](https://github.com/stdlib-js/stdlib/commit/6a6d7163446fadaa9ffa3ca5ec01a44c77fe3c0c) - **feat:** add `drangeabs` to namespace _(by Athan Reines)_
