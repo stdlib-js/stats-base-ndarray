@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`18a1271`](https://github.com/stdlib-js/stdlib/commit/18a1271042bb0163ba7f0b6a74433852a8eb882a) - update `stats/base/ndarray` TypeScript declarations [(#9984)](https://github.com/stdlib-js/stdlib/pull/9984)
 -   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - add `smskmaxabs` to namespace
 -   [`00e8094`](https://github.com/stdlib-js/stdlib/commit/00e80949192deafa3d801d12df8933c613fcb52c) - add `mskmaxabs` to namespace
 -   [`ac01c27`](https://github.com/stdlib-js/stdlib/commit/ac01c274acc740fbf7ebad5b404d7ff2449b1b1d) - add `stats/base/ndarray/mskmaxabs` [(#9957)](https://github.com/stdlib-js/stdlib/pull/9957)
@@ -283,6 +284,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`18a1271`](https://github.com/stdlib-js/stdlib/commit/18a1271042bb0163ba7f0b6a74433852a8eb882a) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#9984)](https://github.com/stdlib-js/stdlib/pull/9984) _(by stdlib-bot)_
 -   [`9159299`](https://github.com/stdlib-js/stdlib/commit/915929996cd4681abd544eebe75198b9eda29fa3) - **docs:** update namespace table of contents [(#9986)](https://github.com/stdlib-js/stdlib/pull/9986) _(by stdlib-bot)_
 -   [`112d5e4`](https://github.com/stdlib-js/stdlib/commit/112d5e414e8e3b764e435aea7a3d8d41c62dabaf) - **bench:** refactor to use string interpolation _(by Athan Reines)_
 -   [`fb97a2e`](https://github.com/stdlib-js/stdlib/commit/fb97a2e03b8bace788979a6ab9d880669740cf76) - **refactor:** export native add-on if available _(by Athan Reines)_
