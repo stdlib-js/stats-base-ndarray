@@ -10,6 +10,13 @@
 
 ### Features
 
+-   [`fae4985`](https://github.com/stdlib-js/stdlib/commit/fae498583ef5643ae4826247852d855629e93d6a) - add `dstdevtk` and `dstdevyc` to namespace
+-   [`af66e3c`](https://github.com/stdlib-js/stdlib/commit/af66e3c56f7a54ffbd16308bf506657f1f4948d0) - add `sstdevyc` to namespace
+-   [`b1a3172`](https://github.com/stdlib-js/stdlib/commit/b1a31727a8fc6ba8cb2b07891e89c4c267a8242d) - add `sstdevtk` to namespace
+-   [`58c2966`](https://github.com/stdlib-js/stdlib/commit/58c296693a0d4b9674368b5bbf71fb0dc4389007) - add `stats/base/ndarray/sstdevtk` [(#9917)](https://github.com/stdlib-js/stdlib/pull/9917)
+-   [`67315ee`](https://github.com/stdlib-js/stdlib/commit/67315ee65982c6354194c8baa3f22c6709bf25d3) - add `stats/base/ndarray/dstdevyc` [(#9927)](https://github.com/stdlib-js/stdlib/pull/9927)
+-   [`ead840b`](https://github.com/stdlib-js/stdlib/commit/ead840b4a3cbadea51b04eb2614e379b411bd7ca) - add `stats/base/ndarray/sstdevyc` [(#9922)](https://github.com/stdlib-js/stdlib/pull/9922)
+-   [`f4f48b1`](https://github.com/stdlib-js/stdlib/commit/f4f48b130f926c2adff515c2a90ec99cbc308815) - add `stats/base/ndarray/dstdevtk` [(#9926)](https://github.com/stdlib-js/stdlib/pull/9926)
 -   [`18a1271`](https://github.com/stdlib-js/stdlib/commit/18a1271042bb0163ba7f0b6a74433852a8eb882a) - update `stats/base/ndarray` TypeScript declarations [(#9984)](https://github.com/stdlib-js/stdlib/pull/9984)
 -   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - add `smskmaxabs` to namespace
 -   [`00e8094`](https://github.com/stdlib-js/stdlib/commit/00e80949192deafa3d801d12df8933c613fcb52c) - add `mskmaxabs` to namespace
@@ -284,6 +291,13 @@ This release closes the following issue:
 
 <details>
 
+-   [`fae4985`](https://github.com/stdlib-js/stdlib/commit/fae498583ef5643ae4826247852d855629e93d6a) - **feat:** add `dstdevtk` and `dstdevyc` to namespace _(by Athan Reines)_
+-   [`af66e3c`](https://github.com/stdlib-js/stdlib/commit/af66e3c56f7a54ffbd16308bf506657f1f4948d0) - **feat:** add `sstdevyc` to namespace _(by Athan Reines)_
+-   [`b1a3172`](https://github.com/stdlib-js/stdlib/commit/b1a31727a8fc6ba8cb2b07891e89c4c267a8242d) - **feat:** add `sstdevtk` to namespace _(by Athan Reines)_
+-   [`58c2966`](https://github.com/stdlib-js/stdlib/commit/58c296693a0d4b9674368b5bbf71fb0dc4389007) - **feat:** add `stats/base/ndarray/sstdevtk` [(#9917)](https://github.com/stdlib-js/stdlib/pull/9917) _(by Samarth Kolarkar)_
+-   [`67315ee`](https://github.com/stdlib-js/stdlib/commit/67315ee65982c6354194c8baa3f22c6709bf25d3) - **feat:** add `stats/base/ndarray/dstdevyc` [(#9927)](https://github.com/stdlib-js/stdlib/pull/9927) _(by Samarth Kolarkar)_
+-   [`ead840b`](https://github.com/stdlib-js/stdlib/commit/ead840b4a3cbadea51b04eb2614e379b411bd7ca) - **feat:** add `stats/base/ndarray/sstdevyc` [(#9922)](https://github.com/stdlib-js/stdlib/pull/9922) _(by Samarth Kolarkar)_
+-   [`f4f48b1`](https://github.com/stdlib-js/stdlib/commit/f4f48b130f926c2adff515c2a90ec99cbc308815) - **feat:** add `stats/base/ndarray/dstdevtk` [(#9926)](https://github.com/stdlib-js/stdlib/pull/9926) _(by Samarth Kolarkar)_
 -   [`18a1271`](https://github.com/stdlib-js/stdlib/commit/18a1271042bb0163ba7f0b6a74433852a8eb882a) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#9984)](https://github.com/stdlib-js/stdlib/pull/9984) _(by stdlib-bot)_
 -   [`9159299`](https://github.com/stdlib-js/stdlib/commit/915929996cd4681abd544eebe75198b9eda29fa3) - **docs:** update namespace table of contents [(#9986)](https://github.com/stdlib-js/stdlib/pull/9986) _(by stdlib-bot)_
 -   [`112d5e4`](https://github.com/stdlib-js/stdlib/commit/112d5e414e8e3b764e435aea7a3d8d41c62dabaf) - **bench:** refactor to use string interpolation _(by Athan Reines)_
@@ -602,7 +616,7 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bureir AL
@@ -613,6 +627,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Philipp Burckhardt
 -   Pratik
 -   Sachin Pangal
+-   Samarth Kolarkar
 
 </section>
 
