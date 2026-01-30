@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-29)
+## Unreleased (2026-01-30)
 
 <section class="features">
 
@@ -283,6 +283,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`9159299`](https://github.com/stdlib-js/stdlib/commit/915929996cd4681abd544eebe75198b9eda29fa3) - **docs:** update namespace table of contents [(#9986)](https://github.com/stdlib-js/stdlib/pull/9986) _(by stdlib-bot)_
+-   [`112d5e4`](https://github.com/stdlib-js/stdlib/commit/112d5e414e8e3b764e435aea7a3d8d41c62dabaf) - **bench:** refactor to use string interpolation _(by Athan Reines)_
+-   [`fb97a2e`](https://github.com/stdlib-js/stdlib/commit/fb97a2e03b8bace788979a6ab9d880669740cf76) - **refactor:** export native add-on if available _(by Athan Reines)_
 -   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - **feat:** add `smskmaxabs` to namespace _(by Athan Reines)_
 -   [`00e8094`](https://github.com/stdlib-js/stdlib/commit/00e80949192deafa3d801d12df8933c613fcb52c) - **feat:** add `mskmaxabs` to namespace _(by Athan Reines)_
 -   [`498e8b2`](https://github.com/stdlib-js/stdlib/commit/498e8b2882c1737a5bf5757704a97c0c63d90711) - **docs:** move content to notes _(by Athan Reines)_
