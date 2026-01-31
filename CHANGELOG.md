@@ -2,14 +2,17 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.1.0">
 
-## Unreleased (2026-01-30)
+## 0.1.0 (2026-01-31)
 
 <section class="features">
 
 ### Features
 
+-   [`d660cab`](https://github.com/stdlib-js/stdlib/commit/d660cabc2799c7f43cda85b7a4ff65e0995a9a1e) - add C implementation for `stats/base/ndarray/smin` [(#9981)](https://github.com/stdlib-js/stdlib/pull/9981)
+-   [`041e713`](https://github.com/stdlib-js/stdlib/commit/041e7138e20a8149b85835d9067c4065ce856893) - add C implementation for `stats/base/ndarray/smax` [(#9956)](https://github.com/stdlib-js/stdlib/pull/9956)
+-   [`bbaef7b`](https://github.com/stdlib-js/stdlib/commit/bbaef7b113570a432bd33e31d03f18f070f3814b) - add C implementation for `stats/base/ndarray/dmin` [(#9939)](https://github.com/stdlib-js/stdlib/pull/9939)
 -   [`fae4985`](https://github.com/stdlib-js/stdlib/commit/fae498583ef5643ae4826247852d855629e93d6a) - add `dstdevtk` and `dstdevyc` to namespace
 -   [`af66e3c`](https://github.com/stdlib-js/stdlib/commit/af66e3c56f7a54ffbd16308bf506657f1f4948d0) - add `sstdevyc` to namespace
 -   [`b1a3172`](https://github.com/stdlib-js/stdlib/commit/b1a31727a8fc6ba8cb2b07891e89c4c267a8242d) - add `sstdevtk` to namespace
@@ -291,6 +294,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`d660cab`](https://github.com/stdlib-js/stdlib/commit/d660cabc2799c7f43cda85b7a4ff65e0995a9a1e) - **feat:** add C implementation for `stats/base/ndarray/smin` [(#9981)](https://github.com/stdlib-js/stdlib/pull/9981) _(by Kaustubh Patange, Athan Reines)_
+-   [`041e713`](https://github.com/stdlib-js/stdlib/commit/041e7138e20a8149b85835d9067c4065ce856893) - **feat:** add C implementation for `stats/base/ndarray/smax` [(#9956)](https://github.com/stdlib-js/stdlib/pull/9956) _(by Kaustubh Patange, Athan Reines)_
+-   [`bbaef7b`](https://github.com/stdlib-js/stdlib/commit/bbaef7b113570a432bd33e31d03f18f070f3814b) - **feat:** add C implementation for `stats/base/ndarray/dmin` [(#9939)](https://github.com/stdlib-js/stdlib/pull/9939) _(by Kaustubh Patange)_
 -   [`fae4985`](https://github.com/stdlib-js/stdlib/commit/fae498583ef5643ae4826247852d855629e93d6a) - **feat:** add `dstdevtk` and `dstdevyc` to namespace _(by Athan Reines)_
 -   [`af66e3c`](https://github.com/stdlib-js/stdlib/commit/af66e3c56f7a54ffbd16308bf506657f1f4948d0) - **feat:** add `sstdevyc` to namespace _(by Athan Reines)_
 -   [`b1a3172`](https://github.com/stdlib-js/stdlib/commit/b1a31727a8fc6ba8cb2b07891e89c4c267a8242d) - **feat:** add `sstdevtk` to namespace _(by Athan Reines)_
