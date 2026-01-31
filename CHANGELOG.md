@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`ec0d83c`](https://github.com/stdlib-js/stdlib/commit/ec0d83c87503b82fc4a192b6886ea3feab4b3448) - **docs:** update namespace table of contents [(#10003)](https://github.com/stdlib-js/stdlib/pull/10003) _(by stdlib-bot)_
 -   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001) _(by stdlib-bot)_
 
 </details>
