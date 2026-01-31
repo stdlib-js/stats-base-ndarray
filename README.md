@@ -35,32 +35,20 @@ limitations under the License.
 
 > Base ndarray statistical functions.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-base-ndarray
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/stats-base-ndarray' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { covarmtk, cumax, cumin, dcovarmtk, dcumax, dcumaxabs, dcumin, dcuminabs, dmax, dmaxabs, dmaxabssorted, dmaxsorted, dmean, dmeankbn, dmeankbn2, dmeanli, dmeanlipw, dmeanors, dmeanpn, dmeanpw, dmeanstdev, dmeanwd, dmediansorted, dmidrange, dmin, dminabs, dminsorted, dmskmax, dmskmin, dmskrange, dnanmax, dnanmaxabs, dnanmean, dnanmeanors, dnanmeanpn, dnanmeanpw, dnanmeanwd, dnanmidrange, dnanmin, dnanminabs, dnanmskmax, dnanmskmin, dnanmskrange, dnanrange, drange, drangeabs, dstdev, dstdevch, dstdevpn, dstdevtk, dstdevwd, dstdevyc, dztest, dztest2, max, maxBy, maxabs, maxsorted, mean, meankbn, meankbn2, meanors, meanpn, meanpw, meanwd, mediansorted, midrange, midrangeBy, min, minBy, minabs, minsorted, mskmax, mskmaxabs, mskmidrange, mskmin, mskrange, nanmax, nanmaxBy, nanmaxabs, nanmean, nanmeanors, nanmeanpn, nanmeanwd, nanmidrange, nanmidrangeBy, nanmin, nanminBy, nanminabs, nanmskmax, nanmskmin, nanmskrange, nanrange, nanrangeBy, range, rangeBy, rangeabs, scovarmtk, scumax, scumaxabs, scumin, scuminabs, sdsmean, sdsmeanors, sdsnanmeanors, smax, smaxabs, smaxabssorted, smaxsorted, smean, smeankbn, smeankbn2, smeanli, smeanlipw, smeanors, smeanpn, smeanpw, smeanwd, smediansorted, smidrange, smin, sminabs, sminsorted, smskmax, smskmaxabs, smskmidrange, smskmin, smskrange, snanmax, snanmaxabs, snanmean, snanmeanors, snanmeanpn, snanmeanwd, snanmidrange, snanmin, snanminabs, snanmskmax, snanmskmin, snanmskrange, snanrange, srange, srangeabs, sstdev, sstdevch, sstdevpn, sstdevtk, sstdevwd, sstdevyc, stdev, stdevch, stdevpn, stdevtk, stdevwd, stdevyc, sztest, sztest2, variance, variancech, variancewd, ztest, ztest2 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray@esm/index.mjs';
 ```
 
 #### ns
@@ -253,11 +241,20 @@ The namespace exposes the following APIs:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/stats-base-ndarray' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -281,7 +278,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -346,321 +343,321 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/ndarray/covarmtk]: https://github.com/stdlib-js/stats-base-ndarray-covarmtk
+[@stdlib/stats/base/ndarray/covarmtk]: https://github.com/stdlib-js/stats-base-ndarray-covarmtk/tree/esm
 
-[@stdlib/stats/base/ndarray/cumax]: https://github.com/stdlib-js/stats-base-ndarray-cumax
+[@stdlib/stats/base/ndarray/cumax]: https://github.com/stdlib-js/stats-base-ndarray-cumax/tree/esm
 
-[@stdlib/stats/base/ndarray/cumin]: https://github.com/stdlib-js/stats-base-ndarray-cumin
+[@stdlib/stats/base/ndarray/cumin]: https://github.com/stdlib-js/stats-base-ndarray-cumin/tree/esm
 
-[@stdlib/stats/base/ndarray/dcovarmtk]: https://github.com/stdlib-js/stats-base-ndarray-dcovarmtk
+[@stdlib/stats/base/ndarray/dcovarmtk]: https://github.com/stdlib-js/stats-base-ndarray-dcovarmtk/tree/esm
 
-[@stdlib/stats/base/ndarray/dcumax]: https://github.com/stdlib-js/stats-base-ndarray-dcumax
+[@stdlib/stats/base/ndarray/dcumax]: https://github.com/stdlib-js/stats-base-ndarray-dcumax/tree/esm
 
-[@stdlib/stats/base/ndarray/dcumaxabs]: https://github.com/stdlib-js/stats-base-ndarray-dcumaxabs
+[@stdlib/stats/base/ndarray/dcumaxabs]: https://github.com/stdlib-js/stats-base-ndarray-dcumaxabs/tree/esm
 
-[@stdlib/stats/base/ndarray/dcumin]: https://github.com/stdlib-js/stats-base-ndarray-dcumin
+[@stdlib/stats/base/ndarray/dcumin]: https://github.com/stdlib-js/stats-base-ndarray-dcumin/tree/esm
 
-[@stdlib/stats/base/ndarray/dcuminabs]: https://github.com/stdlib-js/stats-base-ndarray-dcuminabs
+[@stdlib/stats/base/ndarray/dcuminabs]: https://github.com/stdlib-js/stats-base-ndarray-dcuminabs/tree/esm
 
-[@stdlib/stats/base/ndarray/dmax]: https://github.com/stdlib-js/stats-base-ndarray-dmax
+[@stdlib/stats/base/ndarray/dmax]: https://github.com/stdlib-js/stats-base-ndarray-dmax/tree/esm
 
-[@stdlib/stats/base/ndarray/dmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-dmaxabs
+[@stdlib/stats/base/ndarray/dmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-dmaxabs/tree/esm
 
-[@stdlib/stats/base/ndarray/dmaxabssorted]: https://github.com/stdlib-js/stats-base-ndarray-dmaxabssorted
+[@stdlib/stats/base/ndarray/dmaxabssorted]: https://github.com/stdlib-js/stats-base-ndarray-dmaxabssorted/tree/esm
 
-[@stdlib/stats/base/ndarray/dmaxsorted]: https://github.com/stdlib-js/stats-base-ndarray-dmaxsorted
+[@stdlib/stats/base/ndarray/dmaxsorted]: https://github.com/stdlib-js/stats-base-ndarray-dmaxsorted/tree/esm
 
-[@stdlib/stats/base/ndarray/dmean]: https://github.com/stdlib-js/stats-base-ndarray-dmean
+[@stdlib/stats/base/ndarray/dmean]: https://github.com/stdlib-js/stats-base-ndarray-dmean/tree/esm
 
-[@stdlib/stats/base/ndarray/dmeankbn]: https://github.com/stdlib-js/stats-base-ndarray-dmeankbn
+[@stdlib/stats/base/ndarray/dmeankbn]: https://github.com/stdlib-js/stats-base-ndarray-dmeankbn/tree/esm
 
-[@stdlib/stats/base/ndarray/dmeankbn2]: https://github.com/stdlib-js/stats-base-ndarray-dmeankbn2
+[@stdlib/stats/base/ndarray/dmeankbn2]: https://github.com/stdlib-js/stats-base-ndarray-dmeankbn2/tree/esm
 
-[@stdlib/stats/base/ndarray/dmeanli]: https://github.com/stdlib-js/stats-base-ndarray-dmeanli
+[@stdlib/stats/base/ndarray/dmeanli]: https://github.com/stdlib-js/stats-base-ndarray-dmeanli/tree/esm
 
-[@stdlib/stats/base/ndarray/dmeanlipw]: https://github.com/stdlib-js/stats-base-ndarray-dmeanlipw
+[@stdlib/stats/base/ndarray/dmeanlipw]: https://github.com/stdlib-js/stats-base-ndarray-dmeanlipw/tree/esm
 
-[@stdlib/stats/base/ndarray/dmeanors]: https://github.com/stdlib-js/stats-base-ndarray-dmeanors
+[@stdlib/stats/base/ndarray/dmeanors]: https://github.com/stdlib-js/stats-base-ndarray-dmeanors/tree/esm
 
-[@stdlib/stats/base/ndarray/dmeanpn]: https://github.com/stdlib-js/stats-base-ndarray-dmeanpn
+[@stdlib/stats/base/ndarray/dmeanpn]: https://github.com/stdlib-js/stats-base-ndarray-dmeanpn/tree/esm
 
-[@stdlib/stats/base/ndarray/dmeanpw]: https://github.com/stdlib-js/stats-base-ndarray-dmeanpw
+[@stdlib/stats/base/ndarray/dmeanpw]: https://github.com/stdlib-js/stats-base-ndarray-dmeanpw/tree/esm
 
-[@stdlib/stats/base/ndarray/dmeanstdev]: https://github.com/stdlib-js/stats-base-ndarray-dmeanstdev
+[@stdlib/stats/base/ndarray/dmeanstdev]: https://github.com/stdlib-js/stats-base-ndarray-dmeanstdev/tree/esm
 
-[@stdlib/stats/base/ndarray/dmeanwd]: https://github.com/stdlib-js/stats-base-ndarray-dmeanwd
+[@stdlib/stats/base/ndarray/dmeanwd]: https://github.com/stdlib-js/stats-base-ndarray-dmeanwd/tree/esm
 
-[@stdlib/stats/base/ndarray/dmediansorted]: https://github.com/stdlib-js/stats-base-ndarray-dmediansorted
+[@stdlib/stats/base/ndarray/dmediansorted]: https://github.com/stdlib-js/stats-base-ndarray-dmediansorted/tree/esm
 
-[@stdlib/stats/base/ndarray/dmidrange]: https://github.com/stdlib-js/stats-base-ndarray-dmidrange
+[@stdlib/stats/base/ndarray/dmidrange]: https://github.com/stdlib-js/stats-base-ndarray-dmidrange/tree/esm
 
-[@stdlib/stats/base/ndarray/dmin]: https://github.com/stdlib-js/stats-base-ndarray-dmin
+[@stdlib/stats/base/ndarray/dmin]: https://github.com/stdlib-js/stats-base-ndarray-dmin/tree/esm
 
-[@stdlib/stats/base/ndarray/dminabs]: https://github.com/stdlib-js/stats-base-ndarray-dminabs
+[@stdlib/stats/base/ndarray/dminabs]: https://github.com/stdlib-js/stats-base-ndarray-dminabs/tree/esm
 
-[@stdlib/stats/base/ndarray/dminsorted]: https://github.com/stdlib-js/stats-base-ndarray-dminsorted
+[@stdlib/stats/base/ndarray/dminsorted]: https://github.com/stdlib-js/stats-base-ndarray-dminsorted/tree/esm
 
-[@stdlib/stats/base/ndarray/dmskmax]: https://github.com/stdlib-js/stats-base-ndarray-dmskmax
+[@stdlib/stats/base/ndarray/dmskmax]: https://github.com/stdlib-js/stats-base-ndarray-dmskmax/tree/esm
 
-[@stdlib/stats/base/ndarray/dmskmin]: https://github.com/stdlib-js/stats-base-ndarray-dmskmin
+[@stdlib/stats/base/ndarray/dmskmin]: https://github.com/stdlib-js/stats-base-ndarray-dmskmin/tree/esm
 
-[@stdlib/stats/base/ndarray/dmskrange]: https://github.com/stdlib-js/stats-base-ndarray-dmskrange
+[@stdlib/stats/base/ndarray/dmskrange]: https://github.com/stdlib-js/stats-base-ndarray-dmskrange/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmax]: https://github.com/stdlib-js/stats-base-ndarray-dnanmax
+[@stdlib/stats/base/ndarray/dnanmax]: https://github.com/stdlib-js/stats-base-ndarray-dnanmax/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-dnanmaxabs
+[@stdlib/stats/base/ndarray/dnanmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-dnanmaxabs/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmean]: https://github.com/stdlib-js/stats-base-ndarray-dnanmean
+[@stdlib/stats/base/ndarray/dnanmean]: https://github.com/stdlib-js/stats-base-ndarray-dnanmean/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmeanors]: https://github.com/stdlib-js/stats-base-ndarray-dnanmeanors
+[@stdlib/stats/base/ndarray/dnanmeanors]: https://github.com/stdlib-js/stats-base-ndarray-dnanmeanors/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmeanpn]: https://github.com/stdlib-js/stats-base-ndarray-dnanmeanpn
+[@stdlib/stats/base/ndarray/dnanmeanpn]: https://github.com/stdlib-js/stats-base-ndarray-dnanmeanpn/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmeanpw]: https://github.com/stdlib-js/stats-base-ndarray-dnanmeanpw
+[@stdlib/stats/base/ndarray/dnanmeanpw]: https://github.com/stdlib-js/stats-base-ndarray-dnanmeanpw/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmeanwd]: https://github.com/stdlib-js/stats-base-ndarray-dnanmeanwd
+[@stdlib/stats/base/ndarray/dnanmeanwd]: https://github.com/stdlib-js/stats-base-ndarray-dnanmeanwd/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmidrange]: https://github.com/stdlib-js/stats-base-ndarray-dnanmidrange
+[@stdlib/stats/base/ndarray/dnanmidrange]: https://github.com/stdlib-js/stats-base-ndarray-dnanmidrange/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmin]: https://github.com/stdlib-js/stats-base-ndarray-dnanmin
+[@stdlib/stats/base/ndarray/dnanmin]: https://github.com/stdlib-js/stats-base-ndarray-dnanmin/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanminabs]: https://github.com/stdlib-js/stats-base-ndarray-dnanminabs
+[@stdlib/stats/base/ndarray/dnanminabs]: https://github.com/stdlib-js/stats-base-ndarray-dnanminabs/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmskmax]: https://github.com/stdlib-js/stats-base-ndarray-dnanmskmax
+[@stdlib/stats/base/ndarray/dnanmskmax]: https://github.com/stdlib-js/stats-base-ndarray-dnanmskmax/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmskmin]: https://github.com/stdlib-js/stats-base-ndarray-dnanmskmin
+[@stdlib/stats/base/ndarray/dnanmskmin]: https://github.com/stdlib-js/stats-base-ndarray-dnanmskmin/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanmskrange]: https://github.com/stdlib-js/stats-base-ndarray-dnanmskrange
+[@stdlib/stats/base/ndarray/dnanmskrange]: https://github.com/stdlib-js/stats-base-ndarray-dnanmskrange/tree/esm
 
-[@stdlib/stats/base/ndarray/dnanrange]: https://github.com/stdlib-js/stats-base-ndarray-dnanrange
+[@stdlib/stats/base/ndarray/dnanrange]: https://github.com/stdlib-js/stats-base-ndarray-dnanrange/tree/esm
 
-[@stdlib/stats/base/ndarray/drange]: https://github.com/stdlib-js/stats-base-ndarray-drange
+[@stdlib/stats/base/ndarray/drange]: https://github.com/stdlib-js/stats-base-ndarray-drange/tree/esm
 
-[@stdlib/stats/base/ndarray/drangeabs]: https://github.com/stdlib-js/stats-base-ndarray-drangeabs
+[@stdlib/stats/base/ndarray/drangeabs]: https://github.com/stdlib-js/stats-base-ndarray-drangeabs/tree/esm
 
-[@stdlib/stats/base/ndarray/dstdev]: https://github.com/stdlib-js/stats-base-ndarray-dstdev
+[@stdlib/stats/base/ndarray/dstdev]: https://github.com/stdlib-js/stats-base-ndarray-dstdev/tree/esm
 
-[@stdlib/stats/base/ndarray/dstdevch]: https://github.com/stdlib-js/stats-base-ndarray-dstdevch
+[@stdlib/stats/base/ndarray/dstdevch]: https://github.com/stdlib-js/stats-base-ndarray-dstdevch/tree/esm
 
-[@stdlib/stats/base/ndarray/dstdevpn]: https://github.com/stdlib-js/stats-base-ndarray-dstdevpn
+[@stdlib/stats/base/ndarray/dstdevpn]: https://github.com/stdlib-js/stats-base-ndarray-dstdevpn/tree/esm
 
-[@stdlib/stats/base/ndarray/dstdevwd]: https://github.com/stdlib-js/stats-base-ndarray-dstdevwd
+[@stdlib/stats/base/ndarray/dstdevwd]: https://github.com/stdlib-js/stats-base-ndarray-dstdevwd/tree/esm
 
-[@stdlib/stats/base/ndarray/dztest]: https://github.com/stdlib-js/stats-base-ndarray-dztest
+[@stdlib/stats/base/ndarray/dztest]: https://github.com/stdlib-js/stats-base-ndarray-dztest/tree/esm
 
-[@stdlib/stats/base/ndarray/dztest2]: https://github.com/stdlib-js/stats-base-ndarray-dztest2
+[@stdlib/stats/base/ndarray/dztest2]: https://github.com/stdlib-js/stats-base-ndarray-dztest2/tree/esm
 
-[@stdlib/stats/base/ndarray/max-by]: https://github.com/stdlib-js/stats-base-ndarray-max-by
+[@stdlib/stats/base/ndarray/max-by]: https://github.com/stdlib-js/stats-base-ndarray-max-by/tree/esm
 
-[@stdlib/stats/base/ndarray/max]: https://github.com/stdlib-js/stats-base-ndarray-max
+[@stdlib/stats/base/ndarray/max]: https://github.com/stdlib-js/stats-base-ndarray-max/tree/esm
 
-[@stdlib/stats/base/ndarray/maxabs]: https://github.com/stdlib-js/stats-base-ndarray-maxabs
+[@stdlib/stats/base/ndarray/maxabs]: https://github.com/stdlib-js/stats-base-ndarray-maxabs/tree/esm
 
-[@stdlib/stats/base/ndarray/maxsorted]: https://github.com/stdlib-js/stats-base-ndarray-maxsorted
+[@stdlib/stats/base/ndarray/maxsorted]: https://github.com/stdlib-js/stats-base-ndarray-maxsorted/tree/esm
 
-[@stdlib/stats/base/ndarray/mean]: https://github.com/stdlib-js/stats-base-ndarray-mean
+[@stdlib/stats/base/ndarray/mean]: https://github.com/stdlib-js/stats-base-ndarray-mean/tree/esm
 
-[@stdlib/stats/base/ndarray/meankbn]: https://github.com/stdlib-js/stats-base-ndarray-meankbn
+[@stdlib/stats/base/ndarray/meankbn]: https://github.com/stdlib-js/stats-base-ndarray-meankbn/tree/esm
 
-[@stdlib/stats/base/ndarray/meankbn2]: https://github.com/stdlib-js/stats-base-ndarray-meankbn2
+[@stdlib/stats/base/ndarray/meankbn2]: https://github.com/stdlib-js/stats-base-ndarray-meankbn2/tree/esm
 
-[@stdlib/stats/base/ndarray/meanors]: https://github.com/stdlib-js/stats-base-ndarray-meanors
+[@stdlib/stats/base/ndarray/meanors]: https://github.com/stdlib-js/stats-base-ndarray-meanors/tree/esm
 
-[@stdlib/stats/base/ndarray/meanpn]: https://github.com/stdlib-js/stats-base-ndarray-meanpn
+[@stdlib/stats/base/ndarray/meanpn]: https://github.com/stdlib-js/stats-base-ndarray-meanpn/tree/esm
 
-[@stdlib/stats/base/ndarray/meanpw]: https://github.com/stdlib-js/stats-base-ndarray-meanpw
+[@stdlib/stats/base/ndarray/meanpw]: https://github.com/stdlib-js/stats-base-ndarray-meanpw/tree/esm
 
-[@stdlib/stats/base/ndarray/meanwd]: https://github.com/stdlib-js/stats-base-ndarray-meanwd
+[@stdlib/stats/base/ndarray/meanwd]: https://github.com/stdlib-js/stats-base-ndarray-meanwd/tree/esm
 
-[@stdlib/stats/base/ndarray/mediansorted]: https://github.com/stdlib-js/stats-base-ndarray-mediansorted
+[@stdlib/stats/base/ndarray/mediansorted]: https://github.com/stdlib-js/stats-base-ndarray-mediansorted/tree/esm
 
-[@stdlib/stats/base/ndarray/midrange-by]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by
+[@stdlib/stats/base/ndarray/midrange-by]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by/tree/esm
 
-[@stdlib/stats/base/ndarray/midrange]: https://github.com/stdlib-js/stats-base-ndarray-midrange
+[@stdlib/stats/base/ndarray/midrange]: https://github.com/stdlib-js/stats-base-ndarray-midrange/tree/esm
 
-[@stdlib/stats/base/ndarray/min-by]: https://github.com/stdlib-js/stats-base-ndarray-min-by
+[@stdlib/stats/base/ndarray/min-by]: https://github.com/stdlib-js/stats-base-ndarray-min-by/tree/esm
 
-[@stdlib/stats/base/ndarray/min]: https://github.com/stdlib-js/stats-base-ndarray-min
+[@stdlib/stats/base/ndarray/min]: https://github.com/stdlib-js/stats-base-ndarray-min/tree/esm
 
-[@stdlib/stats/base/ndarray/minabs]: https://github.com/stdlib-js/stats-base-ndarray-minabs
+[@stdlib/stats/base/ndarray/minabs]: https://github.com/stdlib-js/stats-base-ndarray-minabs/tree/esm
 
-[@stdlib/stats/base/ndarray/minsorted]: https://github.com/stdlib-js/stats-base-ndarray-minsorted
+[@stdlib/stats/base/ndarray/minsorted]: https://github.com/stdlib-js/stats-base-ndarray-minsorted/tree/esm
 
-[@stdlib/stats/base/ndarray/mskmax]: https://github.com/stdlib-js/stats-base-ndarray-mskmax
+[@stdlib/stats/base/ndarray/mskmax]: https://github.com/stdlib-js/stats-base-ndarray-mskmax/tree/esm
 
-[@stdlib/stats/base/ndarray/mskmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-mskmaxabs
+[@stdlib/stats/base/ndarray/mskmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-mskmaxabs/tree/esm
 
-[@stdlib/stats/base/ndarray/mskmidrange]: https://github.com/stdlib-js/stats-base-ndarray-mskmidrange
+[@stdlib/stats/base/ndarray/mskmidrange]: https://github.com/stdlib-js/stats-base-ndarray-mskmidrange/tree/esm
 
-[@stdlib/stats/base/ndarray/mskmin]: https://github.com/stdlib-js/stats-base-ndarray-mskmin
+[@stdlib/stats/base/ndarray/mskmin]: https://github.com/stdlib-js/stats-base-ndarray-mskmin/tree/esm
 
-[@stdlib/stats/base/ndarray/mskrange]: https://github.com/stdlib-js/stats-base-ndarray-mskrange
+[@stdlib/stats/base/ndarray/mskrange]: https://github.com/stdlib-js/stats-base-ndarray-mskrange/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmax-by]: https://github.com/stdlib-js/stats-base-ndarray-nanmax-by
+[@stdlib/stats/base/ndarray/nanmax-by]: https://github.com/stdlib-js/stats-base-ndarray-nanmax-by/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmax]: https://github.com/stdlib-js/stats-base-ndarray-nanmax
+[@stdlib/stats/base/ndarray/nanmax]: https://github.com/stdlib-js/stats-base-ndarray-nanmax/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-nanmaxabs
+[@stdlib/stats/base/ndarray/nanmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-nanmaxabs/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmean]: https://github.com/stdlib-js/stats-base-ndarray-nanmean
+[@stdlib/stats/base/ndarray/nanmean]: https://github.com/stdlib-js/stats-base-ndarray-nanmean/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmeanors]: https://github.com/stdlib-js/stats-base-ndarray-nanmeanors
+[@stdlib/stats/base/ndarray/nanmeanors]: https://github.com/stdlib-js/stats-base-ndarray-nanmeanors/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmeanpn]: https://github.com/stdlib-js/stats-base-ndarray-nanmeanpn
+[@stdlib/stats/base/ndarray/nanmeanpn]: https://github.com/stdlib-js/stats-base-ndarray-nanmeanpn/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmeanwd]: https://github.com/stdlib-js/stats-base-ndarray-nanmeanwd
+[@stdlib/stats/base/ndarray/nanmeanwd]: https://github.com/stdlib-js/stats-base-ndarray-nanmeanwd/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmidrange-by]: https://github.com/stdlib-js/stats-base-ndarray-nanmidrange-by
+[@stdlib/stats/base/ndarray/nanmidrange-by]: https://github.com/stdlib-js/stats-base-ndarray-nanmidrange-by/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmidrange]: https://github.com/stdlib-js/stats-base-ndarray-nanmidrange
+[@stdlib/stats/base/ndarray/nanmidrange]: https://github.com/stdlib-js/stats-base-ndarray-nanmidrange/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmin-by]: https://github.com/stdlib-js/stats-base-ndarray-nanmin-by
+[@stdlib/stats/base/ndarray/nanmin-by]: https://github.com/stdlib-js/stats-base-ndarray-nanmin-by/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmin]: https://github.com/stdlib-js/stats-base-ndarray-nanmin
+[@stdlib/stats/base/ndarray/nanmin]: https://github.com/stdlib-js/stats-base-ndarray-nanmin/tree/esm
 
-[@stdlib/stats/base/ndarray/nanminabs]: https://github.com/stdlib-js/stats-base-ndarray-nanminabs
+[@stdlib/stats/base/ndarray/nanminabs]: https://github.com/stdlib-js/stats-base-ndarray-nanminabs/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmskmax]: https://github.com/stdlib-js/stats-base-ndarray-nanmskmax
+[@stdlib/stats/base/ndarray/nanmskmax]: https://github.com/stdlib-js/stats-base-ndarray-nanmskmax/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmskmin]: https://github.com/stdlib-js/stats-base-ndarray-nanmskmin
+[@stdlib/stats/base/ndarray/nanmskmin]: https://github.com/stdlib-js/stats-base-ndarray-nanmskmin/tree/esm
 
-[@stdlib/stats/base/ndarray/nanmskrange]: https://github.com/stdlib-js/stats-base-ndarray-nanmskrange
+[@stdlib/stats/base/ndarray/nanmskrange]: https://github.com/stdlib-js/stats-base-ndarray-nanmskrange/tree/esm
 
-[@stdlib/stats/base/ndarray/nanrange-by]: https://github.com/stdlib-js/stats-base-ndarray-nanrange-by
+[@stdlib/stats/base/ndarray/nanrange-by]: https://github.com/stdlib-js/stats-base-ndarray-nanrange-by/tree/esm
 
-[@stdlib/stats/base/ndarray/nanrange]: https://github.com/stdlib-js/stats-base-ndarray-nanrange
+[@stdlib/stats/base/ndarray/nanrange]: https://github.com/stdlib-js/stats-base-ndarray-nanrange/tree/esm
 
-[@stdlib/stats/base/ndarray/range-by]: https://github.com/stdlib-js/stats-base-ndarray-range-by
+[@stdlib/stats/base/ndarray/range-by]: https://github.com/stdlib-js/stats-base-ndarray-range-by/tree/esm
 
-[@stdlib/stats/base/ndarray/range]: https://github.com/stdlib-js/stats-base-ndarray-range
+[@stdlib/stats/base/ndarray/range]: https://github.com/stdlib-js/stats-base-ndarray-range/tree/esm
 
-[@stdlib/stats/base/ndarray/rangeabs]: https://github.com/stdlib-js/stats-base-ndarray-rangeabs
+[@stdlib/stats/base/ndarray/rangeabs]: https://github.com/stdlib-js/stats-base-ndarray-rangeabs/tree/esm
 
-[@stdlib/stats/base/ndarray/scovarmtk]: https://github.com/stdlib-js/stats-base-ndarray-scovarmtk
+[@stdlib/stats/base/ndarray/scovarmtk]: https://github.com/stdlib-js/stats-base-ndarray-scovarmtk/tree/esm
 
-[@stdlib/stats/base/ndarray/scumax]: https://github.com/stdlib-js/stats-base-ndarray-scumax
+[@stdlib/stats/base/ndarray/scumax]: https://github.com/stdlib-js/stats-base-ndarray-scumax/tree/esm
 
-[@stdlib/stats/base/ndarray/scumaxabs]: https://github.com/stdlib-js/stats-base-ndarray-scumaxabs
+[@stdlib/stats/base/ndarray/scumaxabs]: https://github.com/stdlib-js/stats-base-ndarray-scumaxabs/tree/esm
 
-[@stdlib/stats/base/ndarray/scumin]: https://github.com/stdlib-js/stats-base-ndarray-scumin
+[@stdlib/stats/base/ndarray/scumin]: https://github.com/stdlib-js/stats-base-ndarray-scumin/tree/esm
 
-[@stdlib/stats/base/ndarray/scuminabs]: https://github.com/stdlib-js/stats-base-ndarray-scuminabs
+[@stdlib/stats/base/ndarray/scuminabs]: https://github.com/stdlib-js/stats-base-ndarray-scuminabs/tree/esm
 
-[@stdlib/stats/base/ndarray/sdsmean]: https://github.com/stdlib-js/stats-base-ndarray-sdsmean
+[@stdlib/stats/base/ndarray/sdsmean]: https://github.com/stdlib-js/stats-base-ndarray-sdsmean/tree/esm
 
-[@stdlib/stats/base/ndarray/sdsmeanors]: https://github.com/stdlib-js/stats-base-ndarray-sdsmeanors
+[@stdlib/stats/base/ndarray/sdsmeanors]: https://github.com/stdlib-js/stats-base-ndarray-sdsmeanors/tree/esm
 
-[@stdlib/stats/base/ndarray/sdsnanmeanors]: https://github.com/stdlib-js/stats-base-ndarray-sdsnanmeanors
+[@stdlib/stats/base/ndarray/sdsnanmeanors]: https://github.com/stdlib-js/stats-base-ndarray-sdsnanmeanors/tree/esm
 
-[@stdlib/stats/base/ndarray/smax]: https://github.com/stdlib-js/stats-base-ndarray-smax
+[@stdlib/stats/base/ndarray/smax]: https://github.com/stdlib-js/stats-base-ndarray-smax/tree/esm
 
-[@stdlib/stats/base/ndarray/smaxabs]: https://github.com/stdlib-js/stats-base-ndarray-smaxabs
+[@stdlib/stats/base/ndarray/smaxabs]: https://github.com/stdlib-js/stats-base-ndarray-smaxabs/tree/esm
 
-[@stdlib/stats/base/ndarray/smaxabssorted]: https://github.com/stdlib-js/stats-base-ndarray-smaxabssorted
+[@stdlib/stats/base/ndarray/smaxabssorted]: https://github.com/stdlib-js/stats-base-ndarray-smaxabssorted/tree/esm
 
-[@stdlib/stats/base/ndarray/smaxsorted]: https://github.com/stdlib-js/stats-base-ndarray-smaxsorted
+[@stdlib/stats/base/ndarray/smaxsorted]: https://github.com/stdlib-js/stats-base-ndarray-smaxsorted/tree/esm
 
-[@stdlib/stats/base/ndarray/smean]: https://github.com/stdlib-js/stats-base-ndarray-smean
+[@stdlib/stats/base/ndarray/smean]: https://github.com/stdlib-js/stats-base-ndarray-smean/tree/esm
 
-[@stdlib/stats/base/ndarray/smeankbn]: https://github.com/stdlib-js/stats-base-ndarray-smeankbn
+[@stdlib/stats/base/ndarray/smeankbn]: https://github.com/stdlib-js/stats-base-ndarray-smeankbn/tree/esm
 
-[@stdlib/stats/base/ndarray/smeankbn2]: https://github.com/stdlib-js/stats-base-ndarray-smeankbn2
+[@stdlib/stats/base/ndarray/smeankbn2]: https://github.com/stdlib-js/stats-base-ndarray-smeankbn2/tree/esm
 
-[@stdlib/stats/base/ndarray/smeanli]: https://github.com/stdlib-js/stats-base-ndarray-smeanli
+[@stdlib/stats/base/ndarray/smeanli]: https://github.com/stdlib-js/stats-base-ndarray-smeanli/tree/esm
 
-[@stdlib/stats/base/ndarray/smeanlipw]: https://github.com/stdlib-js/stats-base-ndarray-smeanlipw
+[@stdlib/stats/base/ndarray/smeanlipw]: https://github.com/stdlib-js/stats-base-ndarray-smeanlipw/tree/esm
 
-[@stdlib/stats/base/ndarray/smeanors]: https://github.com/stdlib-js/stats-base-ndarray-smeanors
+[@stdlib/stats/base/ndarray/smeanors]: https://github.com/stdlib-js/stats-base-ndarray-smeanors/tree/esm
 
-[@stdlib/stats/base/ndarray/smeanpn]: https://github.com/stdlib-js/stats-base-ndarray-smeanpn
+[@stdlib/stats/base/ndarray/smeanpn]: https://github.com/stdlib-js/stats-base-ndarray-smeanpn/tree/esm
 
-[@stdlib/stats/base/ndarray/smeanpw]: https://github.com/stdlib-js/stats-base-ndarray-smeanpw
+[@stdlib/stats/base/ndarray/smeanpw]: https://github.com/stdlib-js/stats-base-ndarray-smeanpw/tree/esm
 
-[@stdlib/stats/base/ndarray/smeanwd]: https://github.com/stdlib-js/stats-base-ndarray-smeanwd
+[@stdlib/stats/base/ndarray/smeanwd]: https://github.com/stdlib-js/stats-base-ndarray-smeanwd/tree/esm
 
-[@stdlib/stats/base/ndarray/smediansorted]: https://github.com/stdlib-js/stats-base-ndarray-smediansorted
+[@stdlib/stats/base/ndarray/smediansorted]: https://github.com/stdlib-js/stats-base-ndarray-smediansorted/tree/esm
 
-[@stdlib/stats/base/ndarray/smidrange]: https://github.com/stdlib-js/stats-base-ndarray-smidrange
+[@stdlib/stats/base/ndarray/smidrange]: https://github.com/stdlib-js/stats-base-ndarray-smidrange/tree/esm
 
-[@stdlib/stats/base/ndarray/smin]: https://github.com/stdlib-js/stats-base-ndarray-smin
+[@stdlib/stats/base/ndarray/smin]: https://github.com/stdlib-js/stats-base-ndarray-smin/tree/esm
 
-[@stdlib/stats/base/ndarray/sminabs]: https://github.com/stdlib-js/stats-base-ndarray-sminabs
+[@stdlib/stats/base/ndarray/sminabs]: https://github.com/stdlib-js/stats-base-ndarray-sminabs/tree/esm
 
-[@stdlib/stats/base/ndarray/sminsorted]: https://github.com/stdlib-js/stats-base-ndarray-sminsorted
+[@stdlib/stats/base/ndarray/sminsorted]: https://github.com/stdlib-js/stats-base-ndarray-sminsorted/tree/esm
 
-[@stdlib/stats/base/ndarray/smskmax]: https://github.com/stdlib-js/stats-base-ndarray-smskmax
+[@stdlib/stats/base/ndarray/smskmax]: https://github.com/stdlib-js/stats-base-ndarray-smskmax/tree/esm
 
-[@stdlib/stats/base/ndarray/smskmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-smskmaxabs
+[@stdlib/stats/base/ndarray/smskmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-smskmaxabs/tree/esm
 
-[@stdlib/stats/base/ndarray/smskmidrange]: https://github.com/stdlib-js/stats-base-ndarray-smskmidrange
+[@stdlib/stats/base/ndarray/smskmidrange]: https://github.com/stdlib-js/stats-base-ndarray-smskmidrange/tree/esm
 
-[@stdlib/stats/base/ndarray/smskmin]: https://github.com/stdlib-js/stats-base-ndarray-smskmin
+[@stdlib/stats/base/ndarray/smskmin]: https://github.com/stdlib-js/stats-base-ndarray-smskmin/tree/esm
 
-[@stdlib/stats/base/ndarray/smskrange]: https://github.com/stdlib-js/stats-base-ndarray-smskrange
+[@stdlib/stats/base/ndarray/smskrange]: https://github.com/stdlib-js/stats-base-ndarray-smskrange/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmax]: https://github.com/stdlib-js/stats-base-ndarray-snanmax
+[@stdlib/stats/base/ndarray/snanmax]: https://github.com/stdlib-js/stats-base-ndarray-snanmax/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-snanmaxabs
+[@stdlib/stats/base/ndarray/snanmaxabs]: https://github.com/stdlib-js/stats-base-ndarray-snanmaxabs/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmean]: https://github.com/stdlib-js/stats-base-ndarray-snanmean
+[@stdlib/stats/base/ndarray/snanmean]: https://github.com/stdlib-js/stats-base-ndarray-snanmean/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmeanors]: https://github.com/stdlib-js/stats-base-ndarray-snanmeanors
+[@stdlib/stats/base/ndarray/snanmeanors]: https://github.com/stdlib-js/stats-base-ndarray-snanmeanors/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmeanpn]: https://github.com/stdlib-js/stats-base-ndarray-snanmeanpn
+[@stdlib/stats/base/ndarray/snanmeanpn]: https://github.com/stdlib-js/stats-base-ndarray-snanmeanpn/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmeanwd]: https://github.com/stdlib-js/stats-base-ndarray-snanmeanwd
+[@stdlib/stats/base/ndarray/snanmeanwd]: https://github.com/stdlib-js/stats-base-ndarray-snanmeanwd/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmidrange]: https://github.com/stdlib-js/stats-base-ndarray-snanmidrange
+[@stdlib/stats/base/ndarray/snanmidrange]: https://github.com/stdlib-js/stats-base-ndarray-snanmidrange/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmin]: https://github.com/stdlib-js/stats-base-ndarray-snanmin
+[@stdlib/stats/base/ndarray/snanmin]: https://github.com/stdlib-js/stats-base-ndarray-snanmin/tree/esm
 
-[@stdlib/stats/base/ndarray/snanminabs]: https://github.com/stdlib-js/stats-base-ndarray-snanminabs
+[@stdlib/stats/base/ndarray/snanminabs]: https://github.com/stdlib-js/stats-base-ndarray-snanminabs/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmskmax]: https://github.com/stdlib-js/stats-base-ndarray-snanmskmax
+[@stdlib/stats/base/ndarray/snanmskmax]: https://github.com/stdlib-js/stats-base-ndarray-snanmskmax/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmskmin]: https://github.com/stdlib-js/stats-base-ndarray-snanmskmin
+[@stdlib/stats/base/ndarray/snanmskmin]: https://github.com/stdlib-js/stats-base-ndarray-snanmskmin/tree/esm
 
-[@stdlib/stats/base/ndarray/snanmskrange]: https://github.com/stdlib-js/stats-base-ndarray-snanmskrange
+[@stdlib/stats/base/ndarray/snanmskrange]: https://github.com/stdlib-js/stats-base-ndarray-snanmskrange/tree/esm
 
-[@stdlib/stats/base/ndarray/snanrange]: https://github.com/stdlib-js/stats-base-ndarray-snanrange
+[@stdlib/stats/base/ndarray/snanrange]: https://github.com/stdlib-js/stats-base-ndarray-snanrange/tree/esm
 
-[@stdlib/stats/base/ndarray/srange]: https://github.com/stdlib-js/stats-base-ndarray-srange
+[@stdlib/stats/base/ndarray/srange]: https://github.com/stdlib-js/stats-base-ndarray-srange/tree/esm
 
-[@stdlib/stats/base/ndarray/srangeabs]: https://github.com/stdlib-js/stats-base-ndarray-srangeabs
+[@stdlib/stats/base/ndarray/srangeabs]: https://github.com/stdlib-js/stats-base-ndarray-srangeabs/tree/esm
 
-[@stdlib/stats/base/ndarray/sstdev]: https://github.com/stdlib-js/stats-base-ndarray-sstdev
+[@stdlib/stats/base/ndarray/sstdev]: https://github.com/stdlib-js/stats-base-ndarray-sstdev/tree/esm
 
-[@stdlib/stats/base/ndarray/sstdevch]: https://github.com/stdlib-js/stats-base-ndarray-sstdevch
+[@stdlib/stats/base/ndarray/sstdevch]: https://github.com/stdlib-js/stats-base-ndarray-sstdevch/tree/esm
 
-[@stdlib/stats/base/ndarray/sstdevpn]: https://github.com/stdlib-js/stats-base-ndarray-sstdevpn
+[@stdlib/stats/base/ndarray/sstdevpn]: https://github.com/stdlib-js/stats-base-ndarray-sstdevpn/tree/esm
 
-[@stdlib/stats/base/ndarray/sstdevwd]: https://github.com/stdlib-js/stats-base-ndarray-sstdevwd
+[@stdlib/stats/base/ndarray/sstdevwd]: https://github.com/stdlib-js/stats-base-ndarray-sstdevwd/tree/esm
 
-[@stdlib/stats/base/ndarray/stdev]: https://github.com/stdlib-js/stats-base-ndarray-stdev
+[@stdlib/stats/base/ndarray/stdev]: https://github.com/stdlib-js/stats-base-ndarray-stdev/tree/esm
 
-[@stdlib/stats/base/ndarray/stdevch]: https://github.com/stdlib-js/stats-base-ndarray-stdevch
+[@stdlib/stats/base/ndarray/stdevch]: https://github.com/stdlib-js/stats-base-ndarray-stdevch/tree/esm
 
-[@stdlib/stats/base/ndarray/stdevpn]: https://github.com/stdlib-js/stats-base-ndarray-stdevpn
+[@stdlib/stats/base/ndarray/stdevpn]: https://github.com/stdlib-js/stats-base-ndarray-stdevpn/tree/esm
 
-[@stdlib/stats/base/ndarray/stdevtk]: https://github.com/stdlib-js/stats-base-ndarray-stdevtk
+[@stdlib/stats/base/ndarray/stdevtk]: https://github.com/stdlib-js/stats-base-ndarray-stdevtk/tree/esm
 
-[@stdlib/stats/base/ndarray/stdevwd]: https://github.com/stdlib-js/stats-base-ndarray-stdevwd
+[@stdlib/stats/base/ndarray/stdevwd]: https://github.com/stdlib-js/stats-base-ndarray-stdevwd/tree/esm
 
-[@stdlib/stats/base/ndarray/stdevyc]: https://github.com/stdlib-js/stats-base-ndarray-stdevyc
+[@stdlib/stats/base/ndarray/stdevyc]: https://github.com/stdlib-js/stats-base-ndarray-stdevyc/tree/esm
 
-[@stdlib/stats/base/ndarray/sztest]: https://github.com/stdlib-js/stats-base-ndarray-sztest
+[@stdlib/stats/base/ndarray/sztest]: https://github.com/stdlib-js/stats-base-ndarray-sztest/tree/esm
 
-[@stdlib/stats/base/ndarray/sztest2]: https://github.com/stdlib-js/stats-base-ndarray-sztest2
+[@stdlib/stats/base/ndarray/sztest2]: https://github.com/stdlib-js/stats-base-ndarray-sztest2/tree/esm
 
-[@stdlib/stats/base/ndarray/variance]: https://github.com/stdlib-js/stats-base-ndarray-variance
+[@stdlib/stats/base/ndarray/variance]: https://github.com/stdlib-js/stats-base-ndarray-variance/tree/esm
 
-[@stdlib/stats/base/ndarray/variancech]: https://github.com/stdlib-js/stats-base-ndarray-variancech
+[@stdlib/stats/base/ndarray/variancech]: https://github.com/stdlib-js/stats-base-ndarray-variancech/tree/esm
 
-[@stdlib/stats/base/ndarray/variancewd]: https://github.com/stdlib-js/stats-base-ndarray-variancewd
+[@stdlib/stats/base/ndarray/variancewd]: https://github.com/stdlib-js/stats-base-ndarray-variancewd/tree/esm
 
-[@stdlib/stats/base/ndarray/ztest]: https://github.com/stdlib-js/stats-base-ndarray-ztest
+[@stdlib/stats/base/ndarray/ztest]: https://github.com/stdlib-js/stats-base-ndarray-ztest/tree/esm
 
-[@stdlib/stats/base/ndarray/ztest2]: https://github.com/stdlib-js/stats-base-ndarray-ztest2
+[@stdlib/stats/base/ndarray/ztest2]: https://github.com/stdlib-js/stats-base-ndarray-ztest2/tree/esm
 
 <!-- </toc-links> -->
 
