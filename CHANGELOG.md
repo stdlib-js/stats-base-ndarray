@@ -2,14 +2,16 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.1.1">
 
-## Unreleased (2026-02-02)
+## 0.1.1 (2026-02-08)
 
 <section class="features">
 
 ### Features
 
+-   [`42ada99`](https://github.com/stdlib-js/stdlib/commit/42ada99a46614cf0d14f2f8f70c5d95869e08bd8) - add C implementation of `stats/base/ndarray/dmaxabs` [(#10039)](https://github.com/stdlib-js/stdlib/pull/10039)
+-   [`06e3710`](https://github.com/stdlib-js/stdlib/commit/06e37102b1e86507533abe95f50c4c44e4ddcf54) - add C implementation for `stats/base/ndarray/dminabs` [(#10046)](https://github.com/stdlib-js/stdlib/pull/10046)
 -   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001)
 
 </section>
@@ -22,6 +24,11 @@
 
 <details>
 
+-   [`2636ccd`](https://github.com/stdlib-js/stdlib/commit/2636ccdeb3d938f63e50fd110d3aad0a3cf57805) - **bench:** use string interpolation in `stats/base/ndarray/dmskmax` [(#10144)](https://github.com/stdlib-js/stdlib/pull/10144) _(by Om-A-osc)_
+-   [`42ada99`](https://github.com/stdlib-js/stdlib/commit/42ada99a46614cf0d14f2f8f70c5d95869e08bd8) - **feat:** add C implementation of `stats/base/ndarray/dmaxabs` [(#10039)](https://github.com/stdlib-js/stdlib/pull/10039) _(by Bhargav Dabhade)_
+-   [`06e3710`](https://github.com/stdlib-js/stdlib/commit/06e37102b1e86507533abe95f50c4c44e4ddcf54) - **feat:** add C implementation for `stats/base/ndarray/dminabs` [(#10046)](https://github.com/stdlib-js/stdlib/pull/10046) _(by Samarth Kolarkar, Athan Reines)_
+-   [`06188d1`](https://github.com/stdlib-js/stdlib/commit/06188d19cb37068a0aa27c391a443a48fd6b6b56) - **bench:** fix types _(by Athan Reines)_
+-   [`b2b06e2`](https://github.com/stdlib-js/stdlib/commit/b2b06e25153452e89a95ed63ae1ae4f7646d7c1d) - **bench:** fix dtypes _(by Athan Reines)_
 -   [`ec0d83c`](https://github.com/stdlib-js/stdlib/commit/ec0d83c87503b82fc4a192b6886ea3feab4b3448) - **docs:** update namespace table of contents [(#10003)](https://github.com/stdlib-js/stdlib/pull/10003) _(by stdlib-bot)_
 -   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001) _(by stdlib-bot)_
 
@@ -30,6 +37,21 @@
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Bhargav Dabhade
+-   Om-A-osc
+-   Samarth Kolarkar
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
