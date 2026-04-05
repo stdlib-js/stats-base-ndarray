@@ -2,6 +2,145 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-05)
+
+<section class="features">
+
+### Features
+
+-   [`73c6b3c`](https://github.com/stdlib-js/stdlib/commit/73c6b3cbef45a92a3fc5a5cfb12a5fc4c15e7f3d) - add `stats/base/ndarray/nanmskmidrange` [(#9513)](https://github.com/stdlib-js/stdlib/pull/9513)
+-   [`6b97f56`](https://github.com/stdlib-js/stdlib/commit/6b97f569bd1dbf7f00d80d636404afbc43a53c8c) - add `stats/base/ndarray/snanmskmidrange` [(#9536)](https://github.com/stdlib-js/stdlib/pull/9536)
+-   [`876eadb`](https://github.com/stdlib-js/stdlib/commit/876eadb18dbfbd3b156ee8b9f27f4c98226b0fa9) - add `stats/base/ndarray/dmskmaxabs` [(#9962)](https://github.com/stdlib-js/stdlib/pull/9962)
+-   [`7564e0f`](https://github.com/stdlib-js/stdlib/commit/7564e0f86e6a9a4c28affc29b1ef524f1cb43314) - add C implementation for `stats/base/ndarray/smidrange` [(#10057)](https://github.com/stdlib-js/stdlib/pull/10057)
+-   [`9c5d666`](https://github.com/stdlib-js/stdlib/commit/9c5d666f3f74d8a7daccc211a0434656e2261b7e) - add C implementation for `stats/base/ndarray/dmeankbn` [(#10283)](https://github.com/stdlib-js/stdlib/pull/10283)
+-   [`fba382e`](https://github.com/stdlib-js/stdlib/commit/fba382ef458e3d4b63943f8e7b5e68794c38631f) - add C implementation for `stats/base/ndarray/dmeanors` [(#10312)](https://github.com/stdlib-js/stdlib/pull/10312)
+-   [`fad16aa`](https://github.com/stdlib-js/stdlib/commit/fad16aaaa353d3ee0bcfb8424160c18c8b0aa14a) - add `stats/base/ndarray/dnanstdevch` [(#10348)](https://github.com/stdlib-js/stdlib/pull/10348)
+-   [`f46aad3`](https://github.com/stdlib-js/stdlib/commit/f46aad3ada07d52f96fc728d994e3ccd5a2c89de) - add `stats/base/ndarray/dnanmskmaxabs` [(#10385)](https://github.com/stdlib-js/stdlib/pull/10385)
+-   [`6488982`](https://github.com/stdlib-js/stdlib/commit/6488982297259a8092cfd6d5396aeaeb500e25f8) - add `stats/base/ndarray/dnanmskminabs` [(#10386)](https://github.com/stdlib-js/stdlib/pull/10386)
+-   [`c88c38d`](https://github.com/stdlib-js/stdlib/commit/c88c38d1550cd513ef474683e50e4545f9b43d97) - add `stats/base/ndarray/snanmskmaxabs` [(#10387)](https://github.com/stdlib-js/stdlib/pull/10387)
+-   [`9dd4768`](https://github.com/stdlib-js/stdlib/commit/9dd47683bd91211772158d2cf35507d8dfdc4547) - add `stats/base/ndarray/snanmskminabs` [(#10388)](https://github.com/stdlib-js/stdlib/pull/10388)
+-   [`14e416c`](https://github.com/stdlib-js/stdlib/commit/14e416c7532119d9041085ba106b08a7dd6f5a59) - add C implementation for `stats/base/ndarray/dmeankbn2` [(#10371)](https://github.com/stdlib-js/stdlib/pull/10371)
+-   [`0bfb1ea`](https://github.com/stdlib-js/stdlib/commit/0bfb1ea3fb08d9703a791ec910848a4ea742bb6a) - add C implementation for `stats/base/ndarray/srange` [(#10062)](https://github.com/stdlib-js/stdlib/pull/10062)
+-   [`05adc43`](https://github.com/stdlib-js/stdlib/commit/05adc43e3716e88ca774d9af89a8125e8154482b) - add C implementation for `stats/base/ndarray/dmidrange` [(#10077)](https://github.com/stdlib-js/stdlib/pull/10077)
+-   [`a2d1f94`](https://github.com/stdlib-js/stdlib/commit/a2d1f943965c8f2fbd40bb56a71be529c9fa5b82) - add C implementation for `stats/base/ndarray/smaxabs` [(#10040)](https://github.com/stdlib-js/stdlib/pull/10040)
+-   [`a2a6b49`](https://github.com/stdlib-js/stdlib/commit/a2a6b49348a8057afc805b27b535dcbce79fd117) - add C implementation for `stats/base/ndarray/sminabs` [(#10044)](https://github.com/stdlib-js/stdlib/pull/10044)
+-   [`0682ac1`](https://github.com/stdlib-js/stdlib/commit/0682ac10d0ad67b46453f186b3577901886fa42c) - add C implementation for `stats/base/ndarray/dmean` [(#10052)](https://github.com/stdlib-js/stdlib/pull/10052)
+-   [`707fcd4`](https://github.com/stdlib-js/stdlib/commit/707fcd4483bd8989ea064842812555f5e382dc52) - add `stats/base/ndarray/dnanstdevpn` [(#10375)](https://github.com/stdlib-js/stdlib/pull/10375)
+-   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271)
+-   [`5a64342`](https://github.com/stdlib-js/stdlib/commit/5a643426403fa397b0bd695ff1deeddd002cc641) - add C implementation for `stats/base/ndarray/snanrange` [(#10258)](https://github.com/stdlib-js/stdlib/pull/10258)
+-   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198)
+-   [`5dfd41d`](https://github.com/stdlib-js/stdlib/commit/5dfd41df5e698950034ed3e54d9f32dc9ff03355) - add C implementation for `stats/base/ndarray/srangeabs` [(#10240)](https://github.com/stdlib-js/stdlib/pull/10240)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#10018](https://github.com/stdlib-js/stdlib/issues/10018), [#10849](https://github.com/stdlib-js/stdlib/issues/10849), [#10850](https://github.com/stdlib-js/stdlib/issues/10850)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`9b24a18`](https://github.com/stdlib-js/stdlib/commit/9b24a18438dfa2c5450cc8677543caf19366f84a) - **docs:** add missing JSDoc comment _(by Athan Reines)_
+-   [`d02089a`](https://github.com/stdlib-js/stdlib/commit/d02089a716cf72e62eb60d54f909f0b439a05196) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`e712c8e`](https://github.com/stdlib-js/stdlib/commit/e712c8e864d3a4c771e3457f49fe8dec354be34b) - **chore:** address commit comments for commit `29ff047` [(#10856)](https://github.com/stdlib-js/stdlib/pull/10856) _(by Partha Das, stdlib-bot)_
+-   [`5a50a24`](https://github.com/stdlib-js/stdlib/commit/5a50a24c0187fa2eff6c40ed60db7e9281406990) - **docs:** fix broken Markdown link [(#10733)](https://github.com/stdlib-js/stdlib/pull/10733) _(by travisBREAKS)_
+-   [`6f83646`](https://github.com/stdlib-js/stdlib/commit/6f83646b645d379c709cb8145b054f5b2ea36c79) - **bench:** refactor to use string interpolation in `stats/base/ndarray/max` [(#10994)](https://github.com/stdlib-js/stdlib/pull/10994) _(by Partha Das)_
+-   [`7a996eb`](https://github.com/stdlib-js/stdlib/commit/7a996eb7a7b20c5419b6871ae3150f7a495cdb70) - **bench:** refactor to use string interpolation in `stats/base/ndarray/min` [(#10995)](https://github.com/stdlib-js/stdlib/pull/10995) _(by Partha Das)_
+-   [`e1bf01b`](https://github.com/stdlib-js/stdlib/commit/e1bf01b608e845ac2722b9ef2df8979f7fa556a4) - **bench:** refactor to use string interpolation in `stats/base/ndarray/drange` [(#10996)](https://github.com/stdlib-js/stdlib/pull/10996) _(by Partha Das)_
+-   [`296dfd1`](https://github.com/stdlib-js/stdlib/commit/296dfd170d555b2ae2f7670439305c64b306ed76) - **bench:** use string interpolation in `stats/base/ndarray/dcumaxabs` [(#10877)](https://github.com/stdlib-js/stdlib/pull/10877) _(by Om-A-osc)_
+-   [`6aae9eb`](https://github.com/stdlib-js/stdlib/commit/6aae9eb4034e9ff338a75ec59a1c56a26a46b2b4) - **bench:** use string interpolation in `stats/base/ndarray/dcumin` [(#10878)](https://github.com/stdlib-js/stdlib/pull/10878) _(by Om-A-osc)_
+-   [`11c4748`](https://github.com/stdlib-js/stdlib/commit/11c4748879f58bc0fd46e70354c73f617f85a1c7) - **bench:** use string interpolation in `stats/base/ndarray/dcuminabs` [(#10879)](https://github.com/stdlib-js/stdlib/pull/10879) _(by Om-A-osc)_
+-   [`dd90aad`](https://github.com/stdlib-js/stdlib/commit/dd90aade754af928c74c03c4099d1d4307648713) - **bench:** use string interpolation in `stats/base/ndarray/dcovarmtk` [(#10875)](https://github.com/stdlib-js/stdlib/pull/10875) _(by Om-A-osc)_
+-   [`9730d28`](https://github.com/stdlib-js/stdlib/commit/9730d28b2aeff0947d2428a0ab01c1580557cbbe) - **bench:** use string interpolation in `stats/base/ndarray/dcumax` [(#10876)](https://github.com/stdlib-js/stdlib/pull/10876) _(by Om-A-osc)_
+-   [`6a67413`](https://github.com/stdlib-js/stdlib/commit/6a6741319ee00b3a12b4951895f5a6ffc4963cd5) - **chore:** address commit comments for commit `2255c38` [(#10855)](https://github.com/stdlib-js/stdlib/pull/10855) _(by Partha Das)_
+-   [`5bc6fd8`](https://github.com/stdlib-js/stdlib/commit/5bc6fd859d57bf2408ab4fd8459389ae07e9a253) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`73c6b3c`](https://github.com/stdlib-js/stdlib/commit/73c6b3cbef45a92a3fc5a5cfb12a5fc4c15e7f3d) - **feat:** add `stats/base/ndarray/nanmskmidrange` [(#9513)](https://github.com/stdlib-js/stdlib/pull/9513) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`6b97f56`](https://github.com/stdlib-js/stdlib/commit/6b97f569bd1dbf7f00d80d636404afbc43a53c8c) - **feat:** add `stats/base/ndarray/snanmskmidrange` [(#9536)](https://github.com/stdlib-js/stdlib/pull/9536) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`876eadb`](https://github.com/stdlib-js/stdlib/commit/876eadb18dbfbd3b156ee8b9f27f4c98226b0fa9) - **feat:** add `stats/base/ndarray/dmskmaxabs` [(#9962)](https://github.com/stdlib-js/stdlib/pull/9962) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`2255c38`](https://github.com/stdlib-js/stdlib/commit/2255c3899fad73f02d3c5968c8c0a5093b232712) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`2b98d7c`](https://github.com/stdlib-js/stdlib/commit/2b98d7cf9736c471ced90fdc639136823fe208c1) - **docs:** update description _(by Philipp Burckhardt)_
+-   [`29ff047`](https://github.com/stdlib-js/stdlib/commit/29ff0471bed046e79d71c8897d9783e1e556bea2) - **docs:** fix indentation and return annotation _(by Philipp Burckhardt)_
+-   [`c07de96`](https://github.com/stdlib-js/stdlib/commit/c07de963b0116d680060bb12d271fd8bf0bb26c1) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`7564e0f`](https://github.com/stdlib-js/stdlib/commit/7564e0f86e6a9a4c28affc29b1ef524f1cb43314) - **feat:** add C implementation for `stats/base/ndarray/smidrange` [(#10057)](https://github.com/stdlib-js/stdlib/pull/10057) _(by Samarth Kolarkar, Philipp Burckhardt, Sachin Pangal)_
+-   [`9c5d666`](https://github.com/stdlib-js/stdlib/commit/9c5d666f3f74d8a7daccc211a0434656e2261b7e) - **feat:** add C implementation for `stats/base/ndarray/dmeankbn` [(#10283)](https://github.com/stdlib-js/stdlib/pull/10283) _(by Bhargav Dabhade, Philipp Burckhardt, Sachin Pangal)_
+-   [`fba382e`](https://github.com/stdlib-js/stdlib/commit/fba382ef458e3d4b63943f8e7b5e68794c38631f) - **feat:** add C implementation for `stats/base/ndarray/dmeanors` [(#10312)](https://github.com/stdlib-js/stdlib/pull/10312) _(by Bhargav Dabhade, Philipp Burckhardt, Sachin Pangal)_
+-   [`fad16aa`](https://github.com/stdlib-js/stdlib/commit/fad16aaaa353d3ee0bcfb8424160c18c8b0aa14a) - **feat:** add `stats/base/ndarray/dnanstdevch` [(#10348)](https://github.com/stdlib-js/stdlib/pull/10348) _(by Pratik, Philipp Burckhardt)_
+-   [`f46aad3`](https://github.com/stdlib-js/stdlib/commit/f46aad3ada07d52f96fc728d994e3ccd5a2c89de) - **feat:** add `stats/base/ndarray/dnanmskmaxabs` [(#10385)](https://github.com/stdlib-js/stdlib/pull/10385) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`6488982`](https://github.com/stdlib-js/stdlib/commit/6488982297259a8092cfd6d5396aeaeb500e25f8) - **feat:** add `stats/base/ndarray/dnanmskminabs` [(#10386)](https://github.com/stdlib-js/stdlib/pull/10386) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`c88c38d`](https://github.com/stdlib-js/stdlib/commit/c88c38d1550cd513ef474683e50e4545f9b43d97) - **feat:** add `stats/base/ndarray/snanmskmaxabs` [(#10387)](https://github.com/stdlib-js/stdlib/pull/10387) _(by Sachin Pangal, stdlib-bot)_
+-   [`9dd4768`](https://github.com/stdlib-js/stdlib/commit/9dd47683bd91211772158d2cf35507d8dfdc4547) - **feat:** add `stats/base/ndarray/snanmskminabs` [(#10388)](https://github.com/stdlib-js/stdlib/pull/10388) _(by Sachin Pangal, stdlib-bot)_
+-   [`0c31eaf`](https://github.com/stdlib-js/stdlib/commit/0c31eafee1a195d04c0624f11cc4039b7e7035af) - **docs:** fix ndarray dtype in `stats/base/ndarray/dnanmskrange` example [(#10697)](https://github.com/stdlib-js/stdlib/pull/10697) _(by Sachin Pangal)_
+-   [`14e416c`](https://github.com/stdlib-js/stdlib/commit/14e416c7532119d9041085ba106b08a7dd6f5a59) - **feat:** add C implementation for `stats/base/ndarray/dmeankbn2` [(#10371)](https://github.com/stdlib-js/stdlib/pull/10371) _(by Bhargav Dabhade, Sachin Pangal)_
+-   [`0bfb1ea`](https://github.com/stdlib-js/stdlib/commit/0bfb1ea3fb08d9703a791ec910848a4ea742bb6a) - **feat:** add C implementation for `stats/base/ndarray/srange` [(#10062)](https://github.com/stdlib-js/stdlib/pull/10062) _(by Samarth Kolarkar, Philipp Burckhardt, Sachin Pangal)_
+-   [`95e3a15`](https://github.com/stdlib-js/stdlib/commit/95e3a153b0483dbee7c0d55cb80eee826f0933fb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`05adc43`](https://github.com/stdlib-js/stdlib/commit/05adc43e3716e88ca774d9af89a8125e8154482b) - **feat:** add C implementation for `stats/base/ndarray/dmidrange` [(#10077)](https://github.com/stdlib-js/stdlib/pull/10077) _(by Bhargav Dabhade, Athan Reines, Sachin Pangal)_
+-   [`a2d1f94`](https://github.com/stdlib-js/stdlib/commit/a2d1f943965c8f2fbd40bb56a71be529c9fa5b82) - **feat:** add C implementation for `stats/base/ndarray/smaxabs` [(#10040)](https://github.com/stdlib-js/stdlib/pull/10040) _(by Samarth Kolarkar, Athan Reines, Sachin Pangal)_
+-   [`a2a6b49`](https://github.com/stdlib-js/stdlib/commit/a2a6b49348a8057afc805b27b535dcbce79fd117) - **feat:** add C implementation for `stats/base/ndarray/sminabs` [(#10044)](https://github.com/stdlib-js/stdlib/pull/10044) _(by Samarth Kolarkar, Sachin Pangal)_
+-   [`0682ac1`](https://github.com/stdlib-js/stdlib/commit/0682ac10d0ad67b46453f186b3577901886fa42c) - **feat:** add C implementation for `stats/base/ndarray/dmean` [(#10052)](https://github.com/stdlib-js/stdlib/pull/10052) _(by Kaustubh Patange, Athan Reines, Sachin Pangal)_
+-   [`0249e24`](https://github.com/stdlib-js/stdlib/commit/0249e2403b412deca30b2675326eaef513a7ce3e) - **docs:** remove redundant NaN notes in `stats/base/ndarray/dnanstdev*` READMEs _(by Philipp Burckhardt)_
+-   [`685691c`](https://github.com/stdlib-js/stdlib/commit/685691c6065af53a0527bcd690d1ade468f452df) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`707fcd4`](https://github.com/stdlib-js/stdlib/commit/707fcd4483bd8989ea064842812555f5e382dc52) - **feat:** add `stats/base/ndarray/dnanstdevpn` [(#10375)](https://github.com/stdlib-js/stdlib/pull/10375) _(by Pratik, Athan Reines)_
+-   [`8620184`](https://github.com/stdlib-js/stdlib/commit/8620184ee6817de3a8014563248653c7f8d578e4) - **bench:** use string interpolation in `stats/base/ndarray/smskrange` [(#10344)](https://github.com/stdlib-js/stdlib/pull/10344) _(by ANKIT SINGH YADAV)_
+-   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - **feat:** add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271) _(by Pratik)_
+-   [`5a64342`](https://github.com/stdlib-js/stdlib/commit/5a643426403fa397b0bd695ff1deeddd002cc641) - **feat:** add C implementation for `stats/base/ndarray/snanrange` [(#10258)](https://github.com/stdlib-js/stdlib/pull/10258) _(by Bhargav Dabhade, Sachin Pangal)_
+-   [`33e3d9f`](https://github.com/stdlib-js/stdlib/commit/33e3d9f96ce3fc32b31dd3f46a017c92b73b0425) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - **feat:** add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198) _(by Samarth Kolarkar, orthodox-64)_
+-   [`e7e6955`](https://github.com/stdlib-js/stdlib/commit/e7e695564ed321e40640ba406cf85d8c2f854fc3) - **bench:** use string interpolation in `stats/base/ndarray/nanmeanpn` [(#10170)](https://github.com/stdlib-js/stdlib/pull/10170) _(by Om-A-osc)_
+-   [`5dfd41d`](https://github.com/stdlib-js/stdlib/commit/5dfd41df5e698950034ed3e54d9f32dc9ff03355) - **feat:** add C implementation for `stats/base/ndarray/srangeabs` [(#10240)](https://github.com/stdlib-js/stdlib/pull/10240) _(by Bhargav Dabhade, Philipp Burckhardt)_
+-   [`582219e`](https://github.com/stdlib-js/stdlib/commit/582219ec5e332c28c5bd1e5f3cdbb9f7904d6b1c) - **bench:** use string interpolation in `stats/base/ndarray/nanmean` [(#10164)](https://github.com/stdlib-js/stdlib/pull/10164) _(by Om-A-osc)_
+-   [`7476e20`](https://github.com/stdlib-js/stdlib/commit/7476e2084236526a362d28d3c6f335cc4331fd8c) - **bench:** use string interpolation in `stats/base/ndarray/nanmaxabs` [(#10165)](https://github.com/stdlib-js/stdlib/pull/10165) _(by Om-A-osc)_
+-   [`61e0c07`](https://github.com/stdlib-js/stdlib/commit/61e0c078903198eb07fe30301f14c3180186f5c9) - **bench:** use string interpolation in `stats/base/ndarray/nanmeanors` [(#10163)](https://github.com/stdlib-js/stdlib/pull/10163) _(by Om-A-osc)_
+-   [`0a3bfa2`](https://github.com/stdlib-js/stdlib/commit/0a3bfa2d83ccf5139c1557f07b936fac61cf5838) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`a7bba71`](https://github.com/stdlib-js/stdlib/commit/a7bba712251731591ce02227e24f4d61042e1710) - **style:** fix indentation _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 12 people contributed to this release. Thank you to the following contributors:
+
+-   ANKIT SINGH YADAV
+-   Athan Reines
+-   Bhargav Dabhade
+-   Kaustubh Patange
+-   Om-A-osc
+-   Partha Das
+-   Philipp Burckhardt
+-   Pratik
+-   Sachin Pangal
+-   Samarth Kolarkar
+-   orthodox-64
+-   travisBREAKS
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
