@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-17)
+## Unreleased (2026-04-18)
 
 <section class="features">
 
@@ -67,6 +67,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`2505815`](https://github.com/stdlib-js/stdlib/commit/25058156cf7b1138c5c33209a5143100c376b46d) - **docs:** update namespace table of contents [(#11520)](https://github.com/stdlib-js/stdlib/pull/11520) _(by stdlib-bot)_
 -   [`66be61a`](https://github.com/stdlib-js/stdlib/commit/66be61a4af9d5aa12e2cc5a7acf6e9fae0030a27) - **feat:** add `midrangeabs` to namespace _(by Athan Reines)_
 -   [`62d1f84`](https://github.com/stdlib-js/stdlib/commit/62d1f841e6b236ecdc7bd7d9744c557bba404002) - **feat:** add `stats/base/ndarray/midrangeabs` [(#11469)](https://github.com/stdlib-js/stdlib/pull/11469) _(by Sachin Pangal, stdlib-bot)_
 -   [`10210e4`](https://github.com/stdlib-js/stdlib/commit/10210e49f0b5e71b93243d12b650048dc17abed3) - **docs:** update namespace table of contents [(#11497)](https://github.com/stdlib-js/stdlib/pull/11497) _(by stdlib-bot)_
