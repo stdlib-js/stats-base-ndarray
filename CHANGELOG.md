@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`1588bf2`](https://github.com/stdlib-js/stdlib/commit/1588bf256bf277102e267b41a7d68c1798293b7e) - add `svariance` to namespace
+-   [`d985063`](https://github.com/stdlib-js/stdlib/commit/d985063b6fc9348485640f52158bbea28c7e4b86) - add `stats/base/ndarray/svariance` [(#11510)](https://github.com/stdlib-js/stdlib/pull/11510)
 -   [`66be61a`](https://github.com/stdlib-js/stdlib/commit/66be61a4af9d5aa12e2cc5a7acf6e9fae0030a27) - add `midrangeabs` to namespace
 -   [`62d1f84`](https://github.com/stdlib-js/stdlib/commit/62d1f841e6b236ecdc7bd7d9744c557bba404002) - add `stats/base/ndarray/midrangeabs` [(#11469)](https://github.com/stdlib-js/stdlib/pull/11469)
 -   [`685c03e`](https://github.com/stdlib-js/stdlib/commit/685c03ea7fe3aeb0e03ff161547f59d59a32b99c) - add `variancetk` and `varianceyc` to namespace
@@ -67,6 +69,14 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`1588bf2`](https://github.com/stdlib-js/stdlib/commit/1588bf256bf277102e267b41a7d68c1798293b7e) - **feat:** add `svariance` to namespace _(by Athan Reines)_
+-   [`d985063`](https://github.com/stdlib-js/stdlib/commit/d985063b6fc9348485640f52158bbea28c7e4b86) - **feat:** add `stats/base/ndarray/svariance` [(#11510)](https://github.com/stdlib-js/stdlib/pull/11510) _(by Pratik)_
+-   [`71a93c8`](https://github.com/stdlib-js/stdlib/commit/71a93c88b8f794e067e62bfb86e0e549c3b27a0b) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/dcuminabs` [(#11526)](https://github.com/stdlib-js/stdlib/pull/11526) _(by Uday Kakade)_
+-   [`adc6eb6`](https://github.com/stdlib-js/stdlib/commit/adc6eb6b331959b7123e4fb9598450496b980425) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/dcumxabs` [(#11525)](https://github.com/stdlib-js/stdlib/pull/11525) _(by Uday Kakade)_
+-   [`d5dc0ec`](https://github.com/stdlib-js/stdlib/commit/d5dc0ec5e07a3490a539f33c9723df8ddcb20ae9) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/dcumax` [(#11524)](https://github.com/stdlib-js/stdlib/pull/11524) _(by Uday Kakade)_
+-   [`9e562a3`](https://github.com/stdlib-js/stdlib/commit/9e562a3d9c9650d384bb6a3f8966a0c7e1c6a307) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/cumin` [(#11523)](https://github.com/stdlib-js/stdlib/pull/11523) _(by Uday Kakade)_
+-   [`a19ed4c`](https://github.com/stdlib-js/stdlib/commit/a19ed4c1ebd7a8e2124665cf5b9442e7e970eb19) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/cumax` [(#11522)](https://github.com/stdlib-js/stdlib/pull/11522) _(by Uday Kakade)_
+-   [`00385f6`](https://github.com/stdlib-js/stdlib/commit/00385f618ba07beba4fa4be45feee0f55591aa5f) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/dcumin` [(#11521)](https://github.com/stdlib-js/stdlib/pull/11521) _(by Uday Kakade)_
 -   [`2505815`](https://github.com/stdlib-js/stdlib/commit/25058156cf7b1138c5c33209a5143100c376b46d) - **docs:** update namespace table of contents [(#11520)](https://github.com/stdlib-js/stdlib/pull/11520) _(by stdlib-bot)_
 -   [`66be61a`](https://github.com/stdlib-js/stdlib/commit/66be61a4af9d5aa12e2cc5a7acf6e9fae0030a27) - **feat:** add `midrangeabs` to namespace _(by Athan Reines)_
 -   [`62d1f84`](https://github.com/stdlib-js/stdlib/commit/62d1f841e6b236ecdc7bd7d9744c557bba404002) - **feat:** add `stats/base/ndarray/midrangeabs` [(#11469)](https://github.com/stdlib-js/stdlib/pull/11469) _(by Sachin Pangal, stdlib-bot)_
@@ -148,7 +158,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 15 people contributed to this release. Thank you to the following contributors:
+A total of 16 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Athan Reines
@@ -163,6 +173,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 -   Pratik
 -   Sachin Pangal
 -   Samarth Kolarkar
+-   Uday Kakade
 -   orthodox-64
 -   travisBREAKS
 
