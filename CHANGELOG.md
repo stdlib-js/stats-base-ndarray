@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-13)
+## Unreleased (2026-05-20)
 
 <section class="features">
 
 ### Features
 
+-   [`5ccb887`](https://github.com/stdlib-js/stdlib/commit/5ccb88741162d07ade0c4c62c2bab284e8908aa1) - add `dvariance` to namespace
+-   [`f51c52a`](https://github.com/stdlib-js/stdlib/commit/f51c52a121e764076d14e2d4c704bce0aaa8779f) - add `stats/base/ndarray/dvariance` [(#11745)](https://github.com/stdlib-js/stdlib/pull/11745)
 -   [`dc09169`](https://github.com/stdlib-js/stdlib/commit/dc09169e3f87a3ca9e3f9bea511468b6b496f91f) - add C implementation of `stats/base/ndarray/dmeanwd` [(#10784)](https://github.com/stdlib-js/stdlib/pull/10784)
 -   [`61b1d19`](https://github.com/stdlib-js/stdlib/commit/61b1d19140c82a0925fd5de8b975aefa35783dc6) - add C implementation for `stats/base/ndarray/dmeanpn` [(#10493)](https://github.com/stdlib-js/stdlib/pull/10493)
 -   [`3b862c9`](https://github.com/stdlib-js/stdlib/commit/3b862c9d63c573cb470b66e1f30fd5b8e448357f) - add C implementation of `stats/base/ndarray/dmeanpw` [(#10808)](https://github.com/stdlib-js/stdlib/pull/10808)
@@ -82,6 +84,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5ccb887`](https://github.com/stdlib-js/stdlib/commit/5ccb88741162d07ade0c4c62c2bab284e8908aa1) - **feat:** add `dvariance` to namespace _(by Athan Reines)_
+-   [`f51c52a`](https://github.com/stdlib-js/stdlib/commit/f51c52a121e764076d14e2d4c704bce0aaa8779f) - **feat:** add `stats/base/ndarray/dvariance` [(#11745)](https://github.com/stdlib-js/stdlib/pull/11745) _(by Pratik, Athan Reines)_
 -   [`1ba3724`](https://github.com/stdlib-js/stdlib/commit/1ba37246a4f68a546b4f9d126a9ce6723beaae05) - **refactor:** remove unnecessary generics _(by Athan Reines)_
 -   [`8808eb0`](https://github.com/stdlib-js/stdlib/commit/8808eb041611dd965bf3337432f468b30a403a70) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`d8ccb19`](https://github.com/stdlib-js/stdlib/commit/d8ccb1958684245e2d0ec3f5b1a2a0315f0a9947) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
