@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-21)
+## Unreleased (2026-06-06)
 
 <section class="features">
 
 ### Features
 
+-   [`5766b42`](https://github.com/stdlib-js/stdlib/commit/5766b42bf2f2c7e14cb247e48c8ad87014557ada) - update `stats/base/ndarray` TypeScript declarations [(#12612)](https://github.com/stdlib-js/stdlib/pull/12612)
 -   [`5ccb887`](https://github.com/stdlib-js/stdlib/commit/5ccb88741162d07ade0c4c62c2bab284e8908aa1) - add `dvariance` to namespace
 -   [`f51c52a`](https://github.com/stdlib-js/stdlib/commit/f51c52a121e764076d14e2d4c704bce0aaa8779f) - add `stats/base/ndarray/dvariance` [(#11745)](https://github.com/stdlib-js/stdlib/pull/11745)
 -   [`dc09169`](https://github.com/stdlib-js/stdlib/commit/dc09169e3f87a3ca9e3f9bea511468b6b496f91f) - add C implementation of `stats/base/ndarray/dmeanwd` [(#10784)](https://github.com/stdlib-js/stdlib/pull/10784)
@@ -84,6 +85,11 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5766b42`](https://github.com/stdlib-js/stdlib/commit/5766b42bf2f2c7e14cb247e48c8ad87014557ada) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#12612)](https://github.com/stdlib-js/stdlib/pull/12612) _(by stdlib-bot)_
+-   [`8e32423`](https://github.com/stdlib-js/stdlib/commit/8e32423156316049de0700cfcb4d3da2b173f008) - **refactor:** align TypeScript declarations across stats packages [(#12512)](https://github.com/stdlib-js/stdlib/pull/12512) _(by Philipp Burckhardt)_
+-   [`e8a15dd`](https://github.com/stdlib-js/stdlib/commit/e8a15dd05466add8b27998c945d4ee5d524bb8d0) - **refactor:** remove unused generic in `stats/base/ndarray/minsorted` [(#12494)](https://github.com/stdlib-js/stdlib/pull/12494) _(by Philipp Burckhardt)_
+-   [`056a080`](https://github.com/stdlib-js/stdlib/commit/056a080213e54c3030bb98128e96b26b4139627a) - **refactor:** remove unused generics [(#12495)](https://github.com/stdlib-js/stdlib/pull/12495) _(by Philipp Burckhardt)_
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`e1dd43f`](https://github.com/stdlib-js/stdlib/commit/e1dd43fddd1f3e3bbe14af8f0341fc3127595c54) - **docs:** update namespace table of contents [(#12225)](https://github.com/stdlib-js/stdlib/pull/12225) _(by stdlib-bot)_
 -   [`5ccb887`](https://github.com/stdlib-js/stdlib/commit/5ccb88741162d07ade0c4c62c2bab284e8908aa1) - **feat:** add `dvariance` to namespace _(by Athan Reines)_
 -   [`f51c52a`](https://github.com/stdlib-js/stdlib/commit/f51c52a121e764076d14e2d4c704bce0aaa8779f) - **feat:** add `stats/base/ndarray/dvariance` [(#11745)](https://github.com/stdlib-js/stdlib/pull/11745) _(by Pratik, Athan Reines)_
