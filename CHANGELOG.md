@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-06)
+## Unreleased (2026-06-21)
 
 <section class="features">
 
@@ -85,6 +85,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
+-   [`aae2976`](https://github.com/stdlib-js/stdlib/commit/aae2976d68e8b9177bf4f3c8123b0576c583ee8e) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`5766b42`](https://github.com/stdlib-js/stdlib/commit/5766b42bf2f2c7e14cb247e48c8ad87014557ada) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#12612)](https://github.com/stdlib-js/stdlib/pull/12612) _(by stdlib-bot)_
 -   [`8e32423`](https://github.com/stdlib-js/stdlib/commit/8e32423156316049de0700cfcb4d3da2b173f008) - **refactor:** align TypeScript declarations across stats packages [(#12512)](https://github.com/stdlib-js/stdlib/pull/12512) _(by Philipp Burckhardt)_
 -   [`e8a15dd`](https://github.com/stdlib-js/stdlib/commit/e8a15dd05466add8b27998c945d4ee5d524bb8d0) - **refactor:** remove unused generic in `stats/base/ndarray/minsorted` [(#12494)](https://github.com/stdlib-js/stdlib/pull/12494) _(by Philipp Burckhardt)_
@@ -241,7 +243,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 16 people contributed to this release. Thank you to the following contributors:
+A total of 17 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Athan Reines
@@ -250,6 +252,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 -   Karan Anand
 -   Kaustubh Patange
 -   Loay Ahmed
+-   Neeraj Pathak
 -   Om-A-osc
 -   Partha Das
 -   Philipp Burckhardt
