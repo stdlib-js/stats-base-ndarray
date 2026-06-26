@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-21)
+## Unreleased (2026-06-26)
 
 <section class="features">
 
@@ -85,6 +85,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`dadabba`](https://github.com/stdlib-js/stdlib/commit/dadabba66e44060c40b231ebf1862aa0453e5285) - **chore:** resolve C compiler warnings _(by Athan Reines)_
+-   [`fa820b3`](https://github.com/stdlib-js/stdlib/commit/fa820b3ef9805587eae34c589ee0cd91f89de1b2) - **chore:** resolve C compiler warning _(by Athan Reines)_
+-   [`aed59d8`](https://github.com/stdlib-js/stdlib/commit/aed59d8fb4f75747d24fef73037981716ca2da19) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`aae2976`](https://github.com/stdlib-js/stdlib/commit/aae2976d68e8b9177bf4f3c8123b0576c583ee8e) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`5766b42`](https://github.com/stdlib-js/stdlib/commit/5766b42bf2f2c7e14cb247e48c8ad87014557ada) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#12612)](https://github.com/stdlib-js/stdlib/pull/12612) _(by stdlib-bot)_
