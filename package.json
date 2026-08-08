@@ -294,7 +294,7 @@
     "@stdlib/stats-strided-dmeanpw": "^0.1.1",
     "@stdlib/stats-strided-dmeanstdev": "^0.1.1",
     "@stdlib/stats-strided-dmeanwd": "^0.1.1",
-    "@stdlib/stats-strided-dmediansorted": "^0.1.1",
+    "@stdlib/stats-strided-dmedian-sorted": "github:stdlib-js/stats-strided-dmedian-sorted#main",
     "@stdlib/stats-strided-dmidrange": "^0.1.1",
     "@stdlib/stats-strided-dmin": "^0.1.1",
     "@stdlib/stats-strided-dminabs": "^0.1.1",

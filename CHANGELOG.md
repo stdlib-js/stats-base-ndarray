@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-26)
+## Unreleased (2026-08-08)
 
 <section class="features">
 
 ### Features
 
+-   [`5ca7350`](https://github.com/stdlib-js/stdlib/commit/5ca73502c25e79cf39e6a2eb338c1dd7d18b923b) - add C implementation for `stats/base/ndarray/smean` [(#10090)](https://github.com/stdlib-js/stdlib/pull/10090)
+-   [`6b8dac1`](https://github.com/stdlib-js/stdlib/commit/6b8dac1420da9cbaf0df6d357fb772fe4c4dde36) - add C implementation for `stats/base/ndarray/dmediansorted` [(#13912)](https://github.com/stdlib-js/stdlib/pull/13912)
+-   [`b71fe53`](https://github.com/stdlib-js/stdlib/commit/b71fe5300106bed0cad2897c06e8f82ccc998700) - add C implementation for `stats/base/ndarray/smeankbn2` [(#13977)](https://github.com/stdlib-js/stdlib/pull/13977)
+-   [`8785193`](https://github.com/stdlib-js/stdlib/commit/87851930caa54e3162acb1fc1316434e74fbeb74) - add C implementation for `stats/base/ndarray/smeanli` [(#14017)](https://github.com/stdlib-js/stdlib/pull/14017)
+-   [`9e08b03`](https://github.com/stdlib-js/stdlib/commit/9e08b032fcd809b5eaaea6d9f4e834b3f9edf88f) - add C implementation for `@stdlib/stats-base/ndarray/dmeanli` [(#13826)](https://github.com/stdlib-js/stdlib/pull/13826)
 -   [`5766b42`](https://github.com/stdlib-js/stdlib/commit/5766b42bf2f2c7e14cb247e48c8ad87014557ada) - update `stats/base/ndarray` TypeScript declarations [(#12612)](https://github.com/stdlib-js/stdlib/pull/12612)
 -   [`5ccb887`](https://github.com/stdlib-js/stdlib/commit/5ccb88741162d07ade0c4c62c2bab284e8908aa1) - add `dvariance` to namespace
 -   [`f51c52a`](https://github.com/stdlib-js/stdlib/commit/f51c52a121e764076d14e2d4c704bce0aaa8779f) - add `stats/base/ndarray/dvariance` [(#11745)](https://github.com/stdlib-js/stdlib/pull/11745)
@@ -67,6 +72,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`dbaac4d`](https://github.com/stdlib-js/stdlib/commit/dbaac4d30875963b59dff855f0c29abaf16e66f8) - update types for ndarray specifying the alternative hypothesis
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="issues">
 
 ### Closed Issues
@@ -85,6 +100,17 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5ca7350`](https://github.com/stdlib-js/stdlib/commit/5ca73502c25e79cf39e6a2eb338c1dd7d18b923b) - **feat:** add C implementation for `stats/base/ndarray/smean` [(#10090)](https://github.com/stdlib-js/stdlib/pull/10090) _(by Atharva Patange, Athan Reines, Sachin Pangal)_
+-   [`6b8dac1`](https://github.com/stdlib-js/stdlib/commit/6b8dac1420da9cbaf0df6d357fb772fe4c4dde36) - **feat:** add C implementation for `stats/base/ndarray/dmediansorted` [(#13912)](https://github.com/stdlib-js/stdlib/pull/13912) _(by Atharva Patange)_
+-   [`b71fe53`](https://github.com/stdlib-js/stdlib/commit/b71fe5300106bed0cad2897c06e8f82ccc998700) - **feat:** add C implementation for `stats/base/ndarray/smeankbn2` [(#13977)](https://github.com/stdlib-js/stdlib/pull/13977) _(by Atharva Patange, Athan Reines)_
+-   [`d3a4161`](https://github.com/stdlib-js/stdlib/commit/d3a41618b4c38b288d148c02343033a5fbd157f9) - **bench:** fix require path _(by Athan Reines)_
+-   [`8785193`](https://github.com/stdlib-js/stdlib/commit/87851930caa54e3162acb1fc1316434e74fbeb74) - **feat:** add C implementation for `stats/base/ndarray/smeanli` [(#14017)](https://github.com/stdlib-js/stdlib/pull/14017) _(by Atharva Patange, Athan Reines)_
+-   [`9e08b03`](https://github.com/stdlib-js/stdlib/commit/9e08b032fcd809b5eaaea6d9f4e834b3f9edf88f) - **feat:** add C implementation for `@stdlib/stats-base/ndarray/dmeanli` [(#13826)](https://github.com/stdlib-js/stdlib/pull/13826) _(by Ujjwal Verma, Athan Reines)_
+-   [`7856f37`](https://github.com/stdlib-js/stdlib/commit/7856f376f03f88ec07da988496a43d6fcafd4481) - **docs:** update descriptions and comments _(by Athan Reines)_
+-   [`000a481`](https://github.com/stdlib-js/stdlib/commit/000a481049f6b1a5a808a5752b1ddcde750dafab) - **docs:** update comments _(by Athan Reines)_
+-   [`981720b`](https://github.com/stdlib-js/stdlib/commit/981720b14da698964856967c883c1db26b9f703a) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`0f24d0d`](https://github.com/stdlib-js/stdlib/commit/0f24d0d9f742c471f083ad6c00df814e05053d12) - **docs:** update descriptions and comments [(#13451)](https://github.com/stdlib-js/stdlib/pull/13451) _(by Philipp Burckhardt)_
+-   [`dbaac4d`](https://github.com/stdlib-js/stdlib/commit/dbaac4d30875963b59dff855f0c29abaf16e66f8) - **fix:** update types for ndarray specifying the alternative hypothesis _(by Athan Reines)_
 -   [`dadabba`](https://github.com/stdlib-js/stdlib/commit/dadabba66e44060c40b231ebf1862aa0453e5285) - **chore:** resolve C compiler warnings _(by Athan Reines)_
 -   [`fa820b3`](https://github.com/stdlib-js/stdlib/commit/fa820b3ef9805587eae34c589ee0cd91f89de1b2) - **chore:** resolve C compiler warning _(by Athan Reines)_
 -   [`aed59d8`](https://github.com/stdlib-js/stdlib/commit/aed59d8fb4f75747d24fef73037981716ca2da19) - **refactor:** update paths _(by Neeraj Pathak)_
@@ -246,10 +272,11 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 19 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Athan Reines
+-   Atharva Patange
 -   Bhargav Dabhade
 -   Kamal Singh Rautela
 -   Karan Anand
@@ -263,6 +290,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 -   Sachin Pangal
 -   Samarth Kolarkar
 -   Uday Kakade
+-   Ujjwal Verma
 -   orthodox-64
 -   travisBREAKS
 
