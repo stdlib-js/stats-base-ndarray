@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-08)
+## Unreleased (2026-08-14)
 
 <section class="features">
 
 ### Features
 
+-   [`e45106f`](https://github.com/stdlib-js/stdlib/commit/e45106f37b6021036f74a084df5b76efb7326c60) - add C implementation for `stats/base/ndarray/dnanmean` [(#14049)](https://github.com/stdlib-js/stdlib/pull/14049)
+-   [`473d131`](https://github.com/stdlib-js/stdlib/commit/473d131c7e3b76fb4942727c1d94f9051c578aff) - add C implementation for `stats/base/ndarray/dnanmeanpn` [(#14120)](https://github.com/stdlib-js/stdlib/pull/14120)
+-   [`44b9204`](https://github.com/stdlib-js/stdlib/commit/44b92048a179718d7e0c04375a0408464606b2db) - add C implementation for `stats/base/ndarray/dnanmeanors` [(#14053)](https://github.com/stdlib-js/stdlib/pull/14053)
 -   [`5ca7350`](https://github.com/stdlib-js/stdlib/commit/5ca73502c25e79cf39e6a2eb338c1dd7d18b923b) - add C implementation for `stats/base/ndarray/smean` [(#10090)](https://github.com/stdlib-js/stdlib/pull/10090)
 -   [`6b8dac1`](https://github.com/stdlib-js/stdlib/commit/6b8dac1420da9cbaf0df6d357fb772fe4c4dde36) - add C implementation for `stats/base/ndarray/dmediansorted` [(#13912)](https://github.com/stdlib-js/stdlib/pull/13912)
 -   [`b71fe53`](https://github.com/stdlib-js/stdlib/commit/b71fe5300106bed0cad2897c06e8f82ccc998700) - add C implementation for `stats/base/ndarray/smeankbn2` [(#13977)](https://github.com/stdlib-js/stdlib/pull/13977)
@@ -76,6 +79,7 @@
 
 ### Bug Fixes
 
+-   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052)
 -   [`dbaac4d`](https://github.com/stdlib-js/stdlib/commit/dbaac4d30875963b59dff855f0c29abaf16e66f8) - update types for ndarray specifying the alternative hypothesis
 
 </section>
@@ -100,6 +104,13 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`d4855f5`](https://github.com/stdlib-js/stdlib/commit/d4855f53879f5eff85801596b21a52fe3f8281ad) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`bcff88e`](https://github.com/stdlib-js/stdlib/commit/bcff88e9f8cb2f0b8124d94ab810d7e2eee7a948) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`10f021c`](https://github.com/stdlib-js/stdlib/commit/10f021cc611f590a73d6e5fd8d7a17ec5351480f) - **docs:** fix example and description [(#14168)](https://github.com/stdlib-js/stdlib/pull/14168) _(by Philipp Burckhardt)_
+-   [`e45106f`](https://github.com/stdlib-js/stdlib/commit/e45106f37b6021036f74a084df5b76efb7326c60) - **feat:** add C implementation for `stats/base/ndarray/dnanmean` [(#14049)](https://github.com/stdlib-js/stdlib/pull/14049) _(by Ujjwal Verma, Athan Reines)_
+-   [`473d131`](https://github.com/stdlib-js/stdlib/commit/473d131c7e3b76fb4942727c1d94f9051c578aff) - **feat:** add C implementation for `stats/base/ndarray/dnanmeanpn` [(#14120)](https://github.com/stdlib-js/stdlib/pull/14120) _(by Ujjwal Verma, Athan Reines)_
+-   [`44b9204`](https://github.com/stdlib-js/stdlib/commit/44b92048a179718d7e0c04375a0408464606b2db) - **feat:** add C implementation for `stats/base/ndarray/dnanmeanors` [(#14053)](https://github.com/stdlib-js/stdlib/pull/14053) _(by Ujjwal Verma, Athan Reines)_
+-   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - **fix:** pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052) _(by Philipp Burckhardt, Athan Reines)_
 -   [`5ca7350`](https://github.com/stdlib-js/stdlib/commit/5ca73502c25e79cf39e6a2eb338c1dd7d18b923b) - **feat:** add C implementation for `stats/base/ndarray/smean` [(#10090)](https://github.com/stdlib-js/stdlib/pull/10090) _(by Atharva Patange, Athan Reines, Sachin Pangal)_
 -   [`6b8dac1`](https://github.com/stdlib-js/stdlib/commit/6b8dac1420da9cbaf0df6d357fb772fe4c4dde36) - **feat:** add C implementation for `stats/base/ndarray/dmediansorted` [(#13912)](https://github.com/stdlib-js/stdlib/pull/13912) _(by Atharva Patange)_
 -   [`b71fe53`](https://github.com/stdlib-js/stdlib/commit/b71fe5300106bed0cad2897c06e8f82ccc998700) - **feat:** add C implementation for `stats/base/ndarray/smeankbn2` [(#13977)](https://github.com/stdlib-js/stdlib/pull/13977) _(by Atharva Patange, Athan Reines)_
