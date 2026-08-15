@@ -4,12 +4,20 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-14)
+## Unreleased (2026-08-15)
 
 <section class="features">
 
 ### Features
 
+-   [`dcd0e0e`](https://github.com/stdlib-js/stdlib/commit/dcd0e0e9ee1e3e891a485e697f151294e4d3ee06) - add various `dvariance*` symbols to namespace
+-   [`d2bb04a`](https://github.com/stdlib-js/stdlib/commit/d2bb04a6023799eeee79a228c3384490b4fb3116) - add C implementation for `stats/base/ndarray/dnanmidrange` [(#14279)](https://github.com/stdlib-js/stdlib/pull/14279)
+-   [`f9c3112`](https://github.com/stdlib-js/stdlib/commit/f9c311276353b8af3d139d5c98bc584823d4b80e) - add C implementation for `stats/base/ndarray/dnanmeanwd` [(#14225)](https://github.com/stdlib-js/stdlib/pull/14225)
+-   [`6169ab1`](https://github.com/stdlib-js/stdlib/commit/6169ab168cee62966f7f8813a9f3b21dc9b86e02) - add `stats/base/ndarray/dvariancetk` [(#14196)](https://github.com/stdlib-js/stdlib/pull/14196)
+-   [`3226296`](https://github.com/stdlib-js/stdlib/commit/3226296a6061e91dff24d985ec7021ae861a4c98) - add `stats/base/ndarray/dvariancepn` [(#14191)](https://github.com/stdlib-js/stdlib/pull/14191)
+-   [`0067fb7`](https://github.com/stdlib-js/stdlib/commit/0067fb744a7b100e239eb4c54614619d1012903f) - add `stats/base/ndarray/dvariancech` [(#14090)](https://github.com/stdlib-js/stdlib/pull/14090)
+-   [`b8e5ee0`](https://github.com/stdlib-js/stdlib/commit/b8e5ee004dd6920bd449592815eb012432017052) - add `stats/base/ndarray/dvariancewd` [(#14220)](https://github.com/stdlib-js/stdlib/pull/14220)
+-   [`7143ebd`](https://github.com/stdlib-js/stdlib/commit/7143ebdac5b911341cb8203a977d0bc1b995a598) - add `stats/base/ndarray/dvarianceyc` [(#14221)](https://github.com/stdlib-js/stdlib/pull/14221)
 -   [`e45106f`](https://github.com/stdlib-js/stdlib/commit/e45106f37b6021036f74a084df5b76efb7326c60) - add C implementation for `stats/base/ndarray/dnanmean` [(#14049)](https://github.com/stdlib-js/stdlib/pull/14049)
 -   [`473d131`](https://github.com/stdlib-js/stdlib/commit/473d131c7e3b76fb4942727c1d94f9051c578aff) - add C implementation for `stats/base/ndarray/dnanmeanpn` [(#14120)](https://github.com/stdlib-js/stdlib/pull/14120)
 -   [`44b9204`](https://github.com/stdlib-js/stdlib/commit/44b92048a179718d7e0c04375a0408464606b2db) - add C implementation for `stats/base/ndarray/dnanmeanors` [(#14053)](https://github.com/stdlib-js/stdlib/pull/14053)
@@ -104,6 +112,14 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`dcd0e0e`](https://github.com/stdlib-js/stdlib/commit/dcd0e0e9ee1e3e891a485e697f151294e4d3ee06) - **feat:** add various `dvariance*` symbols to namespace _(by Athan Reines)_
+-   [`d2bb04a`](https://github.com/stdlib-js/stdlib/commit/d2bb04a6023799eeee79a228c3384490b4fb3116) - **feat:** add C implementation for `stats/base/ndarray/dnanmidrange` [(#14279)](https://github.com/stdlib-js/stdlib/pull/14279) _(by Ujjwal Verma)_
+-   [`f9c3112`](https://github.com/stdlib-js/stdlib/commit/f9c311276353b8af3d139d5c98bc584823d4b80e) - **feat:** add C implementation for `stats/base/ndarray/dnanmeanwd` [(#14225)](https://github.com/stdlib-js/stdlib/pull/14225) _(by Ujjwal Verma, Athan Reines)_
+-   [`6169ab1`](https://github.com/stdlib-js/stdlib/commit/6169ab168cee62966f7f8813a9f3b21dc9b86e02) - **feat:** add `stats/base/ndarray/dvariancetk` [(#14196)](https://github.com/stdlib-js/stdlib/pull/14196) _(by Prathamesh Kalshetti)_
+-   [`3226296`](https://github.com/stdlib-js/stdlib/commit/3226296a6061e91dff24d985ec7021ae861a4c98) - **feat:** add `stats/base/ndarray/dvariancepn` [(#14191)](https://github.com/stdlib-js/stdlib/pull/14191) _(by Prathamesh Kalshetti, Athan Reines, Prashant Kumar Yadav)_
+-   [`0067fb7`](https://github.com/stdlib-js/stdlib/commit/0067fb744a7b100e239eb4c54614619d1012903f) - **feat:** add `stats/base/ndarray/dvariancech` [(#14090)](https://github.com/stdlib-js/stdlib/pull/14090) _(by Pratik, Athan Reines)_
+-   [`b8e5ee0`](https://github.com/stdlib-js/stdlib/commit/b8e5ee004dd6920bd449592815eb012432017052) - **feat:** add `stats/base/ndarray/dvariancewd` [(#14220)](https://github.com/stdlib-js/stdlib/pull/14220) _(by Prashant Kumar Yadav)_
+-   [`7143ebd`](https://github.com/stdlib-js/stdlib/commit/7143ebdac5b911341cb8203a977d0bc1b995a598) - **feat:** add `stats/base/ndarray/dvarianceyc` [(#14221)](https://github.com/stdlib-js/stdlib/pull/14221) _(by Prashant Kumar Yadav)_
 -   [`d4855f5`](https://github.com/stdlib-js/stdlib/commit/d4855f53879f5eff85801596b21a52fe3f8281ad) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`bcff88e`](https://github.com/stdlib-js/stdlib/commit/bcff88e9f8cb2f0b8124d94ab810d7e2eee7a948) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`10f021c`](https://github.com/stdlib-js/stdlib/commit/10f021cc611f590a73d6e5fd8d7a17ec5351480f) - **docs:** fix example and description [(#14168)](https://github.com/stdlib-js/stdlib/pull/14168) _(by Philipp Burckhardt)_
@@ -283,7 +299,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 19 people contributed to this release. Thank you to the following contributors:
+A total of 21 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Athan Reines
@@ -297,6 +313,8 @@ A total of 19 people contributed to this release. Thank you to the following con
 -   Om-A-osc
 -   Partha Das
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
+-   Prathamesh Kalshetti
 -   Pratik
 -   Sachin Pangal
 -   Samarth Kolarkar
