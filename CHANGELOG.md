@@ -113,6 +113,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`e9da81b`](https://github.com/stdlib-js/stdlib/commit/e9da81b43505b0596674047188ff1a8f2aed3e29) - **docs:** update namespace table of contents [(#14319)](https://github.com/stdlib-js/stdlib/pull/14319) _(by stdlib-bot)_
 -   [`1206bbe`](https://github.com/stdlib-js/stdlib/commit/1206bbef4d30cb7f92107bc0229a54a21b0cda9c) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#14318)](https://github.com/stdlib-js/stdlib/pull/14318) _(by stdlib-bot)_
 -   [`dcd0e0e`](https://github.com/stdlib-js/stdlib/commit/dcd0e0e9ee1e3e891a485e697f151294e4d3ee06) - **feat:** add various `dvariance*` symbols to namespace _(by Athan Reines)_
 -   [`d2bb04a`](https://github.com/stdlib-js/stdlib/commit/d2bb04a6023799eeee79a228c3384490b4fb3116) - **feat:** add C implementation for `stats/base/ndarray/dnanmidrange` [(#14279)](https://github.com/stdlib-js/stdlib/pull/14279) _(by Ujjwal Verma)_
