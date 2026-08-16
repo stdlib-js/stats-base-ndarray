@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-15)
+## Unreleased (2026-08-16)
 
 <section class="features">
 
 ### Features
 
+-   [`1206bbe`](https://github.com/stdlib-js/stdlib/commit/1206bbef4d30cb7f92107bc0229a54a21b0cda9c) - update `stats/base/ndarray` TypeScript declarations [(#14318)](https://github.com/stdlib-js/stdlib/pull/14318)
 -   [`dcd0e0e`](https://github.com/stdlib-js/stdlib/commit/dcd0e0e9ee1e3e891a485e697f151294e4d3ee06) - add various `dvariance*` symbols to namespace
 -   [`d2bb04a`](https://github.com/stdlib-js/stdlib/commit/d2bb04a6023799eeee79a228c3384490b4fb3116) - add C implementation for `stats/base/ndarray/dnanmidrange` [(#14279)](https://github.com/stdlib-js/stdlib/pull/14279)
 -   [`f9c3112`](https://github.com/stdlib-js/stdlib/commit/f9c311276353b8af3d139d5c98bc584823d4b80e) - add C implementation for `stats/base/ndarray/dnanmeanwd` [(#14225)](https://github.com/stdlib-js/stdlib/pull/14225)
@@ -112,6 +113,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`1206bbe`](https://github.com/stdlib-js/stdlib/commit/1206bbef4d30cb7f92107bc0229a54a21b0cda9c) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#14318)](https://github.com/stdlib-js/stdlib/pull/14318) _(by stdlib-bot)_
 -   [`dcd0e0e`](https://github.com/stdlib-js/stdlib/commit/dcd0e0e9ee1e3e891a485e697f151294e4d3ee06) - **feat:** add various `dvariance*` symbols to namespace _(by Athan Reines)_
 -   [`d2bb04a`](https://github.com/stdlib-js/stdlib/commit/d2bb04a6023799eeee79a228c3384490b4fb3116) - **feat:** add C implementation for `stats/base/ndarray/dnanmidrange` [(#14279)](https://github.com/stdlib-js/stdlib/pull/14279) _(by Ujjwal Verma)_
 -   [`f9c3112`](https://github.com/stdlib-js/stdlib/commit/f9c311276353b8af3d139d5c98bc584823d4b80e) - **feat:** add C implementation for `stats/base/ndarray/dnanmeanwd` [(#14225)](https://github.com/stdlib-js/stdlib/pull/14225) _(by Ujjwal Verma, Athan Reines)_
