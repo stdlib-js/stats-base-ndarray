@@ -4,12 +4,24 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-16)
+## Unreleased (2026-08-22)
 
 <section class="features">
 
 ### Features
 
+-   [`177fcf5`](https://github.com/stdlib-js/stdlib/commit/177fcf59549e83aebb2815ec58d5cc9617ffe9a4) - add `dnanvariance` to namespace
+-   [`6ed5071`](https://github.com/stdlib-js/stdlib/commit/6ed5071559ac92854bce18faba0ed3be87f2b92e) - add `nanvariance`, `nanvariancech`, and `nanvariancepn` to namespace
+-   [`d6d67bd`](https://github.com/stdlib-js/stdlib/commit/d6d67bd2c6ee35de287d50fad4058371c291fd33) - add `stats/base/ndarray/nanvariancepn` [(#14541)](https://github.com/stdlib-js/stdlib/pull/14541)
+-   [`7336c9e`](https://github.com/stdlib-js/stdlib/commit/7336c9e41a2e3401eac4d71e8c649f53fa0dede6) - add `stats/base/ndarray/nanvariancech` [(#14540)](https://github.com/stdlib-js/stdlib/pull/14540)
+-   [`7a5c49a`](https://github.com/stdlib-js/stdlib/commit/7a5c49ad1110e3d36adadf13df15e155a66c4a0c) - add `stats/base/ndarray/dnanvariance` [(#14386)](https://github.com/stdlib-js/stdlib/pull/14386)
+-   [`b23c637`](https://github.com/stdlib-js/stdlib/commit/b23c6379b1246ede2ef56276e41a8adf3e286189) - add C implementation for `stats/base/ndarray/dnanrangeabs` [(#14475)](https://github.com/stdlib-js/stdlib/pull/14475)
+-   [`be6034d`](https://github.com/stdlib-js/stdlib/commit/be6034d41f06cda010fe5345a7443fe29e1d3281) - add C implementation for `stats/base/ndarray/drange` [(#14523)](https://github.com/stdlib-js/stdlib/pull/14523)
+-   [`dd1fcb3`](https://github.com/stdlib-js/stdlib/commit/dd1fcb3504a46d9e3e568114c126df352d3d8b60) - add `stats/base/ndarray/nanvariance` [(#14359)](https://github.com/stdlib-js/stdlib/pull/14359)
+-   [`581a40b`](https://github.com/stdlib-js/stdlib/commit/581a40b3bc613672ed61d5e2b008c4461e7454ae) - add C implementation for `stats/base/ndarray/dnanrange` [(#14470)](https://github.com/stdlib-js/stdlib/pull/14470)
+-   [`b2039e6`](https://github.com/stdlib-js/stdlib/commit/b2039e6545f5ab4d215b7f96eecef41c85bdfb7f) - add C implementation for `stats/base/ndarray/dnanmax` [(#14360)](https://github.com/stdlib-js/stdlib/pull/14360)
+-   [`3e486a8`](https://github.com/stdlib-js/stdlib/commit/3e486a8112a7f96fa218244cd94004c7ab678716) - add C implementation for `stats/base/ndarray/snanmin` [(#14305)](https://github.com/stdlib-js/stdlib/pull/14305)
+-   [`0222395`](https://github.com/stdlib-js/stdlib/commit/022239515f42e0ca8d29fc80a8209524fe6ad0e4) - add C implementation for `stats/base/ndarray/dnanmin` [(#14297)](https://github.com/stdlib-js/stdlib/pull/14297)
 -   [`1206bbe`](https://github.com/stdlib-js/stdlib/commit/1206bbef4d30cb7f92107bc0229a54a21b0cda9c) - update `stats/base/ndarray` TypeScript declarations [(#14318)](https://github.com/stdlib-js/stdlib/pull/14318)
 -   [`dcd0e0e`](https://github.com/stdlib-js/stdlib/commit/dcd0e0e9ee1e3e891a485e697f151294e4d3ee06) - add various `dvariance*` symbols to namespace
 -   [`d2bb04a`](https://github.com/stdlib-js/stdlib/commit/d2bb04a6023799eeee79a228c3384490b4fb3116) - add C implementation for `stats/base/ndarray/dnanmidrange` [(#14279)](https://github.com/stdlib-js/stdlib/pull/14279)
@@ -113,6 +125,27 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`177fcf5`](https://github.com/stdlib-js/stdlib/commit/177fcf59549e83aebb2815ec58d5cc9617ffe9a4) - **feat:** add `dnanvariance` to namespace _(by Athan Reines)_
+-   [`6ed5071`](https://github.com/stdlib-js/stdlib/commit/6ed5071559ac92854bce18faba0ed3be87f2b92e) - **feat:** add `nanvariance`, `nanvariancech`, and `nanvariancepn` to namespace _(by Athan Reines)_
+-   [`d6d67bd`](https://github.com/stdlib-js/stdlib/commit/d6d67bd2c6ee35de287d50fad4058371c291fd33) - **feat:** add `stats/base/ndarray/nanvariancepn` [(#14541)](https://github.com/stdlib-js/stdlib/pull/14541) _(by Pratik, Athan Reines)_
+-   [`7336c9e`](https://github.com/stdlib-js/stdlib/commit/7336c9e41a2e3401eac4d71e8c649f53fa0dede6) - **feat:** add `stats/base/ndarray/nanvariancech` [(#14540)](https://github.com/stdlib-js/stdlib/pull/14540) _(by Pratik, Athan Reines)_
+-   [`7a5c49a`](https://github.com/stdlib-js/stdlib/commit/7a5c49ad1110e3d36adadf13df15e155a66c4a0c) - **feat:** add `stats/base/ndarray/dnanvariance` [(#14386)](https://github.com/stdlib-js/stdlib/pull/14386) _(by Pratik)_
+-   [`b23c637`](https://github.com/stdlib-js/stdlib/commit/b23c6379b1246ede2ef56276e41a8adf3e286189) - **feat:** add C implementation for `stats/base/ndarray/dnanrangeabs` [(#14475)](https://github.com/stdlib-js/stdlib/pull/14475) _(by Ujjwal Verma)_
+-   [`be6034d`](https://github.com/stdlib-js/stdlib/commit/be6034d41f06cda010fe5345a7443fe29e1d3281) - **feat:** add C implementation for `stats/base/ndarray/drange` [(#14523)](https://github.com/stdlib-js/stdlib/pull/14523) _(by Ujjwal Verma)_
+-   [`4d3072a`](https://github.com/stdlib-js/stdlib/commit/4d3072ae8e1d0be6ccd1fe17afa983a67e3e4790) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`671ec4b`](https://github.com/stdlib-js/stdlib/commit/671ec4bdbce6f50644ccb57ce5001a1c1356e0c1) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`dd1fcb3`](https://github.com/stdlib-js/stdlib/commit/dd1fcb3504a46d9e3e568114c126df352d3d8b60) - **feat:** add `stats/base/ndarray/nanvariance` [(#14359)](https://github.com/stdlib-js/stdlib/pull/14359) _(by Pratik)_
+-   [`581a40b`](https://github.com/stdlib-js/stdlib/commit/581a40b3bc613672ed61d5e2b008c4461e7454ae) - **feat:** add C implementation for `stats/base/ndarray/dnanrange` [(#14470)](https://github.com/stdlib-js/stdlib/pull/14470) _(by Ujjwal Verma)_
+-   [`10dda53`](https://github.com/stdlib-js/stdlib/commit/10dda5309507d8420c36ec20958ae07b6a32fd17) - **chore:** clean-up [(#14413)](https://github.com/stdlib-js/stdlib/pull/14413) _(by Philipp Burckhardt)_
+-   [`82ee27d`](https://github.com/stdlib-js/stdlib/commit/82ee27d7a9610ee0f83b9893f613de4b3e11b6e6) - **bench:** generate arrays with `NaN` values [(#14402)](https://github.com/stdlib-js/stdlib/pull/14402) _(by Ujjwal Verma)_
+-   [`b2039e6`](https://github.com/stdlib-js/stdlib/commit/b2039e6545f5ab4d215b7f96eecef41c85bdfb7f) - **feat:** add C implementation for `stats/base/ndarray/dnanmax` [(#14360)](https://github.com/stdlib-js/stdlib/pull/14360) _(by Ujjwal Verma, Athan Reines)_
+-   [`86186d0`](https://github.com/stdlib-js/stdlib/commit/86186d0a41f799a4749035eba84a45f2ba3981c2) - **docs:** fix invalid `NaN` literal in C examples [(#14353)](https://github.com/stdlib-js/stdlib/pull/14353) _(by Philipp Burckhardt)_
+-   [`d54b9d2`](https://github.com/stdlib-js/stdlib/commit/d54b9d269d4bd6155e6087c4b62a468ddae67c8f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`1891207`](https://github.com/stdlib-js/stdlib/commit/18912078701a4721bde196f1f54c10974595944f) - **docs:** fix default value documentation [(#14325)](https://github.com/stdlib-js/stdlib/pull/14325) _(by Philipp Burckhardt, Athan Reines)_
+-   [`3e486a8`](https://github.com/stdlib-js/stdlib/commit/3e486a8112a7f96fa218244cd94004c7ab678716) - **feat:** add C implementation for `stats/base/ndarray/snanmin` [(#14305)](https://github.com/stdlib-js/stdlib/pull/14305) _(by Atharva Patange, Athan Reines)_
+-   [`0222395`](https://github.com/stdlib-js/stdlib/commit/022239515f42e0ca8d29fc80a8209524fe6ad0e4) - **feat:** add C implementation for `stats/base/ndarray/dnanmin` [(#14297)](https://github.com/stdlib-js/stdlib/pull/14297) _(by Ujjwal Verma, Athan Reines)_
+-   [`523702e`](https://github.com/stdlib-js/stdlib/commit/523702ee496d799a51ca3e1423e9ab9b4c39ad9a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`59ded26`](https://github.com/stdlib-js/stdlib/commit/59ded26cf977eb741b49ca66f32901fc903bac2d) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`e9da81b`](https://github.com/stdlib-js/stdlib/commit/e9da81b43505b0596674047188ff1a8f2aed3e29) - **docs:** update namespace table of contents [(#14319)](https://github.com/stdlib-js/stdlib/pull/14319) _(by stdlib-bot)_
 -   [`1206bbe`](https://github.com/stdlib-js/stdlib/commit/1206bbef4d30cb7f92107bc0229a54a21b0cda9c) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#14318)](https://github.com/stdlib-js/stdlib/pull/14318) _(by stdlib-bot)_
 -   [`dcd0e0e`](https://github.com/stdlib-js/stdlib/commit/dcd0e0e9ee1e3e891a485e697f151294e4d3ee06) - **feat:** add various `dvariance*` symbols to namespace _(by Athan Reines)_
