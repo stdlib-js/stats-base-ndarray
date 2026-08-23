@@ -126,6 +126,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`86cd981`](https://github.com/stdlib-js/stdlib/commit/86cd981199dc115e9b7484131436c802c3d9a090) - **docs:** update namespace table of contents [(#14552)](https://github.com/stdlib-js/stdlib/pull/14552) _(by stdlib-bot)_
 -   [`c16b0ee`](https://github.com/stdlib-js/stdlib/commit/c16b0eee2343691460562fbc9646f07857e9df26) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#14551)](https://github.com/stdlib-js/stdlib/pull/14551) _(by stdlib-bot)_
 -   [`f6cf10c`](https://github.com/stdlib-js/stdlib/commit/f6cf10c03a92326c8a1c93d37669f24a69b89ed8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`fc04ac8`](https://github.com/stdlib-js/stdlib/commit/fc04ac87d4e7ea5c575e2224ead8966db2bd63f2) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
