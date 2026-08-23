@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-22)
+## Unreleased (2026-08-23)
 
 <section class="features">
 
 ### Features
 
+-   [`c16b0ee`](https://github.com/stdlib-js/stdlib/commit/c16b0eee2343691460562fbc9646f07857e9df26) - update `stats/base/ndarray` TypeScript declarations [(#14551)](https://github.com/stdlib-js/stdlib/pull/14551)
 -   [`177fcf5`](https://github.com/stdlib-js/stdlib/commit/177fcf59549e83aebb2815ec58d5cc9617ffe9a4) - add `dnanvariance` to namespace
 -   [`6ed5071`](https://github.com/stdlib-js/stdlib/commit/6ed5071559ac92854bce18faba0ed3be87f2b92e) - add `nanvariance`, `nanvariancech`, and `nanvariancepn` to namespace
 -   [`d6d67bd`](https://github.com/stdlib-js/stdlib/commit/d6d67bd2c6ee35de287d50fad4058371c291fd33) - add `stats/base/ndarray/nanvariancepn` [(#14541)](https://github.com/stdlib-js/stdlib/pull/14541)
@@ -125,6 +126,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`c16b0ee`](https://github.com/stdlib-js/stdlib/commit/c16b0eee2343691460562fbc9646f07857e9df26) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#14551)](https://github.com/stdlib-js/stdlib/pull/14551) _(by stdlib-bot)_
+-   [`f6cf10c`](https://github.com/stdlib-js/stdlib/commit/f6cf10c03a92326c8a1c93d37669f24a69b89ed8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`fc04ac8`](https://github.com/stdlib-js/stdlib/commit/fc04ac87d4e7ea5c575e2224ead8966db2bd63f2) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`177fcf5`](https://github.com/stdlib-js/stdlib/commit/177fcf59549e83aebb2815ec58d5cc9617ffe9a4) - **feat:** add `dnanvariance` to namespace _(by Athan Reines)_
 -   [`6ed5071`](https://github.com/stdlib-js/stdlib/commit/6ed5071559ac92854bce18faba0ed3be87f2b92e) - **feat:** add `nanvariance`, `nanvariancech`, and `nanvariancepn` to namespace _(by Athan Reines)_
 -   [`d6d67bd`](https://github.com/stdlib-js/stdlib/commit/d6d67bd2c6ee35de287d50fad4058371c291fd33) - **feat:** add `stats/base/ndarray/nanvariancepn` [(#14541)](https://github.com/stdlib-js/stdlib/pull/14541) _(by Pratik, Athan Reines)_
