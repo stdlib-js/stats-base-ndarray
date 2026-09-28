@@ -4,12 +4,32 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-23)
+## Unreleased (2026-09-28)
 
 <section class="features">
 
 ### Features
 
+-   [`368e34d`](https://github.com/stdlib-js/stdlib/commit/368e34d6cf0929c3d5060b98c66d0bcf130b0574) - add C implementation for `stats/base/ndarray/dnanvariance` [(#14615)](https://github.com/stdlib-js/stdlib/pull/14615)
+-   [`191a110`](https://github.com/stdlib-js/stdlib/commit/191a110ad8c6808e0eb06f06b7772333a5c43de3) - add C implementation for `stats/base/ndarray/dnanmeanpw` [(#14177)](https://github.com/stdlib-js/stdlib/pull/14177)
+-   [`6eb47fe`](https://github.com/stdlib-js/stdlib/commit/6eb47fed797c46e1be99c1ec0860c809b35c5519) - add C implementation for `stats/base/ndarray/svariancech` [(#15008)](https://github.com/stdlib-js/stdlib/pull/15008)
+-   [`dea0762`](https://github.com/stdlib-js/stdlib/commit/dea0762477964611a8eff9d9895b0f4e083c2752) - add C implementation for `stats/base/ndarray/svariance` [(#14618)](https://github.com/stdlib-js/stdlib/pull/14618)
+-   [`c6b75f0`](https://github.com/stdlib-js/stdlib/commit/c6b75f0425af3ea3b250648c5e3b017b8cb2447e) - add C implementation for `stats/base/ndarray/dvariance` [(#14616)](https://github.com/stdlib-js/stdlib/pull/14616)
+-   [`ad21e7c`](https://github.com/stdlib-js/stdlib/commit/ad21e7c5ab8be034a7eb7d03370e86385be00a86) - add C implementation for `stats/base/ndarray/dvariancetk` [(#14794)](https://github.com/stdlib-js/stdlib/pull/14794)
+-   [`3988b3f`](https://github.com/stdlib-js/stdlib/commit/3988b3f37e540716b63e8f77f43a4471a5c49821) - add C implementation for `stats/base/ndarray/dvariancewd` [(#14795)](https://github.com/stdlib-js/stdlib/pull/14795)
+-   [`055a702`](https://github.com/stdlib-js/stdlib/commit/055a7024f9da891adaacb8cefaefcd465029b2d2) - add C implementation for `stats/base/ndarray/dvarianceyc` [(#14796)](https://github.com/stdlib-js/stdlib/pull/14796)
+-   [`9edc20e`](https://github.com/stdlib-js/stdlib/commit/9edc20e9f7a35010f4d3afad866ff80855f54e5d) - add C implementation for `stats/base/ndarray/dvariancepn` [(#14792)](https://github.com/stdlib-js/stdlib/pull/14792)
+-   [`52b2348`](https://github.com/stdlib-js/stdlib/commit/52b23480b8a2d09414e3a6514270712c05b77e36) - add C implementation for `stats/base/ndarray/dvariancech` [(#14772)](https://github.com/stdlib-js/stdlib/pull/14772)
+-   [`eee25f9`](https://github.com/stdlib-js/stdlib/commit/eee25f941c11c72a525b88ca19e3e71f2fe24d44) - add C implementation for `stats/base/ndarray/dmskmax` [(#14419)](https://github.com/stdlib-js/stdlib/pull/14419)
+-   [`abcf07e`](https://github.com/stdlib-js/stdlib/commit/abcf07e4b9271eef0b48a45bf5271c77dbd4d39e) - add C implementation for `stats/base/ndarray/dstdevyc` [(#14714)](https://github.com/stdlib-js/stdlib/pull/14714)
+-   [`d4eb097`](https://github.com/stdlib-js/stdlib/commit/d4eb097923959db8db96c1920a19de01c71c63a8) - add C implementation for `stats/base/ndarray/dstdevtk` [(#14712)](https://github.com/stdlib-js/stdlib/pull/14712)
+-   [`2a0c636`](https://github.com/stdlib-js/stdlib/commit/2a0c63675873a8cd87647e142bc96faba4c24802) - add C implementation for `stats/base/ndarray/dstdevwd` [(#14713)](https://github.com/stdlib-js/stdlib/pull/14713)
+-   [`ea76311`](https://github.com/stdlib-js/stdlib/commit/ea76311ab879cd4cac40c347a0a7cca1c20e2292) - add C implementation for `stats/base/ndarray/dstdevpn` [(#14711)](https://github.com/stdlib-js/stdlib/pull/14711)
+-   [`271a1d8`](https://github.com/stdlib-js/stdlib/commit/271a1d83ead4310b54eaeb75b94d8caa243b49b9) - add C implementation for `stats/base/ndarray/dstdevch` [(#14655)](https://github.com/stdlib-js/stdlib/pull/14655)
+-   [`1368157`](https://github.com/stdlib-js/stdlib/commit/1368157631241acfb9269903703107acb1ae80f8) - add C implementation for `stats/base/ndarray/dstdev` [(#14636)](https://github.com/stdlib-js/stdlib/pull/14636)
+-   [`22cf269`](https://github.com/stdlib-js/stdlib/commit/22cf2697ba4b9843f5c25fc94dd50cb230558764) - add C implementation for `stats/base/ndarray/smeanlipw` [(#14605)](https://github.com/stdlib-js/stdlib/pull/14605)
+-   [`33a3384`](https://github.com/stdlib-js/stdlib/commit/33a3384ae9864f7836195f4f13a0eeb6234efb29) - add C implementation for `stats/base/ndarray/smeankbn` [(#14604)](https://github.com/stdlib-js/stdlib/pull/14604)
+-   [`dc4f053`](https://github.com/stdlib-js/stdlib/commit/dc4f05340a56dd1f56738afcf854be0374805f60) - add C implementation for `stats/base/ndarray/dnanminabs` [(#14356)](https://github.com/stdlib-js/stdlib/pull/14356)
 -   [`c16b0ee`](https://github.com/stdlib-js/stdlib/commit/c16b0eee2343691460562fbc9646f07857e9df26) - update `stats/base/ndarray` TypeScript declarations [(#14551)](https://github.com/stdlib-js/stdlib/pull/14551)
 -   [`177fcf5`](https://github.com/stdlib-js/stdlib/commit/177fcf59549e83aebb2815ec58d5cc9617ffe9a4) - add `dnanvariance` to namespace
 -   [`6ed5071`](https://github.com/stdlib-js/stdlib/commit/6ed5071559ac92854bce18faba0ed3be87f2b92e) - add `nanvariance`, `nanvariancech`, and `nanvariancepn` to namespace
@@ -126,6 +146,43 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
+-   [`368e34d`](https://github.com/stdlib-js/stdlib/commit/368e34d6cf0929c3d5060b98c66d0bcf130b0574) - **feat:** add C implementation for `stats/base/ndarray/dnanvariance` [(#14615)](https://github.com/stdlib-js/stdlib/pull/14615) _(by JoyBoy)_
+-   [`612a0c1`](https://github.com/stdlib-js/stdlib/commit/612a0c1617a634e2e2212803bbd49d67514075db) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`191a110`](https://github.com/stdlib-js/stdlib/commit/191a110ad8c6808e0eb06f06b7772333a5c43de3) - **feat:** add C implementation for `stats/base/ndarray/dnanmeanpw` [(#14177)](https://github.com/stdlib-js/stdlib/pull/14177) _(by Ujjwal Verma, Athan Reines, Sachin Pangal)_
+-   [`47f445e`](https://github.com/stdlib-js/stdlib/commit/47f445e37c0a56984f7110f28d7fe556e75af8c3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`6eb47fe`](https://github.com/stdlib-js/stdlib/commit/6eb47fed797c46e1be99c1ec0860c809b35c5519) - **feat:** add C implementation for `stats/base/ndarray/svariancech` [(#15008)](https://github.com/stdlib-js/stdlib/pull/15008) _(by JoyBoy)_
+-   [`ad74c25`](https://github.com/stdlib-js/stdlib/commit/ad74c2566f27422949c906bedf51c9936f5d62a8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`dea0762`](https://github.com/stdlib-js/stdlib/commit/dea0762477964611a8eff9d9895b0f4e083c2752) - **feat:** add C implementation for `stats/base/ndarray/svariance` [(#14618)](https://github.com/stdlib-js/stdlib/pull/14618) _(by JoyBoy, Athan Reines)_
+-   [`42bbbb1`](https://github.com/stdlib-js/stdlib/commit/42bbbb1d6cdbcd7a30f7f5f218c633bba02f0489) - **bench:** update require path _(by Athan Reines)_
+-   [`c6b75f0`](https://github.com/stdlib-js/stdlib/commit/c6b75f0425af3ea3b250648c5e3b017b8cb2447e) - **feat:** add C implementation for `stats/base/ndarray/dvariance` [(#14616)](https://github.com/stdlib-js/stdlib/pull/14616) _(by JoyBoy)_
+-   [`7f6bdb8`](https://github.com/stdlib-js/stdlib/commit/7f6bdb83e2293a2f8491934ce00b58045d4a6178) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`ad21e7c`](https://github.com/stdlib-js/stdlib/commit/ad21e7c5ab8be034a7eb7d03370e86385be00a86) - **feat:** add C implementation for `stats/base/ndarray/dvariancetk` [(#14794)](https://github.com/stdlib-js/stdlib/pull/14794) _(by Ujjwal Verma)_
+-   [`3988b3f`](https://github.com/stdlib-js/stdlib/commit/3988b3f37e540716b63e8f77f43a4471a5c49821) - **feat:** add C implementation for `stats/base/ndarray/dvariancewd` [(#14795)](https://github.com/stdlib-js/stdlib/pull/14795) _(by Ujjwal Verma)_
+-   [`055a702`](https://github.com/stdlib-js/stdlib/commit/055a7024f9da891adaacb8cefaefcd465029b2d2) - **feat:** add C implementation for `stats/base/ndarray/dvarianceyc` [(#14796)](https://github.com/stdlib-js/stdlib/pull/14796) _(by Ujjwal Verma)_
+-   [`9edc20e`](https://github.com/stdlib-js/stdlib/commit/9edc20e9f7a35010f4d3afad866ff80855f54e5d) - **feat:** add C implementation for `stats/base/ndarray/dvariancepn` [(#14792)](https://github.com/stdlib-js/stdlib/pull/14792) _(by Ujjwal Verma)_
+-   [`510c927`](https://github.com/stdlib-js/stdlib/commit/510c9272f9a28568b5e965317b462cedb6b7da85) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`e7fb241`](https://github.com/stdlib-js/stdlib/commit/e7fb2413b825114ae024b3128ff28873da5bb9c9) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`52b2348`](https://github.com/stdlib-js/stdlib/commit/52b23480b8a2d09414e3a6514270712c05b77e36) - **feat:** add C implementation for `stats/base/ndarray/dvariancech` [(#14772)](https://github.com/stdlib-js/stdlib/pull/14772) _(by Ujjwal Verma)_
+-   [`eee25f9`](https://github.com/stdlib-js/stdlib/commit/eee25f941c11c72a525b88ca19e3e71f2fe24d44) - **feat:** add C implementation for `stats/base/ndarray/dmskmax` [(#14419)](https://github.com/stdlib-js/stdlib/pull/14419) _(by Ujjwal Verma, Athan Reines)_
+-   [`c568729`](https://github.com/stdlib-js/stdlib/commit/c568729af2a4908e564647f15cadccc8ad62f59b) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`abcf07e`](https://github.com/stdlib-js/stdlib/commit/abcf07e4b9271eef0b48a45bf5271c77dbd4d39e) - **feat:** add C implementation for `stats/base/ndarray/dstdevyc` [(#14714)](https://github.com/stdlib-js/stdlib/pull/14714) _(by Ujjwal Verma)_
+-   [`d4eb097`](https://github.com/stdlib-js/stdlib/commit/d4eb097923959db8db96c1920a19de01c71c63a8) - **feat:** add C implementation for `stats/base/ndarray/dstdevtk` [(#14712)](https://github.com/stdlib-js/stdlib/pull/14712) _(by Ujjwal Verma)_
+-   [`2a0c636`](https://github.com/stdlib-js/stdlib/commit/2a0c63675873a8cd87647e142bc96faba4c24802) - **feat:** add C implementation for `stats/base/ndarray/dstdevwd` [(#14713)](https://github.com/stdlib-js/stdlib/pull/14713) _(by Ujjwal Verma)_
+-   [`e67a5aa`](https://github.com/stdlib-js/stdlib/commit/e67a5aad659d8f6623e4ab8ac94687a8586ea83a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`85f4853`](https://github.com/stdlib-js/stdlib/commit/85f48534ef6908bbcd982d48f1c5fbea3fb7aafd) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`ea76311`](https://github.com/stdlib-js/stdlib/commit/ea76311ab879cd4cac40c347a0a7cca1c20e2292) - **feat:** add C implementation for `stats/base/ndarray/dstdevpn` [(#14711)](https://github.com/stdlib-js/stdlib/pull/14711) _(by Ujjwal Verma)_
+-   [`271a1d8`](https://github.com/stdlib-js/stdlib/commit/271a1d83ead4310b54eaeb75b94d8caa243b49b9) - **feat:** add C implementation for `stats/base/ndarray/dstdevch` [(#14655)](https://github.com/stdlib-js/stdlib/pull/14655) _(by Ujjwal Verma, Athan Reines)_
+-   [`c8a0043`](https://github.com/stdlib-js/stdlib/commit/c8a00437d3c5c7e516023a0297b65517260fc25c) - **docs:** fix description _(by Athan Reines)_
+-   [`f985dcf`](https://github.com/stdlib-js/stdlib/commit/f985dcfb842318ddb6343c5737fe909edb2c2e9f) - **docs:** use correct specifier _(by Athan Reines)_
+-   [`10787df`](https://github.com/stdlib-js/stdlib/commit/10787dfc5f33b7757d3f4c2aaefcb2ebd1bef487) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`eb6b078`](https://github.com/stdlib-js/stdlib/commit/eb6b078625dc055292ef575264465aae2edf2654) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`1368157`](https://github.com/stdlib-js/stdlib/commit/1368157631241acfb9269903703107acb1ae80f8) - **feat:** add C implementation for `stats/base/ndarray/dstdev` [(#14636)](https://github.com/stdlib-js/stdlib/pull/14636) _(by Ujjwal Verma, Athan Reines)_
+-   [`aef88f4`](https://github.com/stdlib-js/stdlib/commit/aef88f46f65a647745f12986f660031976b51e96) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`22cf269`](https://github.com/stdlib-js/stdlib/commit/22cf2697ba4b9843f5c25fc94dd50cb230558764) - **feat:** add C implementation for `stats/base/ndarray/smeanlipw` [(#14605)](https://github.com/stdlib-js/stdlib/pull/14605) _(by Ujjwal Verma)_
+-   [`33a3384`](https://github.com/stdlib-js/stdlib/commit/33a3384ae9864f7836195f4f13a0eeb6234efb29) - **feat:** add C implementation for `stats/base/ndarray/smeankbn` [(#14604)](https://github.com/stdlib-js/stdlib/pull/14604) _(by Ujjwal Verma)_
+-   [`8c36153`](https://github.com/stdlib-js/stdlib/commit/8c3615366462fdc1926a88e91e76ac9b79845d98) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`dc4f053`](https://github.com/stdlib-js/stdlib/commit/dc4f05340a56dd1f56738afcf854be0374805f60) - **feat:** add C implementation for `stats/base/ndarray/dnanminabs` [(#14356)](https://github.com/stdlib-js/stdlib/pull/14356) _(by Ujjwal Verma)_
 -   [`86cd981`](https://github.com/stdlib-js/stdlib/commit/86cd981199dc115e9b7484131436c802c3d9a090) - **docs:** update namespace table of contents [(#14552)](https://github.com/stdlib-js/stdlib/pull/14552) _(by stdlib-bot)_
 -   [`c16b0ee`](https://github.com/stdlib-js/stdlib/commit/c16b0eee2343691460562fbc9646f07857e9df26) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#14551)](https://github.com/stdlib-js/stdlib/pull/14551) _(by stdlib-bot)_
 -   [`f6cf10c`](https://github.com/stdlib-js/stdlib/commit/f6cf10c03a92326c8a1c93d37669f24a69b89ed8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
@@ -340,12 +397,13 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 21 people contributed to this release. Thank you to the following contributors:
+A total of 22 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Athan Reines
 -   Atharva Patange
 -   Bhargav Dabhade
+-   JoyBoy
 -   Kamal Singh Rautela
 -   Karan Anand
 -   Kaustubh Patange
