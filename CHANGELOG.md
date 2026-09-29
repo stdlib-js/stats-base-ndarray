@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-28)
+## Unreleased (2026-09-29)
 
 <section class="features">
 
 ### Features
 
+-   [`a714274`](https://github.com/stdlib-js/stdlib/commit/a714274083b3db45b0bebdf83f25be5ebfcb07a5) - add C implementation for `stats/base/ndarray/smediansorted` [(#15270)](https://github.com/stdlib-js/stdlib/pull/15270)
+-   [`973326d`](https://github.com/stdlib-js/stdlib/commit/973326deb89a2bdda26e2dc7746310beb8705960) - add C implementation for `stats/base/ndarray/dminsorted` [(#14537)](https://github.com/stdlib-js/stdlib/pull/14537)
+-   [`d78dd2c`](https://github.com/stdlib-js/stdlib/commit/d78dd2c3ff8c520059a9e9d59994127734b1b6f0) - add C implementation for `stats/base/ndarray/smaxabssorted` [(#15267)](https://github.com/stdlib-js/stdlib/pull/15267)
 -   [`368e34d`](https://github.com/stdlib-js/stdlib/commit/368e34d6cf0929c3d5060b98c66d0bcf130b0574) - add C implementation for `stats/base/ndarray/dnanvariance` [(#14615)](https://github.com/stdlib-js/stdlib/pull/14615)
 -   [`191a110`](https://github.com/stdlib-js/stdlib/commit/191a110ad8c6808e0eb06f06b7772333a5c43de3) - add C implementation for `stats/base/ndarray/dnanmeanpw` [(#14177)](https://github.com/stdlib-js/stdlib/pull/14177)
 -   [`6eb47fe`](https://github.com/stdlib-js/stdlib/commit/6eb47fed797c46e1be99c1ec0860c809b35c5519) - add C implementation for `stats/base/ndarray/svariancech` [(#15008)](https://github.com/stdlib-js/stdlib/pull/15008)
@@ -146,6 +149,11 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`8ae6d64`](https://github.com/stdlib-js/stdlib/commit/8ae6d6499329a398b5e0362899a18464443ba0c5) - **docs:** update description [(#15641)](https://github.com/stdlib-js/stdlib/pull/15641) _(by stdlib-bot)_
+-   [`5c4b613`](https://github.com/stdlib-js/stdlib/commit/5c4b61336167ea0936140e859f85df7f52278e63) - **docs:** update descriptions and clean-up [(#15625)](https://github.com/stdlib-js/stdlib/pull/15625) _(by Philipp Burckhardt)_
+-   [`a714274`](https://github.com/stdlib-js/stdlib/commit/a714274083b3db45b0bebdf83f25be5ebfcb07a5) - **feat:** add C implementation for `stats/base/ndarray/smediansorted` [(#15270)](https://github.com/stdlib-js/stdlib/pull/15270) _(by Ujjwal Verma, Sachin Pangal)_
+-   [`973326d`](https://github.com/stdlib-js/stdlib/commit/973326deb89a2bdda26e2dc7746310beb8705960) - **feat:** add C implementation for `stats/base/ndarray/dminsorted` [(#14537)](https://github.com/stdlib-js/stdlib/pull/14537) _(by Ujjwal Verma)_
+-   [`d78dd2c`](https://github.com/stdlib-js/stdlib/commit/d78dd2c3ff8c520059a9e9d59994127734b1b6f0) - **feat:** add C implementation for `stats/base/ndarray/smaxabssorted` [(#15267)](https://github.com/stdlib-js/stdlib/pull/15267) _(by Ujjwal Verma, Athan Reines)_
 -   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
 -   [`368e34d`](https://github.com/stdlib-js/stdlib/commit/368e34d6cf0929c3d5060b98c66d0bcf130b0574) - **feat:** add C implementation for `stats/base/ndarray/dnanvariance` [(#14615)](https://github.com/stdlib-js/stdlib/pull/14615) _(by JoyBoy)_
 -   [`612a0c1`](https://github.com/stdlib-js/stdlib/commit/612a0c1617a634e2e2212803bbd49d67514075db) - **docs:** update Markdown equation elements _(by stdlib-bot)_
