@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-29)
+## Unreleased (2026-11-15)
 
 <section class="features">
 
 ### Features
 
+-   [`cb621b2`](https://github.com/stdlib-js/stdlib/commit/cb621b27a82a04c6d47ad1810dd915a96cec82f6) - add C implementation for `stats/base/ndarray/sminsorted` [(#14358)](https://github.com/stdlib-js/stdlib/pull/14358)
 -   [`a714274`](https://github.com/stdlib-js/stdlib/commit/a714274083b3db45b0bebdf83f25be5ebfcb07a5) - add C implementation for `stats/base/ndarray/smediansorted` [(#15270)](https://github.com/stdlib-js/stdlib/pull/15270)
 -   [`973326d`](https://github.com/stdlib-js/stdlib/commit/973326deb89a2bdda26e2dc7746310beb8705960) - add C implementation for `stats/base/ndarray/dminsorted` [(#14537)](https://github.com/stdlib-js/stdlib/pull/14537)
 -   [`d78dd2c`](https://github.com/stdlib-js/stdlib/commit/d78dd2c3ff8c520059a9e9d59994127734b1b6f0) - add C implementation for `stats/base/ndarray/smaxabssorted` [(#15267)](https://github.com/stdlib-js/stdlib/pull/15267)
@@ -149,6 +150,11 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
+-   [`9530cda`](https://github.com/stdlib-js/stdlib/commit/9530cdad917c5c7313bc2ea93bc841f401b31fd9) - **chore:** update keywords [(#14760)](https://github.com/stdlib-js/stdlib/pull/14760) _(by Philipp Burckhardt)_
+-   [`287a20d`](https://github.com/stdlib-js/stdlib/commit/287a20dac0acf4c3238f412e56fa3a9f315e7359) - **docs:** fix descriptions [(#15863)](https://github.com/stdlib-js/stdlib/pull/15863) _(by JoyBoy, Athan Reines)_
+-   [`cb621b2`](https://github.com/stdlib-js/stdlib/commit/cb621b27a82a04c6d47ad1810dd915a96cec82f6) - **feat:** add C implementation for `stats/base/ndarray/sminsorted` [(#14358)](https://github.com/stdlib-js/stdlib/pull/14358) _(by Aryan Sharma, Ujjwal Verma)_
+-   [`0e5a7ac`](https://github.com/stdlib-js/stdlib/commit/0e5a7ac47fb187ec9930bb0e19cf90e32a7da0d5) - **docs:** update descriptions [(#15653)](https://github.com/stdlib-js/stdlib/pull/15653) _(by Philipp Burckhardt)_
 -   [`8ae6d64`](https://github.com/stdlib-js/stdlib/commit/8ae6d6499329a398b5e0362899a18464443ba0c5) - **docs:** update description [(#15641)](https://github.com/stdlib-js/stdlib/pull/15641) _(by stdlib-bot)_
 -   [`5c4b613`](https://github.com/stdlib-js/stdlib/commit/5c4b61336167ea0936140e859f85df7f52278e63) - **docs:** update descriptions and clean-up [(#15625)](https://github.com/stdlib-js/stdlib/pull/15625) _(by Philipp Burckhardt)_
 -   [`a714274`](https://github.com/stdlib-js/stdlib/commit/a714274083b3db45b0bebdf83f25be5ebfcb07a5) - **feat:** add C implementation for `stats/base/ndarray/smediansorted` [(#15270)](https://github.com/stdlib-js/stdlib/pull/15270) _(by Ujjwal Verma, Sachin Pangal)_
@@ -405,9 +411,10 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 22 people contributed to this release. Thank you to the following contributors:
+A total of 23 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
+-   Aryan Sharma
 -   Athan Reines
 -   Atharva Patange
 -   Bhargav Dabhade
