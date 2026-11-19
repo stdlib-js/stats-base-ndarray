@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-15)
+## Unreleased (2026-11-19)
 
 <section class="features">
 
@@ -150,6 +150,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`529eca9`](https://github.com/stdlib-js/stdlib/commit/529eca9a7f09b17a91dd3dd9d2638ff31d8da4f8) - **docs:** update examples [(#16704)](https://github.com/stdlib-js/stdlib/pull/16704) _(by stdlib-bot)_
+-   [`7dc3084`](https://github.com/stdlib-js/stdlib/commit/7dc3084d1f20fcef006b8bdc306e7a0b3e6ee63b) - **docs:** use dedicated zero-dimensional tensor constructor in `stats/base/ndarray/sztest` [(#16691)](https://github.com/stdlib-js/stdlib/pull/16691) _(by Subham Mahapatra, Athan Reines)_
+-   [`4389328`](https://github.com/stdlib-js/stdlib/commit/438932838f76c3bd5a380bb137aae25a6c1d2131) - **docs:** use dedicated zero-dimensional tensor constructor in `stats/base/ndarray/dztest` [(#16690)](https://github.com/stdlib-js/stdlib/pull/16690) _(by Subham Mahapatra, Athan Reines)_
 -   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`9530cda`](https://github.com/stdlib-js/stdlib/commit/9530cdad917c5c7313bc2ea93bc841f401b31fd9) - **chore:** update keywords [(#14760)](https://github.com/stdlib-js/stdlib/pull/14760) _(by Philipp Burckhardt)_
 -   [`287a20d`](https://github.com/stdlib-js/stdlib/commit/287a20dac0acf4c3238f412e56fa3a9f315e7359) - **docs:** fix descriptions [(#15863)](https://github.com/stdlib-js/stdlib/pull/15863) _(by JoyBoy, Athan Reines)_
@@ -411,7 +414,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 23 people contributed to this release. Thank you to the following contributors:
+A total of 24 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Aryan Sharma
@@ -432,6 +435,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 -   Pratik
 -   Sachin Pangal
 -   Samarth Kolarkar
+-   Subham Mahapatra
 -   Uday Kakade
 -   Ujjwal Verma
 -   orthodox-64
